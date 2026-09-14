@@ -30,6 +30,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Plus+Jakarta+Sans:wght@300..800&display=swap" rel="stylesheet" />
 <style>
+  .nl-pill { transition: box-shadow 0.2s ease; }
+  .nl-pill:focus-within { box-shadow: 0 0 0 3px rgba(229,72,61,.22), 0 0 0 1px rgba(229,72,61,.55) !important; }
+  .nl-pill input:focus, .nl-pill input:focus-visible { outline: none !important; box-shadow: none !important; }
+
   *, *::before, *::after { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   body { margin: 0; background: #FAF6EF; color: #1B1A17; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
@@ -1056,7 +1060,7 @@
       <div style="max-width:1180px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:48px;align-items:center">
         <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(28px,3.2vw,42px);line-height:1.14;letter-spacing:-.02em;margin:0">Subscribe for <span style="font-style:italic;color:#E5483D">10% off</span> your first holiday with us.</h2>
         <sc-if value="{{ notSubscribed }}" hint-placeholder-val="{{ true }}">
-          <div style="display:flex;gap:10px;background:#FAF6EF;border-radius:999px;padding:8px 8px 8px 24px;box-shadow:0 12px 30px -16px rgba(22,33,29,.3)">
+          <div class="nl-pill" style="display:flex;gap:10px;background:#FAF6EF;border-radius:999px;padding:8px 8px 8px 24px;box-shadow:0 12px 30px -16px rgba(22,33,29,.3)">
             <input type="email" placeholder="Email address" value="{{ email }}" onChange="{{ setEmail }}" style="flex:1;border:0;background:transparent;outline:none;font-size:15px;min-width:0" />
             <button style="background:#E5483D;color:#fff;border:0;width:52px;height:52px;border-radius:99px;cursor:pointer;flex:0 0 auto" style-hover="background:#C4362C" onClick="{{ subscribe }}" aria-label="Subscribe">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style="margin-top:2px"><path d="M3 20 21 12 3 4l3 8-3 8Z" stroke="#fff" strokeWidth="1.6" strokeLinejoin="round"/></svg>
