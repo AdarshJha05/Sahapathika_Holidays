@@ -9,16 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <title>Home | Sahapathika Holidays</title>
-  <meta name="description" content="Welcome to Sahapathika Holidays, your trusted travel agency since 2015. We offer curated tours, Ayurveda wellness retreats, and unforgettable holiday packages across incredible Kerala.">
-  <meta name="keywords" content="Kerala tours, Ayurveda retreats, Kerala honeymoon packages, backwater tours, South India holidays">
+  <title>Himachal Devi Yatra with Vaishno Devi & Mansa Devi | Sahapathika Holidays</title>
+  <meta name="description" content="Immerse yourself in a scenic 8-Day Signature tour of Kerala. Discover the state's diverse beauty, rich culture, and breathtaking landscapes on this comprehensive holiday package.">
+  <meta name="keywords" content="Scenic and Beautiful Kerala, Kerala travel, holiday package, Sahapathika Holidays">
   <link rel="icon" type="image/svg+xml" href="Site-logo1.svg">
   <meta property="og:site_name" content="Sahapathika Holidays">
-  <meta property="og:title" content="Home | Sahapathika Holidays">
-  <meta property="og:description" content="Welcome to Sahapathika Holidays, your trusted travel agency since 2015. We offer curated tours, Ayurveda wellness retreats, and unforgettable holiday packages across incredible Kerala.">
-  <meta property="og:image" content="https://sahapathika-holidays.vercel.app/og-images/default.png">
+  <meta property="og:title" content="Scenic and Beautiful Kerala | Sahapathika Holidays">
+  <meta property="og:description" content="Immerse yourself in a scenic 8-Day Signature tour of Kerala. Discover the state's diverse beauty, rich culture, and breathtaking landscapes on this comprehensive holiday package.">
+  <meta property="og:image" content="https://sahapathika-holidays.vercel.app/og-images/scenic-beautiful-kerala.jpg">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://sahapathika-holidays.vercel.app/index.html">
+  <meta property="og:url" content="https://sahapathika-holidays.vercel.app/package-scenic-beautiful-kerala.html">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
@@ -2194,10 +2194,10 @@
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440},&quot;heroVideoUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Hero&quot;,&quot;label&quot;:&quot;Hero video URL (direct .mp4)&quot;},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#E5483D&quot;,&quot;options&quot;:[&quot;#E5483D&quot;,&quot;#B5822A&quot;,&quot;#2E6E6A&quot;,&quot;#5FA98C&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;},&quot;showTbcFlags&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
 class Component extends DCLogic {
   state = {
-    page: 'home', menu: null, field: null,
+    page: 'detail', menu: null, field: null,
     dest: '', exp: '', date: null, month: null,
     fRegion: 'All', fCat: 'All', fSort: 'Featured',
-    slug: 'kerala-ayurveda-wellness-retreat', day: 1, faq: 0, adults: 2, kids: 0, hdr: 78,
+    slug: 'himachal-devi-yatra-with-vaishno-devi-mansa-devi', day: 1, faq: 0, adults: 2, kids: 0, hdr: 78,
     testi: 0, light: -1, email: '', subscribed: false,
     loading: true, wiping: false, scrolled: false, sy: 0,
     counts: { travellers: 0, destinations: 0, packages: 0, years: 0 },
@@ -2648,19 +2648,7 @@ class Component extends DCLogic {
       stop: e => e.stopPropagation(),
 
       email: s.email, setEmail: e => this.setState({ email: e.target.value }),
-      subscribe: () => {
-        if (this.state.email) {
-          fetch('https://formsubmit.co/ajax/adarsh@rytful.com', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify({
-              email: this.state.email,
-              _subject: '10% Off Newsletter Subscription'
-            })
-          });
-        }
-        this.setState({ subscribed: true });
-      },
+      subscribe: () => this.setState({ subscribed: true }),
       subscribed: s.subscribed, notSubscribed: !s.subscribed,
 
       /*  === Packages listing ===  */
