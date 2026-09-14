@@ -2656,7 +2656,7 @@ class Component extends DCLogic {
       adultsDown: () => this.setState({ adults: Math.max(1, s.adults - 1) }),
       kidsUp: () => this.setState({ kids: Math.min(10, s.kids + 1) }),
       kidsDown: () => this.setState({ kids: Math.max(0, s.kids - 1) }),
-            bookNow: () => {
+                  bookNow: () => {
         const p = this.packages.find(x => x.slug === s.slug) || this.packages[0];
         this.setState({
           form: Object.assign({}, s.form, {
@@ -2668,7 +2668,6 @@ class Component extends DCLogic {
         const formEl = document.getElementById('enquiry-form');
         if (formEl) formEl.scrollIntoView({ behavior: 'smooth' });
         else this.go('contact', { form: this.state.form });
-      }, s.form, { pkg: p.title, dates: s.date ? s.date : s.form.dates, message: 'Enquiry for ' + p.title + ' — ' + s.adults + ' adults, ' + s.kids + ' children.' }) });
       },
 
       /*  === About ===  */
