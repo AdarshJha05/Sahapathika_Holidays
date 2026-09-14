@@ -943,7 +943,7 @@
             </sc-for>
           </div>
         </div>
-        <div style="position:relative;min-height:290px">
+        <div style="display:grid">
           <sc-for list="{{ testimonials }}" as="t" hint-placeholder-count="1">
             <div style="{{ t.style }}">
               <div style="font-size:19px;color:#D9A441;letter-spacing:2px">★★★★★</div>
@@ -2508,7 +2508,7 @@ class Component extends DCLogic {
       scrollRight: () => this.rail && this.rail.scrollBy({ left: 716, behavior: 'smooth' }),
 
       testimonials: this.testis.map((t, i) => Object.assign({}, t, {
-        style: 'position:absolute;inset:0;background:#fff;border-radius:26px;padding:40px;box-shadow:0 16px 44px -22px rgba(22,33,29,.28);transition:opacity .6s,transform .6s;opacity:' +
+        style: 'grid-area:1/1;background:#fff;border-radius:26px;padding:40px;box-shadow:0 16px 44px -22px rgba(22,33,29,.28);transition:opacity .6s,transform .6s;opacity:' +
           (i === s.testi ? '1' : '0') + ';transform:translateY(' + (i === s.testi ? '0' : '16px') + ');pointer-events:' + (i === s.testi ? 'auto' : 'none')
       })),
       testiDots: this.testis.map((t, i) => ({
