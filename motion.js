@@ -1,4 +1,4 @@
-﻿/* *- * motion.js - Sahapathika Holidays- * Vanilla JS animation + hamburger engine. No frameworks.-  */
+/* *- * motion.js - Sahapathika Holidays- * Vanilla JS animation + hamburger engine. No frameworks.-  */
 "use strict";
 
 /*  1. SCROLL-TRIGGERED REVEAL  */
@@ -170,17 +170,17 @@ function initHamburger() {
           '<img src="Site-logo1.svg" alt="Sahapathika Holidays" style="height:38px;width:auto;"/>' +
         '</div>' +
         '<ul class="sh-mob-links">' +
-          '<li><button class="sh-mob-link" data-page="home">Home</button></li>' +
+          '<li><button class="sh-mob-link" data-page="index.html">Home</button></li>' +
           '<li>' +
             '<button class="sh-mob-link sh-mob-has-sub" data-sub="destinations">Destinations ' +
               '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="sh-mob-chevron"><path d="M2 4l4 4 4-4"/></svg>' +
             '</button>' +
             '<ul class="sh-mob-sub" id="sh-sub-destinations">' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Kerala</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Goa</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Rajasthan</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Himachal Pradesh</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">View All</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=Kerala">Kerala</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="contact.html">Goa</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="contact.html">Rajasthan</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="contact.html">Himachal Pradesh</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html">View All</button></li>' +
             '</ul>' +
           '</li>' +
           '<li>' +
@@ -188,22 +188,22 @@ function initHamburger() {
               '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="sh-mob-chevron"><path d="M2 4l4 4 4-4"/></svg>' +
             '</button>' +
             '<ul class="sh-mob-sub" id="sh-sub-packages">' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">All Packages</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Beach &amp; Backwaters</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Hill Stations</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Wildlife</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages">Cultural &amp; Heritage</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html">All Packages</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Beach%20%26%20Coastal">Beach &amp; Coastal</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Hill%20%26%20Backwater">Hill &amp; Backwater</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Wildlife">Wildlife</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Heritage%20%26%20Temple">Heritage &amp; Temple</button></li>' +
             '</ul>' +
           '</li>' +
-          '<li><button class="sh-mob-link" data-page="about">About</button></li>' +
-          '<li><button class="sh-mob-link" data-page="contact">Contact</button></li>' +
+          '<li><button class="sh-mob-link" data-page="about.html">About</button></li>' +
+          '<li><button class="sh-mob-link" data-page="contact.html">Contact</button></li>' +
         '</ul>' +
         '<div class="sh-mob-cta">' +
-          '<a href="tel:+919072769547" class="sh-mob-tel">' +
-            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z" stroke="#FF8B80" stroke-width="1.6" stroke-linejoin="round"/></svg>' +
+          '<a href="tel:+919072769547" class="sh-mob-tel" style="color:#C4362C !important;opacity:1 !important">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z" stroke="#C4362C" stroke-width="1.6" stroke-linejoin="round"/></svg>' +
             '+91 90727 69547' +
           '</a>' +
-          '<button class="sh-mob-plan" data-page="contact">Plan My Trip \u2192</button>' +
+          '<button class="sh-mob-plan" data-page="contact.html">Plan My Trip \u2192</button>' +
         '</div>' +
       '</div>' +
     '</nav>';
@@ -236,19 +236,8 @@ function initHamburger() {
   /*  === Navigate to page via React component buttons ===  */
   function goPage(page) {
     closeMenu();
-    var map = {
-      "home":     "button[onClick*=\"goHome\"], button[onclick*=\"goHome\"]",
-      "packages": "button[onClick*=\"goPackages\"], button[onclick*=\"goPackages\"]",
-      "about":    "button[onClick*=\"goAbout\"], button[onclick*=\"goAbout\"]",
-      "contact":  "button[onClick*=\"goContact\"], button[onclick*=\"goContact\"]"
-    };
-    var sel = map[page];
-    if (sel) {
-      setTimeout(function() {
-        var btn = document.querySelector(sel);
-        if (btn) btn.click();
-      }, 120);
-    }
+    var dest = page;
+    setTimeout(function() { window.location.href = dest; }, 300);
   }
 
   /*  === EVENT DELEGATION on document - survives React re-renders ===  */
