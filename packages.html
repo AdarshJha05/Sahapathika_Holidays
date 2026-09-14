@@ -381,6 +381,9 @@
       width: 100% !important;
       z-index: 10;
     }
+    .pkg-main-col {
+      flex: 1 1 100% !important;
+    }
 
     /*  Hero adjustments  */
     section[style*="min-height:min(92vh"] {
@@ -1126,7 +1129,7 @@
           </div>
         </aside>
 
-        <div style="flex:999 1 460px;min-width:0">
+        <div class="pkg-main-col" style="flex:999 1 460px;min-width:0">
           <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:26px">
             <div style="font-size:14.5px;color:#6B655C"><strong style="color:#1B1A17;font-size:16px">{{ resultCount }}</strong> {{ resultNoun }} · {{ activeLabel }}</div>
             <div style="display:flex;gap:7px">

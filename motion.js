@@ -176,11 +176,11 @@ function initHamburger() {
               '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="sh-mob-chevron"><path d="M2 4l4 4 4-4"/></svg>' +
             '</button>' +
             '<ul class="sh-mob-sub" id="sh-sub-destinations">' +
-              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=Kerala">Kerala</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="contact.html">Goa</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="contact.html">Rajasthan</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="contact.html">Himachal Pradesh</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages.html">View All</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=South%20Kerala">Kerala (South)</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=Central%20Kerala">Kerala (Central)</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=North%20India">North India</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=Kashmir%20Valley">Kashmir Valley</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html">View All Destinations</button></li>' +
             '</ul>' +
           '</li>' +
           '<li>' +
@@ -191,7 +191,7 @@ function initHamburger() {
               '<li><button class="sh-mob-sub-link" data-page="packages.html">All Packages</button></li>' +
               '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Beach%20%26%20Coastal">Beach &amp; Coastal</button></li>' +
               '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Hill%20%26%20Backwater">Hill &amp; Backwater</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Wildlife">Wildlife</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Pilgrimage%20Yatra">Pilgrimage Yatra</button></li>' +
               '<li><button class="sh-mob-sub-link" data-page="packages.html?cat=Heritage%20%26%20Temple">Heritage &amp; Temple</button></li>' +
             '</ul>' +
           '</li>' +
@@ -237,7 +237,15 @@ function initHamburger() {
   function goPage(page) {
     closeMenu();
     var dest = page;
-    setTimeout(function() { window.location.href = dest; }, 300);
+    setTimeout(function() {
+      var currentPath = window.location.pathname.split('/').pop();
+      var isSamePage = currentPath === dest && !window.location.search;
+      if (isSamePage) {
+        window.location.reload();
+      } else {
+        window.location.href = dest;
+      }
+    }, 300);
   }
 
   /*  === EVENT DELEGATION on document - survives React re-renders ===  */
