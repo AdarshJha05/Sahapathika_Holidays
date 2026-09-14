@@ -1441,21 +1441,21 @@
             <div>
               <div style="font-family:'Fraunces',serif;font-size:27px;letter-spacing:-.01em;margin-bottom:26px">Send an enquiry</div>
               <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:16px;margin-bottom:16px">
-                <label style="display:block"><span style="{{ labelStyle }}">Your name</span><input value="{{ form.name }}" onChange="{{ setName }}" placeholder="Full name" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
-                <label style="display:block"><span style="{{ labelStyle }}">Phone</span><input value="{{ form.phone }}" onChange="{{ setPhone }}" placeholder="+91" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
+                <label style="display:block"><span style="{{ labelStyle }}">Your name <span style="color:#E5483D">*</span></span><input value="{{ form.name }}" onChange="{{ setName }}" placeholder="Full name" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
+                <label style="display:block"><span style="{{ labelStyle }}">Phone <span style="color:#E5483D">*</span></span><input value="{{ form.phone }}" onChange="{{ setPhone }}" placeholder="+91" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
               </div>
               <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:16px;margin-bottom:16px">
-                <label style="display:block"><span style="{{ labelStyle }}">Email</span><input type="email" value="{{ form.email }}" onChange="{{ setEmailF }}" placeholder="you@email.com" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
-                <label style="display:block"><span style="{{ labelStyle }}">Travel dates</span><input value="{{ form.dates }}" onChange="{{ setDates }}" placeholder="e.g. 12–18 Nov 2026" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
+                <label style="display:block"><span style="{{ labelStyle }}">Email <span style="color:#E5483D">*</span></span><input type="email" value="{{ form.email }}" onChange="{{ setEmailF }}" placeholder="you@email.com" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
+                <label style="display:block"><span style="{{ labelStyle }}">Travel dates <span style="color:#E5483D">*</span></span><input value="{{ form.dates }}" onChange="{{ setDates }}" placeholder="e.g. 12–18 Nov 2026" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
               </div>
-              <label style="display:block;margin-bottom:16px"><span style="{{ labelStyle }}">Interested package</span>
+              <label style="display:block;margin-bottom:16px"><span style="{{ labelStyle }}">Interested package <span style="color:#E5483D">*</span></span>
                 <select value="{{ form.pkg }}" onChange="{{ setPkg }}" style="{{ inputStyle }}">
                   <sc-for list="{{ pkgOptions }}" as="o" hint-placeholder-count="11"><option value="{{ o.v }}">{{ o.v }}</option></sc-for>
                 </select>
               </label>
               <label style="display:block;margin-bottom:24px"><span style="{{ labelStyle }}">Message</span><textarea value="{{ form.message }}" onChange="{{ setMessage }}" rows="4" placeholder="Group size, budget, anything you'd love to include…" style="{{ textareaStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)"></textarea></label>
               
-              <sc-if value="{{ errorMsg }}" hint-placeholder-val="{{ false }}">
+              <sc-if value="{{ errorMsg !== '' }}" hint-placeholder-val="{{ false }}">
                 <div style="color:#C4362C;font-size:13.5px;font-weight:600;margin-bottom:16px;padding:12px 16px;background:#FDE8E4;border-radius:12px;border:1px solid rgba(229,72,61,.2)">
                   {{ errorMsg }}
                 </div>
