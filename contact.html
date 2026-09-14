@@ -2766,7 +2766,7 @@ class Component extends DCLogic {
       var existingErr = form.querySelector('.nl-error');
       if (existingErr) existingErr.remove();
 
-      if (!email || !/^[^s@]+@[^s@]+\.[^s@]+$/.test(email)) {
+      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         var err = document.createElement('div');
         err.className = 'nl-error';
         err.style.color = '#C4362C';
