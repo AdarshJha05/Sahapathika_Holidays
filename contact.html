@@ -2131,7 +2131,10 @@
         <div class="newsletter">
           <h2 class="col-title">The Letter</h2>
           <p>Sign up for early notice on new arrivals, stories &amp; members-only offers.</p>
-          <form class="subscribe" action="#" method="post">
+          <form class="subscribe" action="https://formsubmit.co/adarsh@rytful.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://sahapathika-holidays.vercel.app/">
+            <input type="hidden" name="_subject" value="New Footer Newsletter Subscription">
             <label for="nl-email" class="sr-only">Email address</label>
             <input id="nl-email" type="email" name="email" placeholder="Leave your email" autocomplete="email" required>
             <button type="submit" aria-label="Subscribe">
@@ -2664,7 +2667,24 @@ class Component extends DCLogic {
       setPkg: e => this.setState({ form: Object.assign({}, s.form, { pkg: e.target.value }) }),
       setMessage: e => this.setState({ form: Object.assign({}, s.form, { message: e.target.value }) }),
       pkgOptions: [{ v: 'Not sure yet — help me choose' }].concat(this.packages.map(p => ({ v: p.title }))),
-      send: () => this.setState({ sent: true }),
+      send: () => {
+        if (this.state.form.name && this.state.form.email) {
+          fetch('https://formsubmit.co/ajax/adarsh@rytful.com', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({
+              name: this.state.form.name,
+              phone: this.state.form.phone,
+              email: this.state.form.email,
+              dates: this.state.form.dates,
+              package: this.state.form.pkg,
+              message: this.state.form.message,
+              _subject: 'New Enquiry from Sahapathika Holidays'
+            })
+          });
+        }
+        this.setState({ sent: true });
+      },
       resetForm: () => this.setState({ sent: false, form: { name: '', email: '', phone: '', pkg: '', dates: '', message: '' } }),
       offices: [
         { city: 'Kochi', address: '14/5H, 2nd Floor, Thomson and Mathews Building, NH 544, Opposite Navya Bakery, Athani, Airport Junction, Kochi, Kerala 683585' },
