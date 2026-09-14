@@ -18,7 +18,7 @@ function initScrollReveals() {
       entries.forEach(function(e) {
         if (e.isIntersecting) { e.target.classList.add("sh-visible"); io.unobserve(e.target); }
       });
-    }, { threshold: 0.07, rootMargin: "0px 0px -50px 0px" });
+    }, { threshold: 0, rootMargin: "0px 0px -50px 0px" });
     document.querySelectorAll(".sh-section").forEach(function(el) { io.observe(el); });
   }
   tagElements(); observe();
