@@ -2774,7 +2774,7 @@ class Component extends DCLogic {
               headStyle: 'width:100%;text-align:left;background:' + (open ? '#fff' : 'transparent') + ';border:1px solid ' + (open ? 'transparent' : 'rgba(22,33,29,.1)') +
                 ';border-radius:16px 16px ' + (open ? '0 0' : '16px 16px') + ';padding:18px 24px;cursor:pointer;position:relative;box-shadow:' + (open ? '0 10px 26px -16px rgba(22,33,29,.3)' : 'none'),
               iconStyle: 'position:absolute;right:22px;top:50%;transform:translateY(-50%) rotate(' + (open ? '90deg' : '0deg') + ');transition:transform .34s cubic-bezier(.2,.7,.3,1);color:#E5483D;font-size:22px;font-weight:800',
-              bodyStyle: 'background:#fff;border-radius:0 0 16px 16px;overflow-y:' + (open ? 'auto' : 'hidden') + ';overflow-x:hidden;-webkit-overflow-scrolling:touch;max-height:' + (open ? '350px' : '0') + ';transition:max-height .4s cubic-bezier(.2,.7,.3,1);box-shadow:' + (open ? '0 10px 26px -16px rgba(22,33,29,.3)' : 'none'),
+              bodyStyle: 'background:#fff;border-radius:0 0 16px 16px;overflow:hidden;max-height:' + (open ? '350px' : '0') + ';transition:max-height .4s cubic-bezier(.2,.7,.3,1);box-shadow:' + (open ? '0 10px 26px -16px rgba(22,33,29,.3)' : 'none'),
               toggle: () => this.setState({ day: open ? 0 : n })
             };
           }),
@@ -2793,7 +2793,7 @@ class Component extends DCLogic {
           q: f.q, a: f.a,
           headStyle: 'width:100%;text-align:left;background:transparent;border:0;padding:20px 54px 20px 22px;cursor:pointer;position:relative;font-size:16px;font-weight:700',
           iconStyle: 'position:absolute;right:22px;top:50%;transform:translateY(-50%) rotate(' + (open ? '90deg' : '0deg') + ');transition:transform .34s cubic-bezier(.2,.7,.3,1);color:#E5483D;font-size:22px;font-weight:800',
-          bodyStyle: 'overflow-y:' + (open ? 'auto' : 'hidden') + ';overflow-x:hidden;-webkit-overflow-scrolling:touch;max-height:' + (open ? '350px' : '0') + ';transition:max-height .38s cubic-bezier(.2,.7,.3,1)',
+          bodyStyle: 'overflow:hidden;max-height:' + (open ? '350px' : '0') + ';transition:max-height .38s cubic-bezier(.2,.7,.3,1)',
           toggle: () => this.setState({ faq: open ? -1 : i })
         };
       }),
