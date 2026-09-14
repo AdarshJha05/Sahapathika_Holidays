@@ -2908,6 +2908,14 @@ class Component extends DCLogic {
     }
   });
 </script>
+
+  <script>
+    window.addEventListener('pageshow', function(e) {
+      if (e.persisted) {
+        window.location.reload();
+      }
+    });
+  </script>
 </body>
 
 </html>
