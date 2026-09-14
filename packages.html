@@ -540,7 +540,7 @@
 
   /* Custom scrollbar for accordions */
   .sc-accordion-scroll {
-    overscroll-behavior-y: contain;
+   
     /* Ensure hardware acceleration for smooth scrolling on iOS */
     transform: translateZ(0);
   }
@@ -1244,7 +1244,7 @@
                       <span style="font-family:'Fraunces',serif;font-size:20px;letter-spacing:-.01em">{{ d.title }}</span>
                       <span style="{{ d.iconStyle }}">›</span>
                     </button>
-                    <div style="{{ d.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior-y: contain;"><div style="padding:0 24px 22px;display:flex;flex-direction:column;gap:12px;"><sc-for list="{{ d.body }}" as="para"><p style="margin:0;font-size:15px;line-height:1.75;color:#3A4A44">{{ para }}</p></sc-for></div></div></div>
+                    <div style="{{ d.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch;"><div style="padding:0 24px 22px;display:flex;flex-direction:column;gap:12px;"><sc-for list="{{ d.body }}" as="para"><p style="margin:0;font-size:15px;line-height:1.75;color:#3A4A44">{{ para }}</p></sc-for></div></div></div>
                   </div>
                 </sc-for>
               </div>
@@ -1295,7 +1295,7 @@
             <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="4">
               <div style="background:#fff;border-radius:16px;overflow:hidden">
                 <button style="{{ f.headStyle }}" onClick="{{ f.toggle }}">{{ f.q }}<span style="{{ f.iconStyle }}">›</span></button>
-                <div style="{{ f.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior-y: contain;"><p style="margin:0;padding:0 22px 20px;font-size:14.5px;line-height:1.7;color:#3A4A44">{{ f.a }}</p></div></div>
+                <div style="{{ f.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch;"><p style="margin:0;padding:0 22px 20px;font-size:14.5px;line-height:1.7;color:#3A4A44">{{ f.a }}</p></div></div>
               </div>
             </sc-for>
           </div>
