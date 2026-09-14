@@ -1442,7 +1442,7 @@
         <div style="background:#fff;border-radius:26px;padding:clamp(24px,3vw,40px);box-shadow:0 20px 50px -26px rgba(22,33,29,.28)">
           <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
             <div>
-              <div style="font-family:'Fraunces',serif;font-size:27px;letter-spacing:-.01em;margin-bottom:26px">Send an enquiry</div>
+              <div id="enquiry-form" style="font-family:'Fraunces',serif;font-size:27px;letter-spacing:-.01em;margin-bottom:26px;scroll-margin-top:100px;">Send an enquiry</div>
               <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:16px;margin-bottom:16px">
                 <label style="display:block"><span style="{{ labelStyle }}">Your name</span><input value="{{ form.name }}" onChange="{{ setName }}" placeholder="Full name" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
                 <label style="display:block"><span style="{{ labelStyle }}">Phone</span><input value="{{ form.phone }}" onChange="{{ setPhone }}" placeholder="+91" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
@@ -2644,9 +2644,19 @@ class Component extends DCLogic {
       adultsDown: () => this.setState({ adults: Math.max(1, s.adults - 1) }),
       kidsUp: () => this.setState({ kids: Math.min(10, s.kids + 1) }),
       kidsDown: () => this.setState({ kids: Math.max(0, s.kids - 1) }),
-      bookNow: () => {
+            bookNow: () => {
         const p = this.packages.find(x => x.slug === s.slug) || this.packages[0];
-        this.go('contact', { form: Object.assign({}, s.form, { pkg: p.title, dates: s.date ? s.date : s.form.dates, message: 'Enquiry for ' + p.title + ' — ' + s.adults + ' adults, ' + s.kids + ' children.' }) });
+        this.setState({
+          form: Object.assign({}, s.form, {
+            pkg: p.title,
+            dates: s.date ? s.date : s.form.dates,
+            message: 'Enquiry for ' + p.title + ' - ' + s.adults + ' adults, ' + s.kids + ' children.'
+          })
+        });
+        const formEl = document.getElementById('enquiry-form');
+        if (formEl) formEl.scrollIntoView({ behavior: 'smooth' });
+        else this.go('contact', { form: this.state.form });
+      }, s.form, { pkg: p.title, dates: s.date ? s.date : s.form.dates, message: 'Enquiry for ' + p.title + ' — ' + s.adults + ' adults, ' + s.kids + ' children.' }) });
       },
 
       /*  === About ===  */
@@ -2671,7 +2681,39 @@ class Component extends DCLogic {
       setPkg: e => this.setState({ form: Object.assign({}, s.form, { pkg: e.target.value }) }),
       setMessage: e => this.setState({ form: Object.assign({}, s.form, { message: e.target.value }) }),
       pkgOptions: [{ v: 'Not sure yet — help me choose' }].concat(this.packages.map(p => ({ v: p.title }))),
-      send: () => this.setState({ sent: true }),
+            send: () => {
+        const { name, phone, email, dates, pkg } = this.state.form;
+        
+        if (!name || !name.trim()) return this.setState({ errorMsg: 'Please enter your full name.' });
+        if (!phone || !phone.trim()) return this.setState({ errorMsg: 'Please enter your phone number.' });
+        if (!email || !email.trim()) return this.setState({ errorMsg: 'Please enter your email address.' });
+        if (!dates || !dates.trim()) return this.setState({ errorMsg: 'Please specify your travel dates.' });
+        if (!pkg || !pkg.trim()) return this.setState({ errorMsg: 'Please select an interested package.' });
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) return this.setState({ errorMsg: 'Please enter a valid email address.' });
+
+        const phoneRegex = /^\+?[0-9\s\-\(\)]{7,15}$/;
+        if (!phoneRegex.test(phone)) return this.setState({ errorMsg: 'Please enter a valid phone number.' });
+
+        this.setState({ errorMsg: '' });
+
+        fetch('https://formsubmit.co/ajax/adarsh@rytful.com', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({
+            name: this.state.form.name,
+            phone: this.state.form.phone,
+            email: this.state.form.email,
+            dates: this.state.form.dates,
+            package: this.state.form.pkg,
+            message: this.state.form.message,
+            _subject: 'New Enquiry from Sahapathika Holidays'
+          })
+        });
+
+        this.setState({ sent: true });
+      },
       resetForm: () => this.setState({ sent: false, form: { name: '', email: '', phone: '', pkg: '', dates: '', message: '' } }),
       offices: [
         { city: 'Kochi', address: '14/5H, 2nd Floor, Thomson and Mathews Building, NH 544, Opposite Navya Bakery, Athani, Airport Junction, Kochi, Kerala 683585' },
