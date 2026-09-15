@@ -2566,7 +2566,7 @@ class Component extends DCLogic {
       footLinkStyle: 'background:none;border:0;padding:0;text-align:left;color:rgba(251,247,238,.68);font-size:14px;cursor:pointer',
       headerRef: el => { this.headerEl = el; if (el && this._measure) requestAnimationFrame(this._measure); },
       loading: s.loading, wiping: s.wiping,
-      preloaderStyle: 'position:fixed;inset:0;z-index:100;background:#FAF6EF;display:flex;flex-direction:column;align-items:center;justify-content:center;animation:wipeout .5s 1.25s both',
+      preloaderStyle: (this._plDone === undefined ? (this._plDone = (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('sahapathika_preloaded')), typeof sessionStorage !== 'undefined' && sessionStorage.setItem('sahapathika_preloaded', '1')) : null, this._plDone ? 'display:none' : 'position:fixed;inset:0;z-index:100;background:#FAF6EF;display:flex;flex-direction:column;align-items:center;justify-content:center;animation:wipeout .5s 1.25s both'),
       topBarStyle: 'position:fixed;top:0;left:0;height:3px;z-index:99;background:#E5483D;transition:width .28s ease,opacity .3s;width:' + (s.wiping ? '100%' : '0') + ';opacity:' + (s.wiping ? '1' : '0'),
       headerInnerStyle: 'max-width:1280px;margin:0 auto;padding:0 24px;min-height:' + (s.scrolled ? '62px' : '78px') + ';display:flex;align-items:center;gap:24px;flex-wrap:wrap;transition:min-height .32s cubic-bezier(.2,.7,.3,1)',
       logoStyle: 'height:' + (s.scrolled ? '36px' : '46px') + ';width:auto;display:block;transition:height .32s cubic-bezier(.2,.7,.3,1)',
