@@ -2691,7 +2691,17 @@ class Component extends DCLogic {
       results: (() => {
         let r = this.packages.filter(p => (s.fCat === 'All' || p.cat === s.fCat) && (s.fRegion === 'All' || p.region === s.fRegion));
         if (s.fSort === 'A–Z') r = r.slice().sort((a, b) => a.title.localeCompare(b.title));
-        if (s.fSort === 'Shortest') r = r.slice().sort((a, b) => (parseInt(a.duration) || 99) - (parseInt(b.duration) || 99));
+        if (s.fSort === 'Shortest') {
+          const getDays = d => {
+            if (!d || d === 'TBC' || d === 'On enquiry') return 99;
+            let m = String(d).match(/(\d+)\s*(D|Days?)/i);
+            if (m) return parseInt(m[1]);
+            m = String(d).match(/(\d+)\s*(N|Nights?)/i);
+            if (m) return parseInt(m[1]) + 1;
+            return 99;
+          };
+          r = r.slice().sort((a, b) => getDays(a.duration) - getDays(b.duration));
+        }
         return r.map(p => Object.assign({}, p, {
           listSlot: 'sh-pkg-' + p.slug, chipStyle: this.chip(p.cat),
           go: () => this.go('detail', { slug: p.slug, day: 1 })
