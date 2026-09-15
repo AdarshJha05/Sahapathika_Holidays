@@ -4715,7 +4715,15 @@
       inset: 0;
       z-index: -2;
       pointer-events: none;
+    } 
+    .footer-media::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(250, 246, 239, 0.75);
+      z-index: 1;
     }
+  
 
     .footer-bg {
       position: absolute;
@@ -4742,7 +4750,7 @@
       display: grid;
       align-items: start;
       gap: clamp(1.5rem, 3vw, 3.25rem);
-      grid-template-columns: minmax(min(100%,240px), 1.45fr) repeat(2, minmax(min(100%,130px), .85fr)) minmax(min(100%,260px), 1.25fr);
+      grid-template-columns: minmax(min(100%,340px), 1.85fr) repeat(2, minmax(min(100%,130px), .85fr)) minmax(min(100%,260px), 1.25fr);
     }
 
     .brand-lockup {
@@ -4768,7 +4776,7 @@
 
     .brand-blurb {
       margin-top: clamp(1.15rem, 2.4vh, 1.9rem);
-      max-width: 24ch;
+      max-width: 42ch;
       line-height: 1.62;
       animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
       animation-delay: .12s;
@@ -5097,7 +5105,7 @@
         gap: clamp(1.75rem, 5vw, 2.25rem);
       }
       .brand-blurb {
-        max-width: 34ch;
+        max-width: 100%;
       }
       .footer-bottom {
         flex-direction: column;
