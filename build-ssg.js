@@ -3,7 +3,7 @@ const { JSDOM } = require('jsdom');
 const path = require('path');
 
 async function buildSSG() {
-  const files = fs.readdirSync('.').filter(f => (f.startsWith('package-') || f === 'packages.html') && f.endsWith('.html'));
+  const files = fs.readdirSync('.').filter(f => (f.startsWith('package-') || f === 'packages.html' || f === 'index.html') && f.endsWith('.html'));
   
   for (const file of files) {
     if (file === 'test-packages-out.html' || file.startsWith('test-') || file.includes('jsdom_output')) continue;
