@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary — coral red */
+  --color-primary: #E5483D;
+  --color-primary-dark: #C4362C;
+  --color-primary-light: #FDE8E4;
+
+  /* Base — warm cream */
+  --color-bg: #FAF6EF;
+  --color-surface: #FFFFFF;
+
+  /* Dark — header, hero overlay, footer only */
+  --color-ink: #16211D;
+  --color-ink-soft: #3A4A44;
+
+  /* Mint — secondary panels */
+  --color-mint: #DCEEE7;
+  --color-mint-deep: #5FA98C;
+  --color-mint-ink: #2F7A63;
+
+  /* Gold — tiny accent only */
+  --color-gold: #D9A441;
+  --color-gold-deep: #B5822A;
+  --color-gold-text: #8A6316;
+
+  /* Text */
+  --color-text: #1B1A17;
+  --color-text-muted: #6B655C;
+  --color-on-dark: #FAF6EF;
+  --color-on-dark-hi: #FF8B80;
+
+  /* Category accents */
+  --color-teal: #2E6E6A;
+  --color-coastal: #3C6F63;
+
+  /* Radius */
+  --radius-lg: 24px;
+  --radius-md: 16px;
+
+  /* Shadows */
+  --shadow-card: 0 12px 32px -12px rgba(22,33,29,.18);
+  --shadow-card-hover: 0 28px 54px -20px rgba(22,33,29,.34);
+
+  /* Fonts */
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-body: var(--font-plus-jakarta), system-ui, sans-serif;
+}
+
+/* ── Global resets ── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { color: var(--color-primary-dark); }
+button, input, select, textarea { font: inherit; color: inherit; }
+::selection { background: var(--color-primary-light); }
+img, video { max-width: 100%; display: block; }
+
+/* ── Keyframes ── */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes blurin {
+  from { opacity: 0; transform: translateY(12px); filter: blur(4px); }
+  to   { opacity: 1; transform: none; filter: blur(0); }
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes pulsering {
+  0%   { transform: scale(1); opacity: .2; }
+  70%  { transform: scale(1.4); opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes draw {
+  from { stroke-dashoffset: 1400; }
+  to   { stroke-dashoffset: 0; }
+}
+@keyframes bob {
+  0%,100% { transform: translateY(0); }
+  50%      { transform: translateY(-9px); }
+}
+@keyframes drift {
+  0%,100% { transform: translate(0,0) scale(1); }
+  50%      { transform: translate(46px,32px) scale(1.16); }
+}
+@keyframes drift2 {
+  0%,100% { transform: translate(0,0) scale(1.1); }
+  50%      { transform: translate(-40px,-30px) scale(.92); }
+}
+@keyframes popin {
+  from { opacity: 0; transform: scale(.6); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes barfill {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+@keyframes wipeout {
+  from { clip-path: inset(0 0 0 0); }
+  to   { clip-path: inset(0 0 100% 0); }
+}
+@keyframes sway {
+  0%,100% { transform: rotate(-3deg); }
+  50%      { transform: rotate(3deg); }
+}
+@keyframes rise-in {
+  from { opacity: 0; transform: translate3d(0,14px,0); }
+  to   { opacity: 1; transform: translate3d(0,0,0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Utility classes ── */
+.animate-rise { animation: rise 0.7s cubic-bezier(.22,1,.36,1) both; }
+.animate-blurin { animation: blurin 0.7s cubic-bezier(.22,1,.36,1) both; }
+.animate-fadein { animation: fadein 0.5s ease both; }
+.animate-bob { animation: bob 6s ease-in-out infinite; }
+.animate-pulsering { animation: pulsering 4s ease-out infinite; }
+.animate-marquee { animation: marquee 34s linear infinite; }
+
+/* Focus ring */
+.focus-ring:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(229,72,61,.22), 0 0 0 1px rgba(229,72,61,.55);
+}
+
+/* Input focus */
+input:focus-visible, textarea:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(229,72,61,.14), inset 0 0 0 1px var(--color-primary);
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

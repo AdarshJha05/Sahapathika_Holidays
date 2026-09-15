@@ -1,0 +1,245 @@
+[
+  {
+    "slug": "ayurveda",
+    "title": "Home",
+    "description": "Welcome to Sahapathika Holidays, your trusted travel agency since 2015. We offer curated tours, Ayurveda wellness retreats, and unforgettable holiday packages across incredible Kerala.",
+    "cat": "Ayurveda & Wellness",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "beach-and-backwater-tour",
+    "title": "Beach and Backwater Tour",
+    "description": "Explore Beach and Backwater Tour with Sahapathika Holidays. A curated TBC journey in South Kerala featuring Beach & Coastal.",
+    "cat": "Beach & Coastal",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "enchanting-captivating-kerala",
+    "title": "Enchanting & Captivating Kerala",
+    "description": "Explore Enchanting & Captivating Kerala with Sahapathika Holidays. A curated 7 Days journey in Multi-region featuring Signature.",
+    "cat": "Ayurveda & Wellness",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "7 Nights"
+  },
+  {
+    "slug": "himachal-devi-yatra-with-vaishno-devi-mansa-devi",
+    "title": "Himachal Devi Yatra with Vaishno Devi & Mansa Devi",
+    "description": "Explore Himachal Devi Yatra with Vaishno Devi & Mansa Devi with Sahapathika Holidays. A curated 7 Days   6 Nights journey in North India featuring Pilgrimage Yatra.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Himachal Pradesh",
+    "duration": "7 Nights"
+  },
+  {
+    "slug": "himachal-pradesh",
+    "title": "Himachal Pradesh",
+    "description": "Explore Himachal Pradesh with Sahapathika Holidays. A curated 9 Days   8 Nights journey in North India featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Himachal Pradesh",
+    "duration": "9 Nights"
+  },
+  {
+    "slug": "kashi-gaya-prayag-ayodhya-pitru-moksha-yatra",
+    "title": "Kashi Gaya Prayag Ayodhya Pitru Moksha Yatra",
+    "description": "Explore Kashi Gaya Prayag Ayodhya Pitru Moksha Yatra with Sahapathika Holidays. A curated On enquiry journey in North India featuring Pilgrimage Yatra.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "India",
+    "region": "Uttar Pradesh",
+    "duration": "TBC"
+  },
+  {
+    "slug": "kashi-prayag-chitrakoot-ayodhya-divya-yatra",
+    "title": "Kashi Prayag Chitrakoot Ayodhya Divya Yatra",
+    "description": "Explore Kashi Prayag Chitrakoot Ayodhya Divya Yatra with Sahapathika Holidays. A curated On enquiry journey in North India featuring Pilgrimage Yatra.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "India",
+    "region": "Uttar Pradesh",
+    "duration": "TBC"
+  },
+  {
+    "slug": "kashi-prayag-chitrakoot-ayodhya-yatra",
+    "title": "Kashi Prayag Chitrakoot Ayodhya Yatra",
+    "description": "Explore Kashi Prayag Chitrakoot Ayodhya Yatra with Sahapathika Holidays. A curated 5N 6D journey in North India featuring Pilgrimage Yatra.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "India",
+    "region": "Uttar Pradesh",
+    "duration": "TBC"
+  },
+  {
+    "slug": "kashmir-5-days-srinagar-sonmarg-gulmarg-pahalgam-j",
+    "title": "Kashmir 5 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam Jammu to Jammu",
+    "description": "Explore Kashmir 5 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam Jammu to Jammu with Sahapathika Holidays. A curated On enquiry journey in Kashmir Valley featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Kashmir",
+    "duration": "5 Nights"
+  },
+  {
+    "slug": "kashmir-6-days-srinagar-sonmarg-gulmarg-pahalgam",
+    "title": "Kashmir 6 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam",
+    "description": "Explore Kashmir 6 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam with Sahapathika Holidays. A curated On enquiry journey in Kashmir Valley featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Kashmir",
+    "duration": "6 Nights"
+  },
+  {
+    "slug": "kashmir-honeymoon",
+    "title": "Kashmir Honeymoon",
+    "description": "Explore Kashmir Honeymoon with Sahapathika Holidays. A curated 7 Days   6 Nights journey in Kashmir Valley featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Kashmir",
+    "duration": "7 Nights"
+  },
+  {
+    "slug": "kashmir-with-vaishno-devi",
+    "title": "Kashmir with Vaishno Devi",
+    "description": "Explore Kashmir with Vaishno Devi with Sahapathika Holidays. A curated 7 Days   6 Nights journey in Kashmir Valley featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Kashmir",
+    "duration": "7 Nights"
+  },
+  {
+    "slug": "kerala-ayurveda-wellness-retreat",
+    "title": "Kerala Ayurveda & Wellness Retreat",
+    "description": "Explore Kerala Ayurveda & Wellness Retreat with Sahapathika Holidays. A curated 5N / 6D journey in South Kerala featuring Ayurveda & Wellness.",
+    "cat": "Ayurveda & Wellness",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "kerala-short-honeymoon-tour",
+    "title": "Kerala Short Honeymoon Tour",
+    "description": "Explore Kerala Short Honeymoon Tour with Sahapathika Holidays. A curated TBC journey in Multi-region featuring Honeymoon.",
+    "cat": "Honeymoon",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "kerala-temple-tour",
+    "title": "Kerala Temple Tour",
+    "description": "Explore Kerala Temple Tour with Sahapathika Holidays. A curated 5N (TBC) journey in Central Kerala featuring Heritage & Temple.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "kovalam-varkala-tour",
+    "title": "Kovalam & Varkala Tour",
+    "description": "Explore Kovalam & Varkala Tour with Sahapathika Holidays. A curated 2N / 3D journey in South Kerala featuring Beach & Coastal.",
+    "cat": "Beach & Coastal",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "lucknow-naimisharanya-ayodhya-prayagraj-varanasi-y",
+    "title": "Lucknow   Naimisharanya   Ayodhya   Prayagraj   Varanasi Yatra",
+    "description": "Explore Lucknow   Naimisharanya   Ayodhya   Prayagraj   Varanasi Yatra with Sahapathika Holidays. A curated On enquiry journey in North India featuring Pilgrimage Yatra.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "India",
+    "region": "Uttar Pradesh",
+    "duration": "TBC"
+  },
+  {
+    "slug": "mathura-vrindavan-braj-agra-yatra",
+    "title": "Mathura Vrindavan Braj & Agra Yatra",
+    "description": "Explore Mathura Vrindavan Braj & Agra Yatra with Sahapathika Holidays. A curated On enquiry journey in North India featuring Pilgrimage Yatra.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "India",
+    "region": "Uttar Pradesh",
+    "duration": "TBC"
+  },
+  {
+    "slug": "munnar-thekkady-alleppey",
+    "title": "Munnar – Thekkady – Alleppey Tour",
+    "description": "Explore Munnar – Thekkady – Alleppey Tour with Sahapathika Holidays. A curated TBC journey in Central Kerala featuring Hill & Backwater.",
+    "cat": "Hill & Backwater",
+    "regionGroup": "Kerala",
+    "region": "Central Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "north-kerala-heritage-tour",
+    "title": "North Kerala Heritage Tour",
+    "description": "Explore North Kerala Heritage Tour with Sahapathika Holidays. A curated 6N (TBC) journey in North Kerala featuring Heritage.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "Kerala",
+    "region": "North Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "puri-jagannath-konark-chilika-bhubaneswar",
+    "title": "Puri Jagannath   Konark   Chilika   Bhubaneswar",
+    "description": "Explore Puri Jagannath   Konark   Chilika   Bhubaneswar with Sahapathika Holidays. A curated On enquiry journey in East India featuring Heritage & Temple.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "India",
+    "region": "Odisha",
+    "duration": "TBC"
+  },
+  {
+    "slug": "scenic-beautiful-kerala",
+    "title": "Scenic and Beautiful Kerala",
+    "description": "Explore Scenic and Beautiful Kerala with Sahapathika Holidays. A curated 8 Days journey in Multi-region featuring Signature.",
+    "cat": "Hill & Backwater",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "8 Nights"
+  },
+  {
+    "slug": "shimla-kullu-manali",
+    "title": "Shimla Kullu Manali",
+    "description": "Explore Shimla Kullu Manali with Sahapathika Holidays. A curated 7 Days   6 Nights journey in North India featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Himachal Pradesh",
+    "duration": "7 Nights"
+  },
+  {
+    "slug": "shimla-manali-amritsar",
+    "title": "Shimla Manali  & Amritsar",
+    "description": "Explore Shimla Manali  & Amritsar with Sahapathika Holidays. A curated On enquiry journey in North India featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Himachal Pradesh",
+    "duration": "TBC"
+  },
+  {
+    "slug": "shimla-manali",
+    "title": "Shimla Manali",
+    "description": "Explore Shimla Manali with Sahapathika Holidays. A curated 6 Days   5 Nights journey in North India featuring Hill & Backwater.",
+    "cat": "Hill Station",
+    "regionGroup": "India",
+    "region": "Himachal Pradesh",
+    "duration": "6 Nights"
+  },
+  {
+    "slug": "varanasi-tour-packages-from-kerala",
+    "title": "Varanasi Tour Packages from Kerala",
+    "description": "Explore Varanasi Tour Packages from Kerala with Sahapathika Holidays. A curated On enquiry journey in North India featuring Pilgrimage Yatra.",
+    "cat": "Heritage & Temple",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  },
+  {
+    "slug": "waterfalls-hills-backwaters",
+    "title": "A Perfect Blend of Waterfalls, Hills & Backwaters",
+    "description": "Explore A Perfect Blend of Waterfalls, Hills & Backwaters with Sahapathika Holidays. A curated 4N (TBC) journey in Central Kerala featuring Hill & Backwater.",
+    "cat": "Hill & Backwater",
+    "regionGroup": "Kerala",
+    "region": "South Kerala",
+    "duration": "TBC"
+  }
+]
