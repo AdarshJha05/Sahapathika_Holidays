@@ -163,9 +163,16 @@
       });
     }
     const dc = doc.querySelector("x-dc");
-    const hostEl = doc.createElement("div");
-    hostEl.id = "dc-root";
-    dc.replaceWith(hostEl);
+    let hostEl = doc.getElementById("dc-root");
+    if (hostEl) {
+      if (dc) dc.remove();
+    } else if (dc) {
+      hostEl = doc.createElement("div");
+      hostEl.id = "dc-root";
+      dc.replaceWith(hostEl);
+    } else {
+      return; // neither exists
+    }
     if (!parsed.preview) {
       const s = doc.createElement("style");
       s.textContent = FULL_PAGE_CSS;
