@@ -3794,7 +3794,7 @@ class Component extends DCLogic {
       v.muted = true;
       v.loop = true;
       v.playsInline = true;
-      if (v.paused) v.play().catch(function(){});
+      if (v.paused) if(v.play) { var p = v.play(); if (p && p.catch) p.catch(function(){}); }
     });
   }
   // Run immediately for videos already in the DOM
@@ -3810,11 +3810,11 @@ class Component extends DCLogic {
         if (n.nodeType === 1) {
           if (n.tagName === 'VIDEO') {
             n.muted = true; n.loop = true; n.playsInline = true;
-            if (n.paused) n.play().catch(function(){});
+            if (n.paused) if(n.play) { var p = n.play(); if (p && p.catch) p.catch(function(){}); }
           }
           n.querySelectorAll && n.querySelectorAll('video').forEach(function(v) {
             v.muted = true; v.loop = true; v.playsInline = true;
-            if (v.paused) v.play().catch(function(){});
+            if (v.paused) if(v.play) { var p = v.play(); if (p && p.catch) p.catch(function(){}); }
           });
         }
       });
