@@ -12,7 +12,7 @@ async function buildSSG() {
     let originalHtml = fs.readFileSync(file, 'utf8');
 
     if (!originalHtml.includes('<x-dc>')) continue;
-    if (originalHtml.includes('id="ssg-content"')) continue;
+    if (originalHtml.includes('id="ssg-content"') && originalHtml.includes('id="ssg-style"')) continue;
 
     try {
       let testHtml = originalHtml;
@@ -55,6 +55,11 @@ async function buildSSG() {
         };
         window.requestAnimationFrame = function(cb) { return setTimeout(cb, 0); };
         window.cancelAnimationFrame = function(id) { clearTimeout(id); };
+        // Stub customElements.define to prevent JSDOM crash on null namespaceURI
+        (function() {
+          var _orig = customElements.define.bind(customElements);
+          customElements.define = function(n, c, o) { try { _orig(n, c, o); } catch(e) {} };
+        })();
       </script>
       ${externalScripts}
       `;
@@ -91,7 +96,7 @@ async function buildSSG() {
     /* Hide the raw template so users don't see {{ tokens }} */
     x-dc { display: none !important; }
     /* Hide the SSG content once React has mounted and populated dc-root */
-    #dc-root:not(:empty) + #ssg-content { display: none !important; }
+    #dc-root:not(:empty) ~ #ssg-content { display: none !important; }
   </style>
 `;
       originalHtml = originalHtml.replace('</head>', ssgCss + '</head>');

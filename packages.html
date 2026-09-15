@@ -23,11 +23,17 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
+  
+
+  
+
+  
+
   <style id="ssg-style">
     /* Hide the raw template so users don't see {{ tokens }} */
     x-dc { display: none !important; }
     /* Hide the SSG content once React has mounted and populated dc-root */
-    #dc-root:not(:empty) + #ssg-content { display: none !important; }
+    #dc-root:not(:empty) ~ #ssg-content { display: none !important; }
   </style>
 </head>
 <body>
