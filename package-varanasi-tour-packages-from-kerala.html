@@ -4311,7 +4311,7 @@ class Component extends DCLogic {
          return;
       }
       
-      this.setState({ loading: true, menu: null, field: null });
+      this.setState({ wiping: true, menu: null, field: null });
       setTimeout(() => {
         window.location.href = url;
       }, 200);
