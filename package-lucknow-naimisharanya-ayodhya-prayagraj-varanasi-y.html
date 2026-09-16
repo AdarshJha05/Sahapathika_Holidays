@@ -645,9 +645,9 @@
             </div>
           </div>
           <div>
-            <div style="font-size:10.5px;letter-spacing:.24em;color:#B5822A;font-weight:800;margin-bottom:16px">SIGNATURE JOURNEYS</div>
+            <div style="font-size:10.5px;letter-spacing:.24em;color:#B5822A;font-weight:800;margin-bottom:16px">JOURNEYS</div>
             <div style="display:grid;gap:2px">
-              <sc-for list="{{ menuSignature }}" as="p" hint-placeholder-count="4">
+              <sc-for list="{{ menuSignature }}" as="p" hint-placeholder-count="6">
                 <button style="background:none;border:0;padding:9px 10px;margin-left:-10px;border-radius:10px;cursor:pointer;text-align:left;font-size:14.5px;font-weight:600;display:flex;justify-content:space-between;gap:16px;align-items:baseline" style-hover="background:#FDE8E4" onClick="{{ p.go }}"><span>{{ p.title }}</span><span style="font-size:11.5px;color:#6B655C;white-space:nowrap">{{ p.duration }}</span></button>
               </sc-for>
             </div>
@@ -2629,7 +2629,7 @@ class Component extends DCLogic {
         name: c, go: () => this.filterTo(c),
         dot: 'width:9px;height:9px;border-radius:99px;flex:0 0 auto;background:' + this.catColor[c]
       })),
-      menuSignature: this.packages.slice(0, 4).map(p => ({ title: p.title, duration: p.duration, go: () => this.go('detail', { slug: p.slug, day: 1 }) })),
+      menuSignature: (this._randPkgs || (this._randPkgs = this.packages.slice().sort(() => 0.5 - Math.random()).slice(0, 6))).map(p => ({ title: p.title, duration: p.duration, go: () => this.go('detail', { slug: p.slug, day: 1 }) })),
 
       destLabel: s.dest || 'Any destination', expLabel: s.exp || 'Any experience',
       dateLabel: dLabel, dateSub: dSub,
