@@ -176,10 +176,9 @@ function initHamburger() {
               '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="sh-mob-chevron"><path d="M2 4l4 4 4-4"/></svg>' +
             '</button>' +
             '<ul class="sh-mob-sub" id="sh-sub-destinations">' +
-              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=South%20Kerala">Kerala (South)</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=Central%20Kerala">Kerala (Central)</button></li>' +
               '<li><button class="sh-mob-sub-link" data-page="packages.html?region=North%20India">North India</button></li>' +
-              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=Kashmir%20Valley">Kashmir Valley</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=South%20India">South India</button></li>' +
+              '<li><button class="sh-mob-sub-link" data-page="packages.html?region=East%20India">East India</button></li>' +
               '<li><button class="sh-mob-sub-link" data-page="packages.html">View All Destinations</button></li>' +
             '</ul>' +
           '</li>' +
