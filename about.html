@@ -2292,7 +2292,7 @@ class Component extends DCLogic {
       const t0 = performance.now(), dur = 1600;
       const tick = now => {
         const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3);
-        this.setState({ counts: { travellers: 0, destinations: Math.round(e * 100), packages: Math.round(e * 125), years: Math.round(e * 35) } });
+        this.setState({ counts: { travellers: Math.round(e * 100), destinations: Math.round(e * 125), packages: Math.round(e * 35), years: Math.round(e * 10) } });
         if (k < 1) requestAnimationFrame(tick);
       };
       requestAnimationFrame(tick);
@@ -2642,6 +2642,7 @@ class Component extends DCLogic {
 
       statsRef: el => { this.statsEl = el; },
       stats: [
+        { value: s.counts.travellers + '+', label: 'Happy Travelers', tag: 'VERIFIED', tagStyle: okTag },
         { value: s.counts.destinations + '+', label: 'Destinations', tag: 'VERIFIED', tagStyle: okTag },
         { value: s.counts.packages + '+', label: 'Holiday Packages', tag: 'VERIFIED', tagStyle: okTag },
         { value: s.counts.years + '+', label: 'Years of Experience', tag: 'VERIFIED', tagStyle: okTag }
