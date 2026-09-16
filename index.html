@@ -1294,13 +1294,8 @@
           </sc-if>
 
           <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 20px">Where you'll be</h2>
-          <div style="height:300px;border-radius:22px;overflow:hidden;background:#DCEEE7;position:relative;margin-bottom:48px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(95,169,140,.4)">
-            <svg viewBox="0 0 400 240" fill="none" style="position:absolute;inset:0;width:100%;height:100%;opacity:.5"><path d="M0 190c40-10 60 6 100 0s60-14 100-4 60 18 100 8 60-14 100-18" stroke="#5FA98C" strokeWidth="1.4"/><path d="M0 210c40-10 60 6 100 0s60-14 100-4 60 18 100 8" stroke="#5FA98C" strokeWidth="1.4"/><path d="M60 190V60l40-30 40 30v130M180 190V90l50-24 50 24v100" stroke="#3A4A44" strokeWidth="1.2"/></svg>
-            <div style="position:relative;text-align:center">
-              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" style="margin-bottom:8px"><path d="M12 22s8-7 8-12a8 8 0 1 0-16 0c0 5 8 12 8 12Z" fill="#E5483D"/><circle cx="12" cy="10" r="3" fill="#FAF6EF"/></svg>
-              <div style="font-weight:800;font-size:14.5px">{{ detail.region }}</div>
-              <div style="font-size:12.5px;color:#2F7A63;margin-top:4px">Embedded Google Map at build — key required</div>
-            </div>
+          <div style="height:350px;border-radius:22px;overflow:hidden;background:#DCEEE7;position:relative;margin-bottom:48px;border:1px solid rgba(95,169,140,.4)">
+            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ detail.mapUrl }}" style="position:absolute;inset:0"></iframe>
           </div>
 
           <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 20px">What's included</h2>
