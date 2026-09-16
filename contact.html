@@ -2697,7 +2697,7 @@ class Component extends DCLogic {
           (s.fCat === c ? '800' : '600') + ';background:' + (s.fCat === c ? '#FDE8E4' : 'transparent') + ';color:' + (s.fCat === c ? '#C4362C' : '#1B1A17'),
         pick: () => this.setState({ fCat: c })
       })),
-      regionChips: ['All', 'South Kerala', 'Central Kerala', 'North Kerala', 'Multi-region'].map(r => ({
+      regionChips: ['All'].concat([...new Set(this.packages.map(p => p.region))]).map(r => ({
         label: r === 'All' ? 'All regions' : r,
         count: r === 'All' ? this.packages.length : this.packages.filter(p => p.region === r).length,
         style: 'display:flex;align-items:center;gap:9px;width:100%;text-align:left;border:0;border-radius:11px;padding:10px 12px;cursor:pointer;font-size:13.5px;font-weight:' +
