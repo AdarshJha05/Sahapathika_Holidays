@@ -1,0 +1,60 @@
+const fs = require('fs');
+const path = require('path');
+
+const root = path.resolve(__dirname, '..');
+
+function getHtmlFiles(dir) {
+  let results = [];
+  const list = fs.readdirSync(dir);
+  list.forEach(function(file) {
+    const fullPath = path.join(dir, file);
+    const stat = fs.statSync(fullPath);
+    if (stat && stat.isDirectory()) {
+      if (!fullPath.includes('node_modules') && !fullPath.includes('.git') && !fullPath.includes('nextjs-app')) {
+        results = results.concat(getHtmlFiles(fullPath));
+      }
+    } else {
+      if (fullPath.endsWith('.html') && !fullPath.includes('scratch')) {
+        results.push(fullPath);
+      }
+    }
+  });
+  return results;
+}
+
+const htmlFiles = getHtmlFiles(root);
+let modifiedCount = 0;
+
+htmlFiles.forEach(file => {
+  let content = fs.readFileSync(file, 'utf8');
+  let changed = false;
+
+  const oldStr = `toggle: () => this.setState({ faq: open ? -1 : i })
+        };
+      }),
+      related:`;
+
+  const newStr = `toggle: () => this.setState({ faq: open ? -1 : i })
+        };
+      });
+      })(),
+      related:`;
+      
+  const oldStrWindows = oldStr.replace(/\\n/g, '\\r\\n');
+  const newStrWindows = newStr.replace(/\\n/g, '\\r\\n');
+
+  if (content.includes(oldStr)) {
+    content = content.replace(oldStr, newStr);
+    changed = true;
+  } else if (content.includes(oldStrWindows)) {
+    content = content.replace(oldStrWindows, newStrWindows);
+    changed = true;
+  }
+
+  if (changed) {
+    fs.writeFileSync(file, content, 'utf8');
+    modifiedCount++;
+  }
+});
+
+console.log('Modified files:', modifiedCount);

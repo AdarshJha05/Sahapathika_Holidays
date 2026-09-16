@@ -2832,7 +2832,8 @@ class Component extends DCLogic {
           bodyStyle: 'overflow:hidden;max-height:' + (open ? '350px' : '0') + ';transition:max-height .38s cubic-bezier(.2,.7,.3,1)',
           toggle: () => this.setState({ faq: open ? -1 : i })
         };
-      }),
+      });
+      })(),
       related: this.packages.filter(p => p.slug !== s.slug).slice(0, 3).map(p => Object.assign({}, p, {
         relSlot: 'sh-pkg-' + p.slug, chipStyle: this.chip(p.cat), go: () => this.go('detail', { slug: p.slug, day: 1 })
       })),
