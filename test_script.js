@@ -1,2204 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <title>Kashmir 6 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam | Sahapathika Holidays</title>
-  <meta name="description" content="Explore Kashmir 6 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam with Sahapathika Holidays. A curated On enquiry journey in Kashmir Valley featuring Hill & Backwater.">
-  <meta name="keywords" content="Scenic and Beautiful Kerala, Kerala travel, holiday package, Sahapathika Holidays">
-  <link rel="icon" type="image/svg+xml" href="Site-logo1.svg">
-  <meta property="og:site_name" content="Sahapathika Holidays">
-  <meta property="og:title" content="Kashmir 6 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam | Sahapathika Holidays">
-  <meta property="og:description" content="Explore Kashmir 6 Days    Srinagar  Sonmarg  Gulmarg & Pahalgam with Sahapathika Holidays. A curated On enquiry journey in Kashmir Valley featuring Hill & Backwater.">
-  <meta property="og:image" content="https://i.pinimg.com/736x/b4/88/63/b48863982d7b8c63a8d633405da62b2b.jpg">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://sahapathika-holidays.vercel.app/package-scenic-beautiful-kerala.html">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta name="twitter:card" content="summary_large_image">
-
-  
-
-  
-</head>
-<body>
-<x-dc>
-<helmet>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Plus+Jakarta+Sans:wght@300..800&display=swap" rel="stylesheet" />
-<style>
-  .nl-pill { transition: box-shadow 0.2s ease; }
-  .nl-pill:focus-within { box-shadow: 0 0 0 3px rgba(229,72,61,.22), 0 0 0 1px rgba(229,72,61,.55) !important; }
-  .nl-pill input:focus, .nl-pill input:focus-visible { outline: none !important; box-shadow: none !important; }
-
-  *, *::before, *::after { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { margin: 0; background: #FAF6EF; color: #1B1A17; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
-  a { color: #E5483D; text-decoration: none; }
-  a:hover { color: #C4362C; }
-  button, input, select { font: inherit; color: inherit; }
-  @keyframes rise { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
-  @keyframes blurin { from { opacity: 0; transform: translateY(26px); filter: blur(10px); } to { opacity: 1; transform: none; filter: blur(0); } }
-  @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
-  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-  @keyframes pulsering { 0% { transform: scale(1); opacity: .55; } 70% { transform: scale(1.9); opacity: 0; } 100% { opacity: 0; } }
-  @keyframes draw { from { stroke-dashoffset: 1400; } to { stroke-dashoffset: 0; } }
-  @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
-  @keyframes drift { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(46px,32px) scale(1.16); } }
-  @keyframes drift2 { 0%,100% { transform: translate(0,0) scale(1.1); } 50% { transform: translate(-40px,-30px) scale(.92); } }
-  @keyframes popin { from { opacity: 0; transform: scale(.6); } to { opacity: 1; transform: scale(1); } }
-  @keyframes barfill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-  @keyframes wipeout { from { clip-path: inset(0 0 0 0); } to { clip-path: inset(0 0 100% 0); } }
-  @keyframes sway { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
-  ::selection { background: #FDE8E4; }
-  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
-
-  /*  ===     MOTION SYSTEM === Sahapathika Holidays-     All sh-* classes are applied by motion.js-  ===  */
-
-  /*  === Keyframes ===  */
-  @keyframes sh-fade-up   { from { opacity:0; transform:translate3d(0,28px,0); } to { opacity:1; transform:translate3d(0,0,0); } }
-  @keyframes sh-fade-in   { from { opacity:0; } to { opacity:1; } }
-  @keyframes sh-pop-in    { 0%{ opacity:0; transform:scale(.6); } 60%{ transform:scale(1.08); } 100%{ opacity:1; transform:scale(1); } }
-  @keyframes sh-bob       { 0%,100%{ transform:translateY(0) rotate(-1deg); } 50%{ transform:translateY(-10px) rotate(1deg); } }
-  @keyframes sh-bob-slow  { 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-6px); } }
-  @keyframes sh-shadow-pulse { 0%,100%{ box-shadow:0 0 0 0 rgba(229,72,61,.45); } 60%{ box-shadow:0 0 0 10px rgba(229,72,61,0); } }
-  @keyframes sh-slide-down { from{ opacity:0; transform:translateY(-10px); } to{ opacity:1; transform:translateY(0); } }
-  @keyframes sh-draw      { from{ stroke-dashoffset:1400; } to{ stroke-dashoffset:0; } }
-  @keyframes sh-scale-in  { from{ opacity:0; transform:scale(.94); } to{ opacity:1; transform:scale(1); } }
-
-  /*  === Scroll-reveal sections ===  */
-  .sh-section {
-    opacity: 0;
-    transform: translate3d(0, 32px, 0);
-    transition: opacity .72s cubic-bezier(.22,1,.36,1), transform .72s cubic-bezier(.22,1,.36,1);
-  }
-  .sh-section.sh-visible {
-    opacity: 1;
-    transform: translate3d(0,0,0);
-  }
-  /*  Stagger children inside revealed sections  */
-  .sh-section.sh-visible .sh-child {
-    animation: sh-fade-up .6s cubic-bezier(.22,1,.36,1) both;
-    animation-delay: calc(var(--si, 0) * 0.07s + 0.1s);
-  }
-
-  /*  === Card hover: lift + shadow grow ===  */
-  .sh-card {
-    transition: transform .32s cubic-bezier(.22,1,.36,1), box-shadow .32s cubic-bezier(.22,1,.36,1) !important;
-    cursor: pointer;
-  }
-  .sh-card:hover {
-    transform: translateY(-7px) scale(1.015) !important;
-    box-shadow: 0 22px 48px -18px rgba(22,33,29,.32), 0 6px 16px -8px rgba(22,33,29,.18) !important;
-  }
-  /*  Image zoom inside card === contained, no overflow  */
-  .sh-card-img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    transition: transform .55s cubic-bezier(.22,1,.36,1) !important;
-    overflow: hidden;
-  }
-  .sh-card:hover .sh-card-img {
-    transform: scale(1.07) !important;
-  }
-  /*  Category/rating badge pop-in on card appear  */
-  .sh-badge {
-    animation: sh-pop-in .45s cubic-bezier(.22,1,.36,1) .22s both;
-  }
-
-  /*  === Staggered grid entrance ===  */
-  .sh-card, .sh-testi {
-    opacity: 0;
-    transform: translate3d(0, 24px, 0);
-    transition: opacity .55s cubic-bezier(.22,1,.36,1), transform .55s cubic-bezier(.22,1,.36,1);
-  }
-  .sh-card.sh-grid-visible, .sh-testi.sh-grid-visible {
-    opacity: 1;
-    transform: translate3d(0,0,0);
-    transition-delay: calc(var(--ci, 0) * 0.08s);
-  }
-
-  /*  === Testimonial card hover ===  */
-  .sh-testi {
-    transition: transform .3s cubic-bezier(.22,1,.36,1), box-shadow .3s ease, opacity .55s cubic-bezier(.22,1,.36,1) !important;
-  }
-  .sh-testi:hover {
-    transform: translateY(-5px) !important;
-    box-shadow: 0 18px 42px -16px rgba(22,33,29,.28) !important;
-  }
-
-  /*  === Trust badge / floating elements idle bob ===  */
-  .sh-float {
-    animation: sh-bob 3.8s ease-in-out infinite !important;
-    transform-origin: center center;
-  }
-  .sh-float-slow {
-    animation: sh-bob-slow 5s ease-in-out infinite !important;
-  }
-
-  /*  === Mega-menu slide down ===  */
-  .sh-dropdown {
-    animation: sh-slide-down .22s cubic-bezier(.22,1,.36,1) both !important;
-    transform-origin: top center;
-  }
-
-  /*  === Marquee pause on hover ===  */
-  .sh-marquee-wrap:hover .sh-marquee {
-    animation-play-state: paused !important;
-  }
-
-  /*  === Button micro-interactions ===  */
-  .sh-btn {
-    transition: transform .2s cubic-bezier(.22,1,.36,1), box-shadow .2s ease, background .2s ease !important;
-  }
-  .sh-btn:hover {
-    transform: scale(1.05) translateY(-1px) !important;
-    box-shadow: 0 12px 28px -10px rgba(229,72,61,.6) !important;
-  }
-  .sh-btn:active {
-    transform: scale(.97) !important;
-    transition-duration: .08s !important;
-  }
-  .sh-btn-dark {
-    transition: transform .2s cubic-bezier(.22,1,.36,1), box-shadow .2s ease !important;
-  }
-  .sh-btn-dark:hover {
-    transform: scale(1.04) !important;
-    box-shadow: 0 10px 22px -8px rgba(22,33,29,.5) !important;
-  }
-
-  /*  ===  */
-  a[href*="wa.me"] svg {
-    animation: sh-bob-slow 2.8s ease-in-out 2s infinite;
-  }
-
-  /*  ===     HAMBURGER MENU - <= 1224px-  =============================================================  */
-
-  /*  Show hamburger, hide desktop nav + tel + plan at <=1224px  */
-  @media (max-width: 1224px) {
-    header nav[aria-label="Primary"] { display: none !important; }
-    .sh-tel-link  { display: none !important; }
-    .sh-plan-btn  { display: none !important; }
-    #sh-hamburger { display: flex !important; }
-  }
-
-  /*  Hamburger icon === bar animations  */
-  .sh-bar { transition: transform .3s ease, opacity .3s ease; transform-origin: center; }
-  #sh-hamburger[aria-expanded="true"] .sh-bar-1 { transform: rotate(45deg)  translate(0, 5px); }
-  #sh-hamburger[aria-expanded="true"] .sh-bar-2 { opacity: 0; transform: scaleX(0); }
-  #sh-hamburger[aria-expanded="true"] .sh-bar-3 { transform: rotate(-45deg) translate(0, -5px); }
-
-  /*  Backdrop  */
-  #sh-mobile-backdrop {
-    position: fixed; inset: 0; z-index: 79;
-    background: rgba(15, 22, 19, .55);
-    backdrop-filter: blur(3px);
-    opacity: 0; pointer-events: none;
-    transition: opacity .35s ease;
-  }
-
-  /*  Panel  */
-  #sh-mobile-panel {
-    position: fixed; top: 0; right: 0; bottom: 0;
-    z-index: 80;
-    width: min(88vw, 340px);
-    background: #FAF6EF;
-    color: #16211D;
-    display: flex; flex-direction: column;
-    padding: 0;
-    transform: translateX(100%);
-    transition: transform .38s cubic-bezier(.22,1,.36,1);
-    overflow-y: auto; overflow-x: hidden;
-    box-shadow: -12px 0 48px rgba(0,0,0,.45);
-  }
-
-  /*  Open state  */
-  #sh-mobile-nav.sh-open #sh-mobile-backdrop { opacity: 1; pointer-events: auto; }
-  #sh-mobile-nav.sh-open #sh-mobile-panel    { transform: translateX(0); }
-
-  /*  Close button  */
-  #sh-mobile-close {
-    display: flex; align-items: center; justify-content: center;
-    position: absolute; top: 14px; right: 14px;
-    width: 38px; height: 38px; border-radius: 8px;
-    background: rgba(22,33,29,.04); border: 1px solid rgba(22,33,29,.12);
-    color: #16211D; cursor: pointer;
-    transition: background .2s;
-  }
-  #sh-mobile-close:hover { background: rgba(251,247,238,.16); }
-
-  /*  Logo strip  */
-  .sh-mob-logo {
-    padding: 22px 24px 20px;
-    border-bottom: 1px solid rgba(22,33,29,.1);
-    margin-bottom: 8px;
-  }
-
-  /*  Nav list  */
-  .sh-mob-links {
-    list-style: none; margin: 0; padding: 8px 0;
-    flex: 1;
-  }
-  .sh-mob-links li { border-bottom: 1px solid rgba(22,33,29,.07); }
-
-  .sh-mob-link {
-    width: 100%; text-align: left;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 15px 24px;
-    background: none; border: 0;
-    color: #16211D; font-size: 15.5px; font-weight: 600;
-    cursor: pointer; font-family: inherit;
-    transition: background .18s, color .18s;
-  }
-  .sh-mob-link:hover, .sh-mob-link:focus-visible {
-    background: rgba(251,247,238,.07); color: #FF8B80;
-  }
-  .sh-mob-link.sh-mob-active { color: #FF8B80; }
-
-  /*  Chevron rotation  */
-  .sh-mob-chevron { transition: transform .28s ease; flex-shrink: 0; }
-  .sh-mob-link.sh-sub-open .sh-mob-chevron { transform: rotate(180deg); }
-
-  /*  Sub-menu accordion  */
-  .sh-mob-sub {
-    list-style: none; margin: 0;
-    padding: 0 0 4px 0;
-    max-height: 0; overflow: hidden;
-    transition: max-height .34s cubic-bezier(.2,.7,.3,1);
-    background: rgba(0,0,0,.18);
-  }
-  .sh-mob-sub.sh-sub-open { max-height: 320px; }
-  .sh-mob-sub-link {
-    width: 100%; text-align: left;
-    display: block; padding: 11px 24px 11px 36px;
-    background: none; border: 0;
-    color: rgba(22,33,29,.72); font-size: 14px; font-weight: 500;
-    cursor: pointer; font-family: inherit;
-    transition: color .18s, background .18s;
-  }
-  .sh-mob-sub-link:hover { color: #FF8B80; background: rgba(251,247,238,.05); }
-
-  /*  CTA strip at bottom  */
-  .sh-mob-cta {
-    padding: 20px 24px 32px;
-    border-top: 1px solid rgba(251,247,238,.1);
-    display: flex; flex-direction: column; gap: 12px;
-  }
-  .sh-mob-tel {
-    display: flex; align-items: center; gap: 9px;
-    color: #FAF6EF; font-size: 14.5px; font-weight: 600;
-    text-decoration: none; opacity: .85;
-    transition: opacity .2s;
-  }
-  .sh-mob-tel:hover { opacity: 1; }
-  .sh-mob-plan {
-    width: 100%; padding: 14px 20px;
-    background: #E5483D; color: #fff;
-    border: 0; border-radius: 999px;
-    font-size: 15px; font-weight: 700; font-family: inherit;
-    cursor: pointer; letter-spacing: .01em;
-    transition: background .2s, transform .2s;
-  }
-  .sh-mob-plan:hover { background: #C4362C; transform: scale(1.02); }
-
-  /*  Hide drawer completely on desktop  */
-  @media (min-width: 1225px) {
-    #sh-mobile-nav, #sh-mobile-backdrop, #sh-mobile-panel { display: none !important; }
-  }
-
-  /*  ===  */
-  .sh-focused {
-    box-shadow: 0 0 0 3px rgba(229,72,61,.22), 0 0 0 1px rgba(229,72,61,.55) !important;
-    border-color: #E5483D !important;
-    transition: box-shadow .2s ease, border-color .2s ease !important;
-    outline: none !important;
-  }
-
-  /*  === Accordion smooth transitions ===  */
-  .sh-accordion {
-    transition: max-height .42s cubic-bezier(.2,.7,.3,1), opacity .35s ease !important;
-    overflow: hidden !important;
-  }
-
-  /*  === Preloader enhancement ===  */
-  @keyframes sh-bar-loop {
-    0%   { transform: scaleX(0) translateX(0); }
-    40%  { transform: scaleX(.6) translateX(30%); }
-    100% { transform: scaleX(0) translateX(200%); }
-  }
-  @keyframes sh-logo-appear {
-    from { opacity:0; transform: scale(.8) translateY(12px); filter:blur(8px); }
-    to   { opacity:1; transform: scale(1) translateY(0); filter:blur(0); }
-  }
-
-  /*  === Sketch SVG draw-in (triggered by .sh-visible on parent)  */
-  .sh-section.sh-visible svg path,
-  .sh-section.sh-visible svg ellipse {
-    animation: sh-draw 1.4s cubic-bezier(.4,0,.2,1) both;
-    stroke-dasharray: 1400;
-  }
-
-  /*  === CTA section scale-in ===  */
-  .sh-section.sh-visible [style*="background:#DCEEE7"][style*="border-radius:32px"] {
-    animation: sh-scale-in .65s cubic-bezier(.22,1,.36,1) .1s both;
-  }
-
-  /*  === WhatsApp button idle pulse (already has pulsering, enhance)  */
-  a[href*="wa.me"] svg {
-    animation: sh-bob-slow 2.8s ease-in-out 2s infinite;
-  }
-
-
-
-  /*  =====================================================-     GLOBAL RESPONSIVE OVERRIDES – all breakpoints-     =====================================================  */
-  *, *::before, *::after { box-sizing: border-box; }
-
-  /*  Prevent horizontal scroll without breaking position:sticky  */
-  html, body { max-width: 100vw; overflow-x: clip; }
-
-  /*  Make all images, videos and iframes fluid by default  */
-  img, video, iframe, svg { max-width: 100%; height: auto; }
-
-  /*  === 1280px+ : large desktops (default styles handle this) ===  */
-
-  /*  === < 1100px : medium-large screens / laptops ===  */
-  @media (max-width: 1100px) {
-    /*  Header: tighten nav gap  */
-    header nav button { padding: 10px 10px !important; font-size: 13px !important; }
-    header a[href^="tel"] { display: none !important; }
-  }
-
-  /*  === < 900px : tablets landscape ===  */
-  @media (max-width: 900px) {
-    .pkg-aside, .detail-aside {
-      position: relative !important;
-      top: auto !important;
-      max-width: none !important;
-      width: 100% !important;
-      z-index: 10;
-    }
-
-    /*  Hero adjustments  */
-    section[style*="min-height:min(92vh"] {
-      min-height: 70vh !important;
-    }
-
-    /*  About section: hide the decorative overlay image  */
-    div[style*="position:absolute;right:-28px"],
-    div[style*="position:absolute;left:-26px"] {
-      display: none !important;
-    }
-
-    /*  About main image: remove fixed height so it adapts  */
-    div[style*="height:440px"] {
-      height: clamp(260px, 45vw, 440px) !important;
-    }
-
-    /*  Package rail: allow horizontal scrolling on tablet  */
-    div[style*="scroll-snap-type:x mandatory"] {
-      padding-left: 16px !important;
-      padding-right: 16px !important;
-    }
-  }
-
-  /*  === < 768px : tablets portrait & large phones ===  */
-  @media (max-width: 768px) {
-
-    /*  Header: hide desktop nav, show compact version  */
-    header nav { display: none !important; }
-    header div[style*="margin-left:auto"] button[style*="border-radius:999px"] {
-      padding: 11px 16px !important;
-      font-size: 12.5px !important;
-    }
-
-    /*  Hero: stack columns, shrink padding  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,340px)"] {
-      grid-template-columns: 1fr !important;
-    }
-
-    /*  Hero booking widget: full width  */
-    div[style*="position:relative;background:#FAF6EF;border-radius:26px"] {
-      max-width: 100% !important;
-    }
-
-    /*  Search bar: stack fields vertically  */
-    div[style*="display:flex;flex-wrap:wrap;gap:2px;border:1.5px"] {
-      flex-direction: column !important;
-    }
-    div[style*="display:flex;flex-wrap:wrap;gap:2px;border:1.5px"] > * {
-      border-radius: 14px !important;
-      border: 1.5px solid rgba(22,33,29,.12) !important;
-    }
-    div[style*="display:flex;flex-wrap:wrap;gap:2px;border:1.5px"] button[style*="background:#E5483D"] {
-      width: 100% !important;
-      border-radius: 14px !important;
-    }
-
-    /*  Package cards grid: single column  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,270px)"] {
-      grid-template-columns: 1fr !important;
-    }
-
-    /*  Gallery mosaic: 2-col on tablet  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,150px)"] {
-      grid-template-columns: 1fr 1fr !important;
-      grid-auto-rows: 160px !important;
-    }
-
-    /*  Stats section: 2-col  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,160px)"] {
-      grid-template-columns: 1fr 1fr !important;
-    }
-
-    /*  About grid: full width stacked  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,340px)"] {
-      grid-template-columns: 1fr !important;
-    }
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px)"] {
-      grid-template-columns: 1fr !important;
-    }
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,300px)"] {
-      grid-template-columns: 1fr !important;
-    }
-
-    /*  Package detail: stack sidebar below content  */
-    div[style*="flex:1 1 240px;max-width:302px"] {
-      position: static !important;
-      max-width: 100% !important;
-      width: 100% !important;
-    }
-
-    /*  Testimonial cards  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,290px)"] {
-      grid-template-columns: 1fr !important;
-    }
-
-    /*  CTA banner: single col  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px)"] {
-      grid-template-columns: 1fr !important;
-    }
-  }
-
-  /*  === < 540px : large phones ===  */
-  @media (max-width: 540px) {
-
-    /*  Gallery: single column  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,150px)"] {
-      grid-template-columns: 1fr !important;
-      grid-auto-rows: 220px !important;
-      height: auto !important;
-    }
-
-    /*  Stats: single column  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,160px)"] {
-      grid-template-columns: 1fr !important;
-    }
-
-    /*  FAQ list: full width items  */
-    div[style*="grid-template-columns:repeat(auto-fit,minmax(min(100%,240px)"] {
-      grid-template-columns: 1fr !important;
-    }
-
-    /*  Hero heading: tighter leading  */
-    h1 span { word-break: break-word !important; }
-
-    /*  Contact form: full-width fields  */
-    div[style*="grid-template-columns:1fr 1fr;gap:20px"] {
-      grid-template-columns: 1fr !important;
-    }
-    div[style*="grid-template-columns:1fr 1fr;gap:16px"] {
-      grid-template-columns: 1fr !important;
-    }
-
-    /*  Package card: full width  */
-    div[style*="flex:0 0 clamp(280px"] {
-      flex: 0 0 90vw !important;
-    }
-
-    /*  Header CTA text: truncate if needed  */
-    header div[style*="margin-left:auto"] button {
-      padding: 10px 12px !important;
-      font-size: 12px !important;
-    }
-  }
-
-  /*  === < 375px : small phones ===  */
-  @media (max-width: 375px) {
-    header div[style*="margin-left:auto"] button[style*="Plan"] {
-      display: none !important;
-    }
-    /*  Give header logo more room  */
-    header div[style*="gap:14px;cursor:pointer"] span[style*="letter-spacing"] {
-      display: none !important;
-    }
-  }
-
-
-  /* Custom scrollbar for accordions */
-  .sc-accordion-scroll {
-   
-    /* Ensure hardware acceleration for smooth scrolling on iOS */
-    transform: translateZ(0);
-  }
-  .sc-accordion-scroll::-webkit-scrollbar { width: 6px; }
-  .sc-accordion-scroll::-webkit-scrollbar-track { background: transparent; }
-  .sc-accordion-scroll::-webkit-scrollbar-thumb { background: rgba(58, 74, 68, 0.25); border-radius: 4px; }
-  .sc-accordion-scroll::-webkit-scrollbar-thumb:hover { background: rgba(58, 74, 68, 0.45); }
-</style>
-<script src="./image-slot.js"></script>
-</helmet>
-
-<div style="min-height:100vh;background:#FAF6EF;overflow-x:clip;max-width:100vw;">
-
-  <sc-if value="{{ loading }}" hint-placeholder-val="{{ true }}">
-    <div style="{{ preloaderStyle }}">
-      <img src="Site-logo1.svg" alt="Sahapathika Holidays" style="height:62px;width:auto;animation:rise .8s both" />
-      <div style="width:210px;height:3px;border-radius:99px;background:rgba(22,33,29,.18);margin-top:34px;overflow:hidden">
-        <div style="height:100%;background:#E5483D;transform-origin:left;animation:barfill 1.5s cubic-bezier(.4,0,.2,1) both"></div>
-      </div>
-      <div style="margin-top:18px;font-size:10.5px;letter-spacing:.3em;font-weight:700;color:rgba(22,33,29,.5);animation:fadein 1s .3s both">PREPARING YOUR JOURNEY</div>
-    </div>
-  </sc-if>
-
-  <div style="{{ topBarStyle }}"></div>
-  <sc-if value="{{ wiping }}" hint-placeholder-val="{{ false }}">
-    <div style="position:fixed;inset:0;z-index:95;background:#FAF6EF;pointer-events:none;animation:fadein .22s both"></div>
-  </sc-if>
-
-  <header ref="{{ headerRef }}" style="position:sticky;top:0;z-index:60;background:rgba(251,247,238,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#16211D" onMouseLeave="{{ closeMenu }}">
-    <div style="{{ headerInnerStyle }}">
-      <a href="index.html" onClick="{{ goHome }}" style="display:flex;align-items:center;gap:14px;cursor:pointer;flex:0 0 auto;text-decoration:none;color:inherit;">
-        <img src="Site-logo1.svg" alt="Sahapathika Holidays" style="{{ logoStyle }}" />
-        <span style="width:1px;height:34px;background:rgba(22,33,29,.15)"></span>
-        <span style="font-size:8.5px;letter-spacing:.3em;color:#E5483D;font-weight:700;line-height:1.6;max-width:74px">SINCE<br />2015</span>
-      </a>
-
-      <nav style="display:flex;align-items:center;gap:4px;margin-left:8px" aria-label="Primary">
-        <a href="index.html" onClick="{{ goHome }}" style="text-decoration:none; display:contents;"><button style="{{ navHomeStyle }}"  onMouseEnter="{{ closeMenu }}">Home</button></a>
-        <button style="{{ navDestStyle }}" onMouseEnter="{{ openDest }}">Destinations <span style="font-size:10px">&#x25BE;</span></button>
-        <a href="packages.html" onClick="{{ goPackages }}" style="text-decoration:none; display:contents;"><button style="{{ navPkgStyle }}"  onMouseEnter="{{ openPkg }}">Packages <span style="font-size:10px">&#x25BE;</span></button></a>
-        <a href="about.html" onClick="{{ goAbout }}" style="text-decoration:none; display:contents;"><button style="{{ navAboutStyle }}"  onMouseEnter="{{ closeMenu }}">About</button></a>
-        <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="{{ navContactStyle }}"  onMouseEnter="{{ closeMenu }}">Contact</button></a>
-      </nav>
-
-      <div style="margin-left:auto;display:flex;align-items:center;gap:14px">
-        <a href="tel:+919072769547" style="color:#16211D;font-size:13.5px;font-weight:600;display:flex;align-items:center;gap:8px;opacity:.9" class="sh-tel-link">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z" stroke="#E5483D" strokeWidth="1.5" strokeLinejoin="round"/></svg>
-          +91 90727 69547
-        </a>
-        <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="background:#E5483D;color:#fff;border:0;padding:13px 22px;border-radius:999px;font-size:13.5px;font-weight:700;cursor:pointer;letter-spacing:.01em;transition:transform .2s,box-shadow .25s,background .2s" style-hover="background:#C4362C;transform:scale(1.05);box-shadow:0 12px 26px -12px rgba(229,72,61,.8)"  class="sh-plan-btn">Plan My Trip</button></a>
-
-        <!-- Hamburger — visible only on <=1224px -->
-        <button id="sh-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="sh-mobile-nav"
-          style="display:none;align-items:center;justify-content:center;width:44px;height:44px;background:rgba(22,33,29,.04);border:1.5px solid rgba(22,33,29,.12);border-radius:10px;cursor:pointer;flex-shrink:0;transition:background .2s">
-          <svg id="sh-ham-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="#16211D" stroke-width="2" stroke-linecap="round">
-            <line x1="3" y1="6"  x2="19" y2="6"  class="sh-bar sh-bar-1"/>
-            <line x1="3" y1="11" x2="19" y2="11" class="sh-bar sh-bar-2"/>
-            <line x1="3" y1="16" x2="19" y2="16" class="sh-bar sh-bar-3"/>
-          </svg>
-        </button>
-      </div>
-    </div><!-- /headerInnerStyle -->
-
-
-
-    <sc-if value="{{ menuDest }}" hint-placeholder-val="{{ false }}">
-      <div style="position:absolute;left:0;right:0;top:100%;background:#FAF6EF;color:#1B1A17;border-top:1px solid rgba(255,255,255,.08);box-shadow:0 26px 50px -24px rgba(22,33,29,.42);animation:fadein .18s both">
-        <div style="max-width:1280px;margin:0 auto;padding:34px 24px 38px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:40px">
-          <sc-for list="{{ destGroups }}" as="g" hint-placeholder-count="3">
-            <div style="animation:rise .4s both">
-              <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
-                <span style="font-size:10.5px;letter-spacing:.24em;font-weight:800;color:#C4362C">{{ g.title }}</span>
-                <span style="{{ g.badgeStyle }}">{{ g.badge }}</span>
-              </div>
-              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,84px),1fr));gap:16px">
-                <sc-for list="{{ g.items }}" as="d" hint-placeholder-count="5">
-                  <button style="background:none;border:0;padding:0;cursor:pointer;text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px;transition:transform .25s" style-hover="transform:translateY(-4px)" onClick="{{ d.go }}">
-                    <span style="{{ d.thumbStyle }}">{{ d.initial }}</span>
-                    <span style="font-size:12.5px;font-weight:700;line-height:1.3">{{ d.name }}</span>
-                  </button>
-                </sc-for>
-              </div>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-    </sc-if>
-
-    <sc-if value="{{ menuPkg }}" hint-placeholder-val="{{ false }}">
-      <div style="position:absolute;left:0;right:0;top:100%;background:#FAF6EF;color:#1B1A17;box-shadow:0 26px 50px -24px rgba(22,33,29,.42);animation:fadein .18s both">
-        <div style="max-width:1280px;margin:0 auto;padding:32px 24px 36px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:40px">
-          <div>
-            <div style="font-size:10.5px;letter-spacing:.24em;color:#B5822A;font-weight:800;margin-bottom:16px">BY CATEGORY</div>
-            <div style="display:grid;gap:2px">
-              <sc-for list="{{ menuCats }}" as="c" hint-placeholder-count="5">
-                <button style="background:none;border:0;padding:9px 10px;margin-left:-10px;border-radius:10px;cursor:pointer;text-align:left;font-size:14.5px;font-weight:600;display:flex;align-items:center;gap:10px" style-hover="background:#FDE8E4" onClick="{{ c.go }}"><span style="{{ c.dot }}"></span>{{ c.name }}</button>
-              </sc-for>
-            </div>
-          </div>
-          <div>
-            <div style="font-size:10.5px;letter-spacing:.24em;color:#B5822A;font-weight:800;margin-bottom:16px">JOURNEYS</div>
-            <div style="display:grid;gap:2px">
-              <sc-for list="{{ menuSignature }}" as="p" hint-placeholder-count="6">
-                <button style="background:none;border:0;padding:9px 10px;margin-left:-10px;border-radius:10px;cursor:pointer;text-align:left;font-size:14.5px;font-weight:600;display:flex;justify-content:space-between;gap:16px;align-items:baseline" style-hover="background:#FDE8E4" onClick="{{ p.go }}"><span>{{ p.title }}</span><span style="font-size:11.5px;color:#6B655C;white-space:nowrap">{{ p.duration }}</span></button>
-              </sc-for>
-            </div>
-          </div>
-          <div style="background:#E5483D;border-radius:20px;padding:26px;color:#fff;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
-            <div>
-              <div style="font-family:'Fraunces',serif;font-size:23px;line-height:1.2;margin-bottom:8px">Nothing quite right?</div>
-              <p style="margin:0;font-size:13.5px;line-height:1.6;color:rgba(255,255,255,.85)">Tell us your dates, budget and what you love. We'll build the itinerary around you.</p>
-            </div>
-            <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="background:#fff;color:#C4362C;border:0;padding:13px 20px;border-radius:999px;font-weight:700;font-size:13.5px;cursor:pointer;transition:transform .2s" style-hover="transform:scale(1.04)" >Customise a package &rarr;</button></a>
-          </div>
-        </div>
-      </div>
-    </sc-if>
-  </header>
-
-  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
-  <main>
-
-    <section style="position:relative;min-height:min(92vh,860px);display:flex;align-items:center;overflow:hidden;background:#16211D">
-      <sc-if value="{{ hasHeroVideo }}" hint-placeholder-val="{{ false }}">
-        <img src="hero_image.jpg" alt="Hero Background" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1" />
-      </sc-if>
-      <div style="position:absolute;inset:0;background:linear-gradient(100deg,rgba(22,33,29,.86) 0%,rgba(22,33,29,.6) 42%,rgba(22,33,29,.18) 72%);pointer-events:none;z-index:2"></div>
-
-      <div style="position:relative;z-index:3;max-width:1280px;margin:0 auto;padding:clamp(64px, 10vw, 120px) 24px clamp(48px, 8vw, 96px);width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:56px;align-items:center;pointer-events:none">
-        <div style="color:#FAF6EF;max-width:680px;position:relative">
-          <span style="position:absolute;left:-120px;top:-60px;width:clamp(200px, 50vw, 340px);height:clamp(200px, 50vw, 340px);border-radius:999px;background:radial-gradient(circle,rgba(229,72,61,.42),transparent 68%);filter:blur(46px);animation:drift 18s ease-in-out infinite;pointer-events:none"></span>
-          <span style="position:absolute;left:180px;top:120px;width:clamp(180px, 45vw, 300px);height:clamp(180px, 45vw, 300px);border-radius:999px;background:radial-gradient(circle,rgba(95,169,140,.36),transparent 68%);filter:blur(48px);animation:drift2 22s ease-in-out infinite;pointer-events:none"></span>
-          <h1 style="position:relative;font-family:'Fraunces',serif;font-weight:500;font-size:clamp(42px,5.6vw,82px);line-height:1.02;letter-spacing:-.025em;margin:0">
-            <span style="display:inline-block;animation:blurin .8s .05s both">Discover</span>
-            <span style="display:inline-block;animation:blurin .8s .14s both;font-style:italic;color:#FF8B80">&nbsp;Incredible</span>
-            <span style="display:inline-block;animation:blurin .8s .23s both">&nbsp;India</span>
-            <br />
-            <span style="display:inline-block;animation:blurin .8s .32s both">&amp;</span>
-            <span style="display:inline-block;animation:blurin .8s .41s both">&nbsp;everywhere</span>
-            <span style="display:inline-block;animation:blurin .8s .5s both">&nbsp;beyond</span>
-          </h1>
-          <p style="position:relative;font-size:18px;line-height:1.65;color:rgba(250,246,239,.82);max-width:500px;margin:24px 0 34px;animation:rise .8s .6s both">We plan holidays right across India and abroad. Your trusted travel companion since 2015, approved by Ministry of Tourism Govt of India, Members of IATO and ADTOI.</p>
-          <div style="display:flex;flex-wrap:wrap;gap:14px;pointer-events:auto;animation:rise .8s .7s both">
-            <a href="packages.html" onClick="{{ goPackages }}" style="text-decoration:none; display:contents;"><button style="background:#E5483D;color:#fff;border:0;padding:17px 30px;border-radius:999px;font-weight:700;font-size:15px;cursor:pointer;transition:transform .2s,box-shadow .25s,background .2s" style-hover="background:#C4362C;transform:scale(1.04);box-shadow:0 14px 30px -12px rgba(229,72,61,.75)" >View All Packages</button></a>
-            <a href="package-kerala-ayurveda-wellness-retreat.html" onClick="{{ goDetailAyurveda }}" style="text-decoration:none; display:contents;"><button style="background:rgba(251,247,238,.08);color:#FAF6EF;border:1px solid rgba(251,247,238,.35);padding:17px 30px;border-radius:999px;font-weight:700;font-size:15px;cursor:pointer;backdrop-filter:blur(6px)" style-hover="background:rgba(251,247,238,.18)" >Our signature retreat</button></a>
-          </div>
-          <div style="position:relative;display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;pointer-events:auto">
-            <div style="display:flex;align-items:center;gap:11px;background:rgba(250,246,239,.94);border-radius:16px;padding:12px 18px;box-shadow:0 16px 34px -18px rgba(0,0,0,.5);animation:bob 6s ease-in-out infinite">
-              <svg width="26" height="26" viewBox="0 0 48 48" fill="none"><path d="M24 5 40 11v13c0 10-7 16.5-16 19-9-2.5-16-9-16-19V11L24 5Z" stroke="#E5483D" strokeWidth="1.8" strokeLinejoin="round"/><path d="m17 24 5 5 10-10" stroke="#16211D" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-              <div style="line-height:1.25"><div style="font-weight:800;font-size:13.5px;color:#16211D">Govt. Approved</div><div style="font-size:11.5px;color:#6B655C">Verified agency</div></div>
-            </div>
-            <div style="display:flex;align-items:center;gap:11px;background:rgba(250,246,239,.94);border-radius:16px;padding:12px 18px;box-shadow:0 16px 34px -18px rgba(0,0,0,.5);animation:bob 6s ease-in-out .9s infinite">
-              <div style="font-family:'Fraunces',serif;font-size:24px;color:#E5483D;line-height:1">10+</div>
-              <div style="line-height:1.25"><div style="font-weight:800;font-size:13.5px;color:#16211D">Years of trust</div><div style="font-size:11.5px;color:#6B655C">Since 2015</div></div>
-            </div>
-          </div>
-        </div>
-
-        <div style="pointer-events:auto;background:rgba(251,247,238,.9);backdrop-filter:blur(22px);border:1px solid rgba(255,255,255,.6);border-radius:26px;padding:28px;box-shadow:0 30px 70px -28px rgba(22,33,29,.6);animation:rise .9s .35s both;position:relative;z-index:5;will-change:transform">
-          <div style="font-family:'Fraunces',serif;font-size:26px;letter-spacing:-.01em;margin-bottom:20px">Find your favourite place</div>
-
-          <div style="display:grid;gap:10px">
-            <button style="{{ fieldDestStyle }}" onClick="{{ toggleDest }}">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" stroke="#E5483D" strokeWidth="1.5"/><circle cx="12" cy="10" r="2.4" stroke="#E5483D" strokeWidth="1.5"/></svg>
-              <span style="text-align:left;min-width:0"><span style="display:block;font-weight:700;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ destLabel }}</span><span style="display:block;font-size:12.5px;color:#6B655C;margin-top:2px">Where are you going?</span></span>
-            </button>
-            <sc-if value="{{ openDestList }}" hint-placeholder-val="{{ false }}">
-              <div style="border:1px solid rgba(22,33,29,.1);border-radius:16px;background:#fff;padding:6px;max-height:220px;overflow:auto;animation:fadein .16s both">
-                <sc-for list="{{ destOptions }}" as="o" hint-placeholder-count="6">
-                  <button style="{{ o.style }}" onClick="{{ o.pick }}">{{ o.label }}</button>
-                </sc-for>
-              </div>
-            </sc-if>
-
-            <button style="{{ fieldExpStyle }}" onClick="{{ toggleExp }}">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 15c3-8 9-11 16-11 0 7-3 13-11 16" stroke="#2E6E6A" strokeWidth="1.5" strokeLinejoin="round"/><path d="M4 20c1.5-4.5 5-8 10-10" stroke="#2E6E6A" strokeWidth="1.5" strokeLinecap="round"/></svg>
-              <span style="text-align:left;min-width:0"><span style="display:block;font-weight:700;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ expLabel }}</span><span style="display:block;font-size:12.5px;color:#6B655C;margin-top:2px">Choose an experience</span></span>
-            </button>
-            <sc-if value="{{ openExpList }}" hint-placeholder-val="{{ false }}">
-              <div style="border:1px solid rgba(22,33,29,.1);border-radius:16px;background:#fff;padding:6px;animation:fadein .16s both">
-                <sc-for list="{{ expOptions }}" as="o" hint-placeholder-count="6">
-                  <button style="width:100%;background:none;border:0;text-align:left;padding:10px 12px;border-radius:10px;cursor:pointer;font-size:14px;font-weight:600" style-hover="background:#DCEEE7" onClick="{{ o.pick }}">{{ o.label }}</button>
-                </sc-for>
-              </div>
-            </sc-if>
-
-            <button style="{{ fieldDateStyle }}" onClick="{{ toggleDate }}">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="15" rx="3" stroke="#B5822A" strokeWidth="1.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4" stroke="#B5822A" strokeWidth="1.5" strokeLinecap="round"/></svg>
-              <span style="text-align:left;min-width:0"><span style="display:block;font-weight:700;font-size:15px">{{ dateLabel }}</span><span style="display:block;font-size:12.5px;color:#6B655C;margin-top:2px">{{ dateSub }}</span></span>
-            </button>
-            <sc-if value="{{ openDateList }}" hint-placeholder-val="{{ false }}">
-              <div style="border:1px solid rgba(22,33,29,.1);border-radius:18px;background:#fff;padding:16px;animation:fadein .16s both">
-                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
-                  <button style="background:#FDE8E4;border:0;width:30px;height:30px;border-radius:99px;cursor:pointer;font-weight:700" onClick="{{ prevMonth }}">‹</button>
-                  <div style="font-weight:800;font-size:14px">{{ monthLabel }}</div>
-                  <button style="background:#FDE8E4;border:0;width:30px;height:30px;border-radius:99px;cursor:pointer;font-weight:700" onClick="{{ nextMonth }}">›</button>
-                </div>
-                <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:3px;margin-bottom:6px">
-                  <sc-for list="{{ weekdays }}" as="w" hint-placeholder-count="7">
-                    <div style="text-align:center;font-size:10.5px;font-weight:800;color:#6B655C;letter-spacing:.06em">{{ w.l }}</div>
-                  </sc-for>
-                </div>
-                <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:3px">
-                  <sc-for list="{{ dayCells }}" as="c" hint-placeholder-count="35">
-                    <button style="{{ c.style }}" onClick="{{ c.pick }}">{{ c.label }}</button>
-                  </sc-for>
-                </div>
-                <div style="font-size:11.5px;color:#6B655C;margin-top:12px;text-align:center">Pick your start date — we'll confirm availability by WhatsApp.</div>
-              </div>
-            </sc-if>
-
-            <button style="background:#E5483D;color:#fff;border:0;padding:17px;border-radius:16px;font-weight:800;font-size:15.5px;cursor:pointer;margin-top:4px;transition:transform .2s,box-shadow .25s,background .2s" style-hover="background:#C4362C;transform:scale(1.02);box-shadow:0 14px 30px -12px rgba(229,72,61,.8)" onClick="{{ doSearch }}">Search</button>
-          </div>
-          <div style="text-align:center;font-size:13px;color:#6B655C;margin-top:14px"><strong style="color:#1B1A17">10</strong> packages bookable today · Pan-India &amp; international on request</div>
-        </div>
-      </div>
-    </section>
-
-    <section style="background:#FFFFFF;color:#1B1A17;border-bottom:1px solid rgba(22,33,29,.07)">
-      <div style="max-width:1280px;margin:0 auto;padding:clamp(32px, 5vw, 52px) 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:32px">
-        <div style="display:flex;gap:18px;align-items:flex-start;animation:rise .7s both">
-          <svg width="42" height="42" viewBox="0 0 48 48" fill="none" aria-hidden="true" style="flex:0 0 auto"><path d="M24 5 40 11v13c0 10-7 16.5-16 19-9-2.5-16-9-16-19V11L24 5Z" stroke="#D9A441" strokeWidth="1.5" strokeLinejoin="round" style="stroke-dasharray:1400;animation:draw 1.6s .2s both"/><path d="m17 24 5 5 10-10" stroke="#E5483D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style="stroke-dasharray:1400;animation:draw 1.6s .8s both"/></svg>
-          <div><div style="font-weight:800;font-size:16.5px;margin-bottom:6px">Govt. Approved &amp; Trusted</div><p style="margin:0;font-size:14px;line-height:1.6;color:#6B655C">Honest rates and the best prices across India — no surprise line items.</p></div>
-        </div>
-        <div style="display:flex;gap:18px;align-items:flex-start;animation:rise .7s .1s both">
-          <svg width="42" height="42" viewBox="0 0 48 48" fill="none" aria-hidden="true" style="flex:0 0 auto"><circle cx="24" cy="24" r="18" stroke="#D9A441" strokeWidth="1.5" style="stroke-dasharray:1400;animation:draw 1.6s .3s both"/><path d="M24 13v11l8 5" stroke="#E5483D" strokeWidth="2" strokeLinecap="round" style="stroke-dasharray:1400;animation:draw 1.6s .9s both"/></svg>
-          <div><div style="font-weight:800;font-size:16.5px;margin-bottom:6px">24/7 Client Support</div><p style="margin:0;font-size:14px;line-height:1.6;color:#6B655C">Our team guides you through the whole process, from first enquiry to last mile.</p></div>
-        </div>
-        <div style="display:flex;gap:18px;align-items:flex-start;animation:rise .7s .2s both">
-          <svg width="42" height="42" viewBox="0 0 48 48" fill="none" aria-hidden="true" style="flex:0 0 auto"><path d="M8 34c6-3 10-9 12-15" stroke="#D9A441" strokeWidth="1.5" strokeLinecap="round" style="stroke-dasharray:1400;animation:draw 1.6s .4s both"/><path d="M20 19c4 5 10 9 20 10" stroke="#D9A441" strokeWidth="1.5" strokeLinecap="round" style="stroke-dasharray:1400;animation:draw 1.6s .5s both"/><circle cx="20" cy="19" r="3.4" stroke="#E5483D" strokeWidth="2"/></svg>
-          <div><div style="font-weight:800;font-size:16.5px;margin-bottom:6px">Budget to Luxury, Tailored</div><p style="margin:0;font-size:14px;line-height:1.6;color:#6B655C">Competitive pricing across every kind of trip — homestay to backwater villa.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section style="background:#FAF6EF;border-bottom:1px solid rgba(22,33,29,.07);overflow:hidden;padding:22px 0">
-      <div style="display:flex;width:max-content;animation:marquee 34s linear infinite" style-hover="animation-play-state:paused">
-        <sc-for list="{{ marquee }}" as="m" hint-placeholder-count="12">
-          <span style="display:flex;align-items:center;gap:26px;padding:0 26px;font-size:13px;font-weight:800;letter-spacing:.16em;color:#8E877C;white-space:nowrap">{{ m.label }}<span style="width:5px;height:5px;border-radius:99px;background:#E5483D"></span></span>
-        </sc-for>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:clamp(56px, 8vw, 96px) 24px 24px">
-      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;margin-bottom:44px">
-        <div style="max-width:600px">
-          <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">TOP CATEGORIES</div>
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(32px,4vw,50px);line-height:1.08;letter-spacing:-.02em;margin:0">Eight ways to <span style="font-style:italic;color:#E5483D">travel with us</span></h2>
-        </div>
-        <p style="margin:0;max-width:340px;font-size:15px;line-height:1.7;color:#6B655C">Every category is colour-coded across the site, so you always know what kind of journey you're looking at.</p>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,215px),1fr));gap:18px">
-        <button style="{{ catCardStyle }}" onClick="{{ catKerala }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M8 42h32M12 42V27l12-9 12 9v15M17 27h14M19 21h10M24 9v5M21 12h6" stroke="#16211D" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/><path d="M20 42v-8h8v8" stroke="#E5483D" strokeWidth="1.6"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Kerala Packages</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">The full spread — 10 journeys</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:#FDE8E4;color:#C4362C">SIGNATURE</span>
-        </button>
-        <button style="{{ catCardStyle }}" onClick="{{ catHoneymoon }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 39S9 30 9 20a7.5 7.5 0 0 1 15-3 7.5 7.5 0 0 1 15 3c0 10-15 19-15 19Z" stroke="#16211D" strokeWidth="1.6" strokeLinejoin="round"/><path d="M17 19a5 5 0 0 1 5-4" stroke="#E5483D" strokeWidth="1.6" strokeLinecap="round"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Honeymoon Tours</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">Private, slow, unhurried</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:rgba(196,54,44,.1);color:#C4362C">ROMANCE</span>
-        </button>
-        <button style="{{ catCardStyle }}" onClick="{{ catAyurveda }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true" style="animation:sway 5s ease-in-out infinite;transform-origin:24px 40px"><path d="M38 10c-14 0-22 8-22 18 0 4 2 7 2 7s8-1 14-6c6-5 6-14 6-19Z" stroke="#16211D" strokeWidth="1.6" strokeLinejoin="round"/><path d="M38 10c-8 5-15 14-19 25" stroke="#16211D" strokeWidth="1.6" strokeLinecap="round"/><path d="M13 34c-2 3-2 5 0 6s4-1 3-4c-.6-1.7-3-2-3-2Z" stroke="#2E6E6A" strokeWidth="1.6" strokeLinejoin="round"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Ayurveda &amp; Wellness</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">Therapy, yoga, real rest</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:rgba(46,110,106,.12);color:#2E6E6A">WELLNESS</span>
-        </button>
-        <button style="{{ catCardStyle }}" onClick="{{ catHeritage }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M14 42V22c0-6 4-10 10-10s10 4 10 10v20" stroke="#16211D" strokeWidth="1.6" strokeLinejoin="round"/><path d="M9 42h30M20 42V31a4 4 0 0 1 8 0v11" stroke="#16211D" strokeWidth="1.6" strokeLinejoin="round"/><path d="M24 6v6M18 17h12" stroke="#B5822A" strokeWidth="1.6" strokeLinecap="round"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Heritage &amp; Temple</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">Guruvayur to Bekal</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:rgba(217,164,65,.18);color:#B5822A">HERITAGE</span>
-        </button>
-        <button style="{{ catCardStyle }}" onClick="{{ catBackwater }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M7 32h34l-5 8H12l-5-8Z" stroke="#16211D" strokeWidth="1.6" strokeLinejoin="round"/><path d="M12 32v-7h24v7M16 25v-4h16v4" stroke="#16211D" strokeWidth="1.6" strokeLinejoin="round"/><path d="M5 44c3-2 5-2 8 0s5 2 8 0 5-2 8 0 5 2 8 0" stroke="#5FA98C" strokeWidth="1.6" strokeLinecap="round"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Backwater Cruises</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">Kettuvallam overnights</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:rgba(95,169,140,.2);color:#2F7A63">WATER</span>
-        </button>
-        <button style="{{ catCardStyle }}" onClick="{{ catHill }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M4 38c6-14 10-20 14-20s6 5 10 5 6-6 16-9" stroke="#16211D" strokeWidth="1.6" strokeLinecap="round"/><path d="M4 44h40" stroke="#16211D" strokeWidth="1.6" strokeLinecap="round"/><path d="M9 44c4-3 12-3 16-6s10-4 15-2" stroke="#5FA98C" strokeWidth="1.6" strokeLinecap="round"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Hill Station Escapes</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">Munnar, Thekkady, Wayanad</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:rgba(95,169,140,.2);color:#2F7A63">HIGHLANDS</span>
-        </button>
-        <button style="{{ catCardStyle }}" onClick="{{ catBeach }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="33" cy="15" r="6" stroke="#B5822A" strokeWidth="1.6"/><path d="M4 30c5-10 11-14 14-14 4 0 6 4 6 8v6" stroke="#16211D" strokeWidth="1.6" strokeLinecap="round"/><path d="M4 36c3-2 5-2 8 0s5 2 8 0 5-2 8 0 5 2 8 0M4 42c3-2 5-2 8 0s5 2 8 0 5-2 8 0 5 2 8 0" stroke="#4E8C7E" strokeWidth="1.6" strokeLinecap="round"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Beach &amp; Coastal</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">Kovalam, Varkala, Bekal</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:rgba(78,140,126,.15);color:#3C6F63">COAST</span>
-        </button>
-        <button style="{{ catCardStyle }}" onClick="{{ goContact }}">
-          <svg width="46" height="46" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="17" stroke="#16211D" strokeWidth="1.6"/><path d="M7 24h34M24 7c5 5 5 29 0 34M24 7c-5 5-5 29 0 34" stroke="#16211D" strokeWidth="1.4"/><path d="m30 15 3 6 6 3-6 3-3 6-3-6-6-3 6-3 3-6Z" stroke="#E5483D" strokeWidth="1.4" strokeLinejoin="round" fill="#FAF6EF"/></svg>
-          <div style="font-weight:800;font-size:16px;margin-top:18px">Pan-India &amp; Abroad</div>
-          <div style="font-size:12.5px;color:#6B655C;margin-top:5px">On enquiry — ask us to plan it</div>
-          <span style="margin-top:14px;display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:6px 11px;border-radius:99px;background:#FDE8E4;color:#C4362C">BEYOND</span>
-        </button>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:clamp(56px, 8vw, 96px) 24px">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:64px;align-items:center">
-        <div style="position:relative">
-          <div style="border-radius:26px;overflow:hidden;height:440px;box-shadow:0 24px 60px -28px rgba(22,33,29,.5)">
-            <image-slot id="sh-about-1" src="https://i.pinimg.com/736x/22/93/a2/2293a2dfbe58a3b0f0ebd6de0396ea65.jpg" shape="rect" placeholder="Houseboat moored at dusk, Alleppey"></image-slot>
-          </div>
-          <div style="position:absolute;right:clamp(-14px, -4vw, -28px);bottom:clamp(-21px, -6vw, -42px);width:clamp(140px, 45vw, 220px);height:clamp(160px, 50vw, 250px);border-radius:22px;overflow:hidden;border:8px solid #FAF6EF;box-shadow:0 20px 44px -22px rgba(22,33,29,.5)">
-            <image-slot id="sh-about-2" src="https://i.pinimg.com/736x/75/1e/96/751e9636e5a9f3b2ef002932b1817d3d.jpg" shape="rect" placeholder="Munnar tea terraces in mist"></image-slot>
-          </div>
-          <div style="position:absolute;left:clamp(-13px, -4vw, -26px);top:clamp(17px, 5vw, 34px);background:#D9A441;color:#16211D;border-radius:18px;padding:16px 20px;box-shadow:0 16px 34px -16px rgba(22,33,29,.5)">
-            <div style="font-family:'Fraunces',serif;font-size:30px;line-height:1">10+</div>
-            <div style="font-size:11px;font-weight:800;letter-spacing:.12em;margin-top:4px">YEARS OF TRUST</div>
-          </div>
-        </div>
-        <div>
-          <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">ABOUT SAHAPATHIKA</div>
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(32px,4vw,50px);line-height:1.08;letter-spacing:-.02em;margin:0 0 22px">India &amp; <span style="font-style:italic;color:#E5483D">abroad planners</span></h2>
-          <p style="font-size:16.5px;line-height:1.75;color:#3A4A44;margin:0 0 18px">Since 2015, Sahapathika Holidays has been centered around bringing our clients the best in regard and quality travel arrangements. We are approved by Ministry of Tourism Govt of India, Members of IATO and ADTOI, with offices in Delhi &amp; Kochi — offering hotel bookings, MICE, events and corporate tour packages.</p>
-          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(100%, 200px), 1fr));gap:14px;margin:30px 0 32px">
-            <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;font-weight:600;line-height:1.5"><span style="color:#5FA98C;font-size:17px;line-height:1.2">✓</span>Competitive pricing, wide range</div>
-            <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;font-weight:600;line-height:1.5"><span style="color:#5FA98C;font-size:17px;line-height:1.2">✓</span>24/7 client support</div>
-            <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;font-weight:600;line-height:1.5"><span style="color:#5FA98C;font-size:17px;line-height:1.2">✓</span>Best hotels within your budget</div>
-            <div style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;font-weight:600;line-height:1.5"><span style="color:#5FA98C;font-size:17px;line-height:1.2">✓</span>Honest rates across India</div>
-          </div>
-          <a href="about.html" onClick="{{ goAbout }}" style="text-decoration:none; display:contents;"><button style="background:#16211D;color:#FAF6EF;border:0;padding:16px 28px;border-radius:999px;font-weight:700;font-size:14.5px;cursor:pointer" style-hover="background:#3A4A44" >Read our story</button></a>
-        </div>
-      </div>
-    </section>
-
-    <section style="background:#DCEEE7;padding:92px 0">
-      <div style="max-width:1280px;margin:0 auto;padding:0 24px">
-        <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;margin-bottom:38px">
-          <div style="max-width:620px">
-            <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">FEATURED ESCAPES</div>
-            <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(32px,4vw,50px);line-height:1.08;letter-spacing:-.02em;margin:0">Journeys we <span style="font-style:italic;color:#E5483D">actually run</span></h2>
-          </div>
-          <div style="display:flex;gap:10px">
-            <button style="width:50px;height:50px;border-radius:99px;border:1px solid rgba(22,33,29,.2);background:transparent;cursor:pointer;font-size:19px" style-hover="background:#16211D;color:#FAF6EF" onClick="{{ scrollLeft }}">‹</button>
-            <button style="width:50px;height:50px;border-radius:99px;border:1px solid rgba(22,33,29,.2);background:transparent;cursor:pointer;font-size:19px" style-hover="background:#16211D;color:#FAF6EF" onClick="{{ scrollRight }}">›</button>
-          </div>
-        </div>
-      </div>
-      <div ref="{{ railRef }}" style="display:flex;gap:22px;overflow-x:auto;padding:8px 24px 28px;scroll-snap-type:x mandatory;scrollbar-width:none;max-width:1328px;margin:0 auto">
-        <sc-for list="{{ featured }}" as="p" hint-placeholder-count="4">
-          <div style="flex:0 0 336px;scroll-snap-align:start;background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 12px 32px -12px rgba(22,33,29,.18);cursor:pointer;transition:transform .35s cubic-bezier(.2,.7,.3,1),box-shadow .35s" style-hover="transform:translateY(-8px);box-shadow:0 28px 54px -20px rgba(22,33,29,.34)" onClick="{{ p.go }}">
-            <div style="position:relative;height:220px;overflow:hidden">
-              <div style="position:absolute;inset:0;transition:transform .7s cubic-bezier(.2,.7,.3,1)" style-hover="transform:scale(1.09)"><image-slot id="{{ p.slotId }}" src="{{ p.photo }}" shape="rect" placeholder="{{ p.photoHint }}"></image-slot></div>
-              <span style="{{ p.chipStyle }}">{{ p.cat }}</span>
-              <span style="position:absolute;top:14px;right:14px;background:rgba(250,246,239,.95);color:#16211D;font-size:11.5px;font-weight:800;padding:6px 10px;border-radius:99px;display:flex;align-items:center;gap:4px;animation:popin .45s .35s both">★ 4.9</span>
-            </div>
-            <div style="padding:22px">
-              <div style="display:flex;align-items:center;gap:6px;font-size:12.5px;color:#B5822A;font-weight:700;margin-bottom:10px">★★★★★ <span style="color:#6B655C;font-weight:500">· Reviews coming from live site</span></div>
-              <div style="font-family:'Fraunces',serif;font-size:22px;line-height:1.22;letter-spacing:-.01em;min-height:54px">{{ p.title }}</div>
-              <div style="font-size:13px;color:#6B655C;margin-top:10px;line-height:1.5">{{ p.regions }}</div>
-              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:20px;padding-top:18px;border-top:1px solid rgba(22,33,29,.08)">
-                <div><div style="font-size:11.5px;color:#6B655C">Duration</div><div style="font-weight:800;font-size:14.5px">{{ p.duration }}</div></div>
-                <div style="text-align:right"><div style="font-size:11.5px;color:#6B655C">From</div><div style="font-weight:800;font-size:14.5px;color:#E5483D">{{ p.price }}</div></div>
-              </div>
-            </div>
-          </div>
-        </sc-for>
-      </div>
-      <div style="max-width:1280px;margin:0 auto;padding:0 24px;text-align:center">
-        <a href="packages.html" onClick="{{ goPackages }}" style="text-decoration:none; display:contents;"><button style="background:#E5483D;color:#fff;border:0;padding:16px 32px;border-radius:999px;font-weight:700;font-size:15px;cursor:pointer" style-hover="background:#C4362C" >Browse all packages</button></a>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:clamp(56px, 8vw, 96px) 24px">
-      <div style="background:#DCEEE7;border-radius:32px;color:#16211D;padding:clamp(32px,4vw,64px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:56px;align-items:center;overflow:hidden;position:relative">
-        <div>
-          <div style="display:inline-flex;align-items:center;gap:8px;font-size:10.5px;letter-spacing:.16em;font-weight:800;color:#16211D;background:#D9A441;padding:6px 12px;border-radius:99px;margin-bottom:20px">POLICY — TO BE CONFIRMED WITH CLIENT</div>
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(30px,3.4vw,44px);line-height:1.1;letter-spacing:-.02em;margin:0 0 22px">Plans change. <span style="font-style:italic;color:#E5483D">We get it.</span></h2>
-          <div style="display:grid;gap:18px">
-            <div style="display:flex;gap:14px;align-items:flex-start"><span style="flex:0 0 auto;width:26px;height:26px;border-radius:99px;border:1.5px solid #5FA98C;display:flex;align-items:center;justify-content:center;font-size:13px;color:#5FA98C">1</span><div><div style="font-weight:700;font-size:15.5px">Free cancellation up to <span style="color:#D9A441;border-bottom:1.5px dashed #D9A441">X hours</span> before departure</div><div style="font-size:13.5px;color:#5A6E66;margin-top:3px">Placeholder — confirm the real window before launch.</div></div></div>
-            <div style="display:flex;gap:14px;align-items:flex-start"><span style="flex:0 0 auto;width:26px;height:26px;border-radius:99px;border:1.5px solid #5FA98C;display:flex;align-items:center;justify-content:center;font-size:13px;color:#5FA98C">2</span><div><div style="font-weight:700;font-size:15.5px">Refunds processed within 5–10 business days</div><div style="font-size:13.5px;color:#5A6E66;margin-top:3px">Back to the original payment method.</div></div></div>
-            <div style="display:flex;gap:14px;align-items:flex-start"><span style="flex:0 0 auto;width:26px;height:26px;border-radius:99px;border:1.5px solid #5FA98C;display:flex;align-items:center;justify-content:center;font-size:13px;color:#5FA98C">3</span><div><div style="font-weight:700;font-size:15.5px">Serious illness or medical emergency</div><div style="font-size:13.5px;color:#5A6E66;margin-top:3px">Refund issued on production of a medical certificate.</div></div></div>
-          </div>
-        </div>
-        <div style="display:flex;align-items:center;justify-content:center">
-          <svg width="100%" viewBox="0 0 320 300" fill="none" aria-hidden="true" style="max-width:340px">
-            <path d="M150 268h120M40 268h70" stroke="#5FA98C" strokeWidth="1.6" strokeLinecap="round"/>
-            <path d="M112 268V166c0-8 6-14 14-14h22c8 0 14 6 14 14v102" stroke="#16211D" strokeWidth="1.8" strokeLinejoin="round"/>
-            <circle cx="137" cy="122" r="22" stroke="#16211D" strokeWidth="1.8"/>
-            <path d="M115 122c6-14 16-20 28-18M120 108c8-8 20-8 28-2" stroke="#16211D" strokeWidth="1.6" strokeLinecap="round"/>
-            <path d="M126 268v-52M148 268v-52" stroke="#16211D" strokeWidth="1.6"/>
-            <path d="M112 178 74 208" stroke="#16211D" strokeWidth="1.8" strokeLinecap="round"/>
-            <path d="M162 178l40 16" stroke="#16211D" strokeWidth="1.8" strokeLinecap="round"/>
-            <path d="M74 208c-22-30-8-64 20-72 26-7 44 6 44 6" stroke="#5FA98C" strokeWidth="1.6" strokeLinecap="round" style="stroke-dasharray:1400;animation:draw 2s .3s both"/>
-            <path d="M62 136h84" stroke="#5FA98C" strokeWidth="1.6" strokeLinecap="round"/>
-            <path d="M232 178c0 26-16 40-26 44-10-4-26-18-26-44v-26l26-10 26 10v26Z" fill="#E5483D" stroke="#E5483D" strokeWidth="1.8" strokeLinejoin="round"/>
-            <path d="m194 176 9 9 18-18" stroke="#FAF6EF" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style="stroke-dasharray:1400;animation:draw 2s 1s both"/>
-            <circle cx="256" cy="96" r="16" stroke="#D9A441" strokeWidth="1.8"/>
-            <path d="M256 88v16M252 92h8M252 100h8" stroke="#D9A441" strokeWidth="1.6" strokeLinecap="round"/>
-          </svg>
-        </div>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:0 24px 96px">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:56px;align-items:center">
-        <div>
-          <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">TRAVELLER STORIES</div>
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(32px,4vw,50px);line-height:1.08;letter-spacing:-.02em;margin:0 0 18px">What our <span style="font-style:italic;color:#E5483D">travellers say</span></h2>
-          <p style="font-size:15.5px;line-height:1.7;color:#6B655C;margin:0 0 28px;max-width:360px">Three reviews carried over from the current site. New reviews will flow in from the CMS.</p>
-          <div style="display:flex;gap:9px">
-            <sc-for list="{{ testiDots }}" as="d" hint-placeholder-count="3">
-              <button style="{{ d.style }}" onClick="{{ d.pick }}"></button>
-            </sc-for>
-          </div>
-        </div>
-        <div style="display:grid">
-          <sc-for list="{{ testimonials }}" as="t" hint-placeholder-count="1">
-            <div style="{{ t.style }}">
-              <div style="font-size:19px;color:#D9A441;letter-spacing:2px">★★★★★</div>
-              <p style="font-family:'Fraunces',serif;font-weight:300;font-size:23px;line-height:1.5;letter-spacing:-.01em;margin:18px 0 26px;color:#1B1A17">“{{ t.quote }}”</p>
-              <div style="display:flex;align-items:center;gap:14px">
-                <span style="width:52px;height:52px;border-radius:99px;background:#DCEEE7;color:#2F7A63;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-size:20px">{{ t.initials }}</span>
-                <div><div style="font-weight:800;font-size:15px">{{ t.name }}</div><div style="font-size:13px;color:#6B655C">{{ t.city }}</div></div>
-              </div>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-    </section>
-
-    <section ref="{{ statsRef }}" style="background:#FAF6EF;border-top:1px solid rgba(22,33,29,.09);border-bottom:1px solid rgba(22,33,29,.09)">
-      <div style="max-width:1280px;margin:0 auto;padding:clamp(40px, 6vw, 64px) 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:24px">
-        <sc-for list="{{ stats }}" as="s" hint-placeholder-count="4">
-          <div style="text-align:center">
-            <div style="font-family:'Fraunces',serif;font-size:clamp(38px,4.4vw,58px);line-height:1;letter-spacing:-.03em;color:#16211D;font-variant-numeric:tabular-nums">{{ s.value }}</div>
-            <div style="font-size:13.5px;font-weight:700;color:#3A4A44;margin-top:12px">{{ s.label }}</div>
-            <div style="{{ s.tagStyle }}">{{ s.tag }}</div>
-          </div>
-        </sc-for>
-      </div>
-    </section>
-
-    <section style="max-width:1080px;margin:0 auto;padding:92px 24px;text-align:center">
-      <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">DISCOVER WHAT TO DO</div>
-      <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(30px,3.6vw,46px);line-height:1.1;letter-spacing:-.02em;margin:0 0 34px">Pick a feeling, we'll find the <span style="font-style:italic;color:#E5483D">itinerary</span></h2>
-      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center">
-        <sc-for list="{{ tags }}" as="t" hint-placeholder-count="10">
-          <button style="background:#fff;border:1px solid rgba(22,33,29,.13);padding:13px 22px;border-radius:999px;font-size:14.5px;font-weight:600;cursor:pointer;transition:all .22s" style-hover="background:#16211D;color:#FAF6EF;border-color:#16211D;transform:translateY(-3px)" onClick="{{ t.go }}">{{ t.label }}</button>
-        </sc-for>
-      </div>
-    </section>
-
-    <section style="background:#FDE8E4;padding:92px 0">
-      <div style="max-width:1280px;margin:0 auto;padding:0 24px">
-        <div style="text-align:center;margin-bottom:52px">
-          <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">HOW IT WORKS</div>
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(30px,3.6vw,46px);line-height:1.1;letter-spacing:-.02em;margin:0">Three steps to <span style="font-style:italic;color:#E5483D">your holiday</span></h2>
-        </div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:26px">
-          <div style="background:#FAF6EF;border-radius:24px;padding:38px 32px;position:relative;animation:rise .7s both">
-            <div style="font-family:'Fraunces',serif;font-size:60px;line-height:1;color:rgba(229,72,61,.18);position:absolute;top:22px;right:28px">01</div>
-            <svg width="44" height="44" viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="7" y="10" width="34" height="28" rx="4" stroke="#E5483D" strokeWidth="1.6"/><path d="M13 19h16M13 26h11" stroke="#16211D" strokeWidth="1.6" strokeLinecap="round"/><circle cx="33" cy="28" r="5" stroke="#16211D" strokeWidth="1.6"/></svg>
-            <div style="font-weight:800;font-size:18px;margin:22px 0 10px">Select your package</div>
-            <p style="margin:0;font-size:14.5px;line-height:1.65;color:#6B655C">Browse ten curated Kerala journeys, or ask us to plan anywhere in India and abroad.</p>
-          </div>
-          <div style="background:#FAF6EF;border-radius:24px;padding:38px 32px;position:relative;animation:rise .7s .1s both">
-            <div style="font-family:'Fraunces',serif;font-size:60px;line-height:1;color:rgba(229,72,61,.18);position:absolute;top:22px;right:28px">02</div>
-            <svg width="44" height="44" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M8 12h32v22H22l-8 7v-7H8V12Z" stroke="#E5483D" strokeWidth="1.6" strokeLinejoin="round"/><path d="m18 22 4 4 9-9" stroke="#16211D" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            <div style="font-weight:800;font-size:18px;margin:22px 0 10px">Confirm with an easy enquiry</div>
-            <p style="margin:0;font-size:14.5px;line-height:1.65;color:#6B655C">Send the form or message us on WhatsApp. We reply with a firm quote and dates.</p>
-          </div>
-          <div style="background:#FAF6EF;border-radius:24px;padding:38px 32px;position:relative;animation:rise .7s .2s both">
-            <div style="font-family:'Fraunces',serif;font-size:60px;line-height:1;color:rgba(229,72,61,.18);position:absolute;top:22px;right:28px">03</div>
-            <svg width="44" height="44" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 42s13-11.6 13-21a13 13 0 1 0-26 0c0 9.4 13 21 13 21Z" stroke="#E5483D" strokeWidth="1.6"/><circle cx="24" cy="20" r="4.5" stroke="#16211D" strokeWidth="1.6"/></svg>
-            <div style="font-weight:800;font-size:18px;margin:22px 0 10px">Explore incredible India</div>
-            <p style="margin:0;font-size:14.5px;line-height:1.65;color:#6B655C">Private vehicle, vetted stays, a local number to call at any hour of your trip.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:clamp(56px, 8vw, 96px) 24px">
-      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;margin-bottom:40px">
-        <div>
-          <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">ROYAL LIFE — THE JOURNAL</div>
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(32px,4vw,50px);line-height:1.08;letter-spacing:-.02em;margin:0">Travel stories &amp; <span style="font-style:italic;color:#E5483D">guides</span></h2>
-        </div>
-        <span style="font-size:11px;font-weight:800;letter-spacing:.12em;padding:8px 14px;border-radius:99px;background:#DCEEE7;color:#2F7A63">TEMPLATE — ARTICLES TBC</span>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:26px">
-        <sc-for list="{{ journal }}" as="j" hint-placeholder-count="3">
-          <div style="background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 12px 32px -14px rgba(22,33,29,.18);cursor:pointer;transition:transform .3s" style-hover="transform:translateY(-6px)">
-            <div style="height:196px;overflow:hidden;position:relative"><div style="position:absolute;inset:0;transition:transform .7s cubic-bezier(.2,.7,.3,1)" style-hover="transform:scale(1.08)"><image-slot id="{{ j.slotId }}" src="{{ j.photo }}" shape="rect" placeholder="{{ j.photoHint }}"></image-slot></div></div>
-            <div style="padding:24px">
-              <div style="font-size:11px;font-weight:800;letter-spacing:.14em;color:#B5822A">{{ j.kicker }}</div>
-              <div style="font-family:'Fraunces',serif;font-size:21px;line-height:1.28;margin:12px 0 10px">{{ j.title }}</div>
-              <div style="font-size:13px;color:#6B655C">{{ j.meta }}</div>
-            </div>
-          </div>
-        </sc-for>
-      </div>
-    </section>
-
-    <section style="position:relative;padding:0 0 40px">
-      <div style="max-width:1280px;margin:0 auto;padding:0 24px 44px;text-align:center">
-        <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:14px">FROM OUR TRAVELLERS</div>
-        <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(30px,3.6vw,46px);line-height:1.1;letter-spacing:-.02em;margin:0">@sahapathikaholidays</h2>
-      </div>
-      <div style="max-width:1280px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));grid-auto-rows:150px;gap:14px">
-        <sc-for list="{{ gallery }}" as="g" hint-placeholder-count="6">
-          <div style="{{ g.wrapStyle }}" onClick="{{ g.open }}">
-            <image-slot id="{{ g.slotId }}" src="{{ g.photo }}" shape="rect" placeholder="{{ g.hint }}"></image-slot>
-          </div>
-        </sc-for>
-      </div>
-      <svg viewBox="0 0 1200 180" fill="none" aria-hidden="true" style="width:100%;margin-top:-40px;opacity:.32;pointer-events:none">
-        <path d="M0 150h1200" stroke="#3A4A44" strokeWidth="1.2"/>
-        <path d="M0 158c40-6 70 6 110 0s70-8 110 0 70 6 110 0 70-8 110 0 70 6 110 0 70-8 110 0 70 6 110 0 70-8 110 0 70 6 110 0" stroke="#5FA98C" strokeWidth="1.2"/>
-        <path d="M420 150v-18h280v18M448 132v-14h224v14M470 118c0-12 30-18 60-18s60 6 60 18" stroke="#3A4A44" strokeWidth="1.3" strokeLinejoin="round"/>
-        <path d="M400 150l24-18M720 150l-24-18" stroke="#3A4A44" strokeWidth="1.3"/>
-        <path d="M250 150V80M250 80c-16-10-34-6-42 6 16-2 30 0 42-6ZM250 80c16-10 34-6 42 6-16-2-30 0-42-6ZM250 80c-6-16-2-30 10-38-4 16-4 28-10 38ZM250 80c6-16 2-30-10-38 4 16 4 28 10 38Z" stroke="#3A4A44" strokeWidth="1.3" strokeLinejoin="round"/>
-        <path d="M960 150V92M960 92c-14-9-30-5-37 5 14-2 26 0 37-5ZM960 92c14-9 30-5 37 5-14-2-26 0-37-5ZM960 92c-5-14-2-26 9-33-4 14-4 24-9 33Z" stroke="#3A4A44" strokeWidth="1.3" strokeLinejoin="round"/>
-        <path d="M60 150v-46h6l30-26 30 26h6v46M96 78v-14" stroke="#3A4A44" strokeWidth="1.3" strokeLinejoin="round"/>
-        <path d="M66 108h60M72 122h48" stroke="#3A4A44" strokeWidth="1.1"/>
-        <path d="M1080 150v-40l40-26 40 26v40" stroke="#3A4A44" strokeWidth="1.3" strokeLinejoin="round"/>
-      </svg>
-    </section>
-
-    <section style="background:#DCEEE7;padding:74px 0">
-      <div style="max-width:1180px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:48px;align-items:center">
-        <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(28px,3.2vw,42px);line-height:1.14;letter-spacing:-.02em;margin:0">Subscribe for <span style="font-style:italic;color:#E5483D">10% off</span> your first holiday with us.</h2>
-        <sc-if value="{{ notSubscribed }}" hint-placeholder-val="{{ true }}">
-          <div class="nl-pill" style="display:flex;gap:10px;background:#FAF6EF;border-radius:999px;padding:8px 8px 8px 24px;box-shadow:0 12px 30px -16px rgba(22,33,29,.3)">
-            <input type="email" placeholder="Email address" value="{{ email }}" onChange="{{ setEmail }}" style="flex:1;border:0;background:transparent;outline:none;font-size:15px;min-width:0" />
-            <button style="background:#E5483D;color:#fff;border:0;width:52px;height:52px;border-radius:99px;cursor:pointer;flex:0 0 auto" style-hover="background:#C4362C" onClick="{{ subscribe }}" aria-label="Subscribe">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style="margin-top:2px"><path d="M3 20 21 12 3 4l3 8-3 8Z" stroke="#fff" strokeWidth="1.6" strokeLinejoin="round"/></svg>
-            </button>
-          </div>
-        </sc-if>
-        <sc-if value="{{ subscribed }}" hint-placeholder-val="{{ false }}">
-          <div style="display:flex;align-items:center;gap:14px;background:#FAF6EF;border-radius:999px;padding:18px 26px;animation:rise .5s both">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10.2" stroke="#5FA98C" strokeWidth="1.6"/><path d="m7.5 12.3 3 3 6-6.4" stroke="#5FA98C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style="stroke-dasharray:1400;animation:draw 1s both"/></svg>
-            <div style="font-weight:700;font-size:15.5px">You're on the list — your code is on its way.</div>
-          </div>
-        </sc-if>
-      </div>
-    </section>
-
-  </main>
-  </sc-if>
-
-  <sc-if value="{{ isPackages }}" hint-placeholder-val="{{ false }}">
-  <main>
-    <section style="background:#FAF6EF;color:#1B1A17;padding:58px 0 40px">
-      <div style="max-width:1280px;margin:0 auto;padding:0 24px">
-        <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:16px">MY PACKAGES</div>
-        <h1 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(36px,4.6vw,62px);line-height:1.04;letter-spacing:-.025em;margin:0;max-width:820px">Journeys we actually run, across <span style="font-style:italic;color:#E5483D">Kerala — and beyond</span></h1>
-        <p style="font-size:16.5px;line-height:1.7;color:#6B655C;max-width:600px;margin:20px 0 0">Every package below is one we actually operate. Durations marked TBC are being confirmed against the live itineraries.</p>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:44px 24px 96px">
-      <div style="display:flex;flex-wrap:wrap;gap:44px;align-items:flex-start">
-        <aside class="pkg-aside" style="{{ pkgAsideStyle }}">
-          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:22px">
-            <div style="font-weight:800;font-size:15px">Filters</div>
-            <button style="background:none;border:0;color:#E5483D;font-size:12.5px;font-weight:700;cursor:pointer;padding:0" onClick="{{ clearFilters }}">Reset</button>
-          </div>
-          <div style="font-size:10.5px;letter-spacing:.2em;font-weight:800;color:#B5822A;margin-bottom:12px">CATEGORY</div>
-          <div style="display:grid;gap:7px;margin-bottom:26px">
-            <sc-for list="{{ catChips }}" as="c" hint-placeholder-count="7">
-              <button style="{{ c.style }}" onClick="{{ c.pick }}"><span style="{{ c.dot }}"></span>{{ c.label }}<span style="margin-left:auto;font-size:11.5px;opacity:.6">{{ c.count }}</span></button>
-            </sc-for>
-          </div>
-          <div style="font-size:10.5px;letter-spacing:.2em;font-weight:800;color:#B5822A;margin-bottom:12px">REGION</div>
-          <div style="display:grid;gap:7px">
-            <sc-for list="{{ regionChips }}" as="r" hint-placeholder-count="5">
-              <button style="{{ r.style }}" onClick="{{ r.pick }}">{{ r.label }}<span style="margin-left:auto;font-size:11.5px;opacity:.6">{{ r.count }}</span></button>
-            </sc-for>
-          </div>
-          <div style="margin-top:28px;padding-top:24px;border-top:1px solid rgba(22,33,29,.08)">
-            <div style="font-family:'Fraunces',serif;font-size:19px;line-height:1.25;margin-bottom:10px">Can't find your trip?</div>
-            <p style="margin:0 0 16px;font-size:13.5px;line-height:1.6;color:#6B655C">We build custom itineraries for families, groups and pilgrimages.</p>
-            <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="background:#16211D;color:#FAF6EF;border:0;padding:12px 18px;border-radius:999px;font-weight:700;font-size:13px;cursor:pointer;width:100%" >Customise a package</button></a>
-          </div>
-        </aside>
-
-        <div style="flex:999 1 460px;min-width:0">
-          <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:26px">
-            <div style="font-size:14.5px;color:#6B655C"><strong style="color:#1B1A17;font-size:16px">{{ resultCount }}</strong> {{ resultNoun }} · {{ activeLabel }}</div>
-            <div style="display:flex;gap:7px">
-              <sc-for list="{{ sorts }}" as="o" hint-placeholder-count="3">
-                <button style="{{ o.style }}" onClick="{{ o.pick }}">{{ o.label }}</button>
-              </sc-for>
-            </div>
-          </div>
-
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:24px">
-            <sc-for list="{{ results }}" as="p" hint-placeholder-count="4">
-              <div style="background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 12px 32px -14px rgba(22,33,29,.18);cursor:pointer;transition:transform .34s cubic-bezier(.2,.7,.3,1),box-shadow .34s;animation:rise .5s both" style-hover="transform:translateY(-8px);box-shadow:0 28px 54px -20px rgba(22,33,29,.32)" onClick="{{ p.go }}">
-                <div style="position:relative;height:212px;overflow:hidden">
-                  <div style="position:absolute;inset:0;transition:transform .7s cubic-bezier(.2,.7,.3,1)" style-hover="transform:scale(1.09)"><image-slot id="{{ p.listSlot }}" src="{{ p.photo }}" shape="rect" placeholder="{{ p.hint }}"></image-slot></div>
-                  <span style="{{ p.chipStyle }}">{{ p.cat }}</span>
-                  <span style="position:absolute;top:14px;right:14px;background:rgba(250,246,239,.95);color:#16211D;font-size:11.5px;font-weight:800;padding:6px 10px;border-radius:99px;animation:popin .45s .3s both">★ 4.9</span>
-                </div>
-                <div style="padding:24px">
-                  <div style="font-size:11.5px;font-weight:700;color:#B5822A;letter-spacing:.1em">{{ p.region }}</div>
-                  <div style="font-family:'Fraunces',serif;font-size:23px;line-height:1.2;letter-spacing:-.01em;margin:10px 0 10px;min-height:56px">{{ p.title }}</div>
-                  <div style="font-size:13px;color:#6B655C;line-height:1.55;min-height:40px">{{ p.regions }}</div>
-                  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:18px;padding-top:18px;border-top:1px solid rgba(22,33,29,.08)">
-                    <div style="font-weight:800;font-size:14.5px">{{ p.duration }}</div>
-                    <div style="font-size:13.5px;font-weight:800;color:#E5483D">View package &rarr;</div>
-                  </div>
-                </div>
-              </div>
-            </sc-for>
-          </div>
-
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:24px;margin-top:24px">
-            <div style="background:#DCEEE7;border-radius:24px;padding:32px;display:flex;flex-direction:column;gap:14px;animation:rise .6s both">
-              <span style="align-self:flex-start;font-size:10px;font-weight:800;letter-spacing:.14em;background:#fff;color:#2F7A63;padding:6px 12px;border-radius:99px">COMING SOON</span>
-              <div style="font-family:'Fraunces',serif;font-size:26px;line-height:1.2">Pan-India packages</div>
-              <p style="margin:0;font-size:14.5px;line-height:1.65;color:#4A6159">Rajasthan, the Golden Triangle, Goa, Himachal and the Northeast — we already book these as custom trips. Fixed itineraries are being written now.</p>
-              <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="margin-top:auto;align-self:flex-start;background:#E5483D;color:#fff;border:0;padding:13px 22px;border-radius:999px;font-weight:700;font-size:13.5px;cursor:pointer;transition:transform .2s,box-shadow .2s" style-hover="transform:scale(1.04);box-shadow:0 10px 22px -10px rgba(229,72,61,.7)" >Ask us to plan one &rarr;</button></a>
-            </div>
-            <div style="background:#fff;border:1px dashed rgba(22,33,29,.18);border-radius:24px;padding:32px;display:flex;flex-direction:column;gap:14px;animation:rise .6s .1s both">
-              <span style="align-self:flex-start;font-size:10px;font-weight:800;letter-spacing:.14em;background:#FDE8E4;color:#C4362C;padding:6px 12px;border-radius:99px">EXPLORE MORE</span>
-              <div style="font-family:'Fraunces',serif;font-size:26px;line-height:1.2">International holidays</div>
-              <p style="margin:0;font-size:14.5px;line-height:1.65;color:#6B655C">Hotels, MICE and corporate travel abroad — arranged on enquiry today. Join the list and we'll tell you when packaged departures open.</p>
-              <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="margin-top:auto;align-self:flex-start;background:transparent;color:#16211D;border:1.5px solid rgba(22,33,29,.18);padding:13px 22px;border-radius:999px;font-weight:700;font-size:13.5px;cursor:pointer;transition:all .2s" style-hover="background:#16211D;color:#FAF6EF;border-color:#16211D" >Join the waitlist</button></a>
-            </div>
-          </div>
-          <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
-            <div style="background:#fff;border:1px dashed rgba(22,33,29,.18);border-radius:24px;padding:64px 40px;text-align:center">
-              <svg width="140" height="100" viewBox="0 0 200 140" fill="none" aria-hidden="true" style="margin-bottom:18px"><path d="M40 110c-12-6-16-22-8-34 8-12 26-14 36-6 8-16 30-20 44-10 12 9 12 26 4 34" stroke="#5FA–Z" stroke="#3A4A44" strokeWidth="1.6" strokeLinejoin="round"/><path d="M148 76h26M148 88h18" stroke="#B5822A" strokeWidth="1.4" strokeLinecap="round"/></svg>
-              <div style="font-family:'Fraunces',serif;font-size:26px;margin-bottom:8px">This trail isn't mapped yet</div>
-              <p style="margin:0 0 22px;color:#6B655C;font-size:15px">No packages match that combination — but we can build one for you.</p>
-              <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="background:#E5483D;color:#fff;border:0;padding:14px 26px;border-radius:999px;font-weight:700;cursor:pointer" >Request a custom itinerary</button></a>
-            </div>
-          </sc-if>
-        </div>
-      </div>
-    </section>
-  </main>
-  </sc-if>
-
-  <sc-if value="{{ isDetail }}" hint-placeholder-val="{{ false }}">
-  <main>
-    <section style="max-width:1328px;margin:0 auto;padding:26px 24px 0">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));grid-template-rows:150px 150px;gap:12px;height:312px">
-        <div style="grid-row:span 2;border-radius:24px;overflow:hidden;position:relative">
-          <image-slot id="sh-d1" src="{{ detail.photo }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot>
-        </div>
-        <div style="border-radius:24px;overflow:hidden"><image-slot id="sh-d2" src="{{ detail.photo2 }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot></div>
-        <div style="border-radius:24px;overflow:hidden;position:relative">
-          <image-slot id="sh-d3" src="{{ detail.photo3 }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot>
-          <button style="position:absolute;right:16px;bottom:16px;background:rgba(22,33,29,.82);color:#FAF6EF;border:0;padding:11px 18px;border-radius:999px;font-size:12.5px;font-weight:700;cursor:pointer;backdrop-filter:blur(6px)" onClick="{{ openGallery }}">More photos</button>
-        </div>
-      </div>
-    </section>
-
-    <section style="max-width:1328px;margin:0 auto;padding:40px 24px 96px">
-      <div style="display:flex;flex-wrap:wrap;gap:52px;align-items:flex-start">
-        <div style="flex:999 1 520px;min-width:0">
-          <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px">
-            <span style="{{ detail.flatChip }}">{{ detail.cat }}</span>
-            <span style="font-size:13px;color:#6B655C">{{ detail.region }}</span>
-          </div>
-          <h1 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(32px,4vw,52px);line-height:1.06;letter-spacing:-.025em;margin:0 0 26px">{{ detail.title }}</h1>
-
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,135px),1fr));gap:1px;background:rgba(22,33,29,.1);border-radius:18px;overflow:hidden;margin-bottom:44px">
-            <sc-for list="{{ detail.facts }}" as="f" hint-placeholder-count="5">
-              <div style="background:#FAF6EF;padding:20px 18px">
-                <div style="font-size:10.5px;letter-spacing:.14em;font-weight:800;color:#B5822A;margin-bottom:8px">{{ f.k }}</div>
-                <div style="font-size:13.5px;font-weight:700;line-height:1.45">{{ f.v }}</div>
-              </div>
-            </sc-for>
-          </div>
-
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 16px">Overview</h2>
-          <p style="font-size:16.5px;line-height:1.8;color:#3A4A44;margin:0 0 40px;max-width:720px;text-wrap:pretty">{{ detail.overview }}</p>
-
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 20px">Highlights</h2>
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;margin-bottom:48px">
-            <sc-for list="{{ detail.highlights }}" as="h" hint-placeholder-count="6">
-              <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 6px 16px -12px rgba(22,33,29,.2)">
-                <span style="color:#5FA98C;font-size:16px;line-height:1.3;flex:0 0 auto">✓</span>
-                <span style="font-size:14.5px;line-height:1.55;font-weight:600">{{ h.t }}</span>
-              </div>
-            </sc-for>
-          </div>
-
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 22px">Day-by-day itinerary</h2>
-          <sc-if value="{{ detail.hasItinerary }}" hint-placeholder-val="{{ true }}">
-            <div style="position:relative;padding-left:34px;margin-bottom:48px">
-              <div style="position:absolute;left:11px;top:14px;bottom:14px;width:1.5px;background:linear-gradient(#E5483D,#D9A441,#5FA98C)"></div>
-              <div style="display:grid;gap:10px">
-                <sc-for list="{{ detail.days }}" as="d" hint-placeholder-count="6">
-                  <div style="position:relative">
-                    <span style="{{ d.nodeStyle }}"></span>
-                    <button style="{{ d.headStyle }}" onClick="{{ d.toggle }}">
-                      <span style="font-size:10.5px;letter-spacing:.16em;font-weight:800;color:#B5822A;display:block;margin-bottom:5px">{{ d.n }}</span>
-                      <span style="font-family:'Fraunces',serif;font-size:20px;letter-spacing:-.01em">{{ d.title }}</span>
-                      <span style="{{ d.iconStyle }}">›</span>
-                    </button>
-                    <div style="{{ d.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch;"><div style="padding:0 24px 22px;display:flex;flex-direction:column;gap:12px;"><sc-for list="{{ d.body }}" as="para"><p style="margin:0;font-size:15px;line-height:1.75;color:#3A4A44">{{ para }}</p></sc-for></div></div></div>
-                  </div>
-                </sc-for>
-              </div>
-            </div>
-          </sc-if>
-          <sc-if value="{{ detail.noItinerary }}" hint-placeholder-val="{{ false }}">
-            <div style="border:1px dashed rgba(181,130,42,.5);background:rgba(217,164,65,.1);border-radius:18px;padding:28px;margin-bottom:48px">
-              <div style="font-size:10.5px;letter-spacing:.16em;font-weight:800;color:#8A6316;margin-bottom:8px">ITINERARY — TO BE CONFIRMED</div>
-              <p style="margin:0;font-size:15px;line-height:1.7;color:#3A4A44">The full day-by-day breakdown for this package is being pulled from the live site. The Ayurveda &amp; Wellness Retreat shows the complete template.</p>
-            </div>
-          </sc-if>
-
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 20px">Where you'll be</h2>
-          <div style="height:350px;border-radius:22px;overflow:hidden;background:#DCEEE7;position:relative;margin-bottom:48px;border:1px solid rgba(95,169,140,.4)">
-            <iframe src="{{ detail.mapUrl }}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen loading="lazy"></iframe>
-          </div>
-
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 20px">What's included</h2>
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:32px;margin-bottom:48px">
-            <div style="background:#fff;border-radius:20px;padding:26px">
-              <div style="font-weight:800;font-size:14px;color:#2F7A63;margin-bottom:16px;display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border-radius:99px;background:rgba(95,169,140,.22);color:#2F7A63;display:flex;align-items:center;justify-content:center;font-size:12px">✓</span>Included</div>
-              <div style="display:grid;gap:11px">
-                <sc-for list="{{ detail.includes }}" as="i" hint-placeholder-count="6"><div style="font-size:14.5px;line-height:1.6;color:#3A4A44;display:flex;align-items:flex-start;gap:10px"><span style="color:#5FA98C;font-size:16px;line-height:1.3;flex:0 0 auto">✓</span><div>{{ i.t }}</div></div></sc-for>
-              </div>
-            </div>
-            <div style="background:#fff;border-radius:20px;padding:26px">
-              <div style="font-weight:800;font-size:14px;color:#C4362C;margin-bottom:16px;display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border-radius:99px;background:#FDE8E4;color:#C4362C;display:flex;align-items:center;justify-content:center;font-size:12px">×</span>Not included</div>
-              <div style="display:grid;gap:11px">
-                <sc-for list="{{ detail.excludes }}" as="i" hint-placeholder-count="5"><div style="font-size:14.5px;line-height:1.6;color:#3A4A44;display:flex;align-items:flex-start;gap:10px"><span style="color:#E5483D;font-size:14px;line-height:1.4;flex:0 0 auto">✕</span><div>{{ i.t }}</div></div></sc-for>
-              </div>
-            </div>
-          </div>
-
-          <div style="background:#DCEEE7;border-radius:20px;padding:28px;margin-bottom:48px">
-            <div style="font-size:10.5px;letter-spacing:.16em;font-weight:800;color:#2F7A63;margin-bottom:14px">IMPORTANT NOTES</div>
-            <div style="display:grid;gap:9px">
-              <sc-for list="{{ detail.notes }}" as="n" hint-placeholder-count="4"><div style="font-size:14.5px;line-height:1.65;color:#16211D">— {{ n.t }}</div></sc-for>
-            </div>
-          </div>
-
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 20px">Frequently asked</h2>
-          <div style="display:grid;gap:10px;margin-bottom:48px">
-            <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="4">
-              <div style="background:#fff;border-radius:16px;overflow:hidden">
-                <button style="{{ f.headStyle }}" onClick="{{ f.toggle }}">{{ f.q }}<span style="{{ f.iconStyle }}">›</span></button>
-                <div style="{{ f.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch;"><p style="margin:0;padding:0 22px 20px;font-size:14.5px;line-height:1.7;color:#3A4A44">{{ f.a }}</p></div></div>
-              </div>
-            </sc-for>
-          </div>
-
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-.02em;margin:0 0 8px">Reviews</h2>
-          <div style="background:#fff;border:1px dashed rgba(22,33,29,.16);border-radius:20px;padding:32px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
-            <div style="font-family:'Fraunces',serif;font-size:52px;line-height:1;color:rgba(27,26,23,.25)">—</div>
-            <div><div style="font-weight:800;font-size:15.5px;margin-bottom:5px">No reviews yet for this package</div><div style="font-size:14px;color:#6B655C">Reviews will populate from the CMS once collected. We won't seed fabricated ones.</div></div>
-          </div>
-        </div>
-
-        <aside class="detail-aside" style="{{ detailAsideStyle }}">
-          <div style="background:#fff;border-radius:24px;padding:28px;box-shadow:0 20px 48px -24px rgba(22,33,29,.3);border:1px solid rgba(22,33,29,.06)">
-            <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:4px">
-              <div><div style="font-size:12.5px;color:#6B655C">Starting from</div><div style="font-family:'Fraunces',serif;font-size:32px;line-height:1.1;margin-top:2px">On enquiry</div></div>
-              <div style="font-size:12px;color:#6B655C;text-align:right">per person</div>
-            </div>
-            <div style="font-size:11.5px;color:#8A6316;background:rgba(217,164,65,.16);border-radius:10px;padding:9px 12px;margin:14px 0 20px;line-height:1.5">Live pricing pending — the client operates on quoted enquiries today.</div>
-
-            <div style="display:grid;gap:10px;margin-bottom:16px">
-              <button style="{{ bookDateStyle }}" onClick="{{ toggleDate }}">
-                <span style="font-size:11px;letter-spacing:.14em;font-weight:800;color:#B5822A;display:block;margin-bottom:4px">TRAVEL DATE</span>
-                <span style="font-weight:700;font-size:15px">{{ dateLabel }}</span>
-              </button>
-              <sc-if value="{{ openDateList }}" hint-placeholder-val="{{ false }}">
-                <div style="border:1px solid rgba(22,33,29,.1);border-radius:16px;padding:14px;animation:fadein .16s both">
-                  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-                    <button style="background:#FDE8E4;border:0;width:28px;height:28px;border-radius:99px;cursor:pointer;font-weight:700" onClick="{{ prevMonth }}">‹</button>
-                    <div style="font-weight:800;font-size:13.5px">{{ monthLabel }}</div>
-                    <button style="background:#FDE8E4;border:0;width:28px;height:28px;border-radius:99px;cursor:pointer;font-weight:700" onClick="{{ nextMonth }}">›</button>
-                  </div>
-                  <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-bottom:4px">
-                    <sc-for list="{{ weekdays }}" as="w" hint-placeholder-count="7"><div style="text-align:center;font-size:10px;font-weight:800;color:#6B655C">{{ w.l }}</div></sc-for>
-                  </div>
-                  <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:2px">
-                    <sc-for list="{{ dayCells }}" as="c" hint-placeholder-count="35"><button style="{{ c.style }}" onClick="{{ c.pick }}">{{ c.label }}</button></sc-for>
-                  </div>
-                </div>
-              </sc-if>
-
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
-                <div style="border:1.5px solid rgba(22,33,29,.1);border-radius:14px;padding:12px 14px">
-                  <div style="font-size:11px;letter-spacing:.14em;font-weight:800;color:#B5822A;margin-bottom:8px">ADULTS</div>
-                  <div style="display:flex;align-items:center;justify-content:space-between">
-                    <button style="{{ stepBtnStyle }}" onClick="{{ adultsDown }}">−</button><span style="font-weight:800;font-size:16px">{{ adults }}</span><button style="{{ stepBtnStyle }}" onClick="{{ adultsUp }}">+</button>
-                  </div>
-                </div>
-                <div style="border:1.5px solid rgba(22,33,29,.1);border-radius:14px;padding:12px 14px">
-                  <div style="font-size:11px;letter-spacing:.14em;font-weight:800;color:#B5822A;margin-bottom:8px">CHILDREN</div>
-                  <div style="display:flex;align-items:center;justify-content:space-between">
-                    <button style="{{ stepBtnStyle }}" onClick="{{ kidsDown }}">−</button><span style="font-weight:800;font-size:16px">{{ kids }}</span><button style="{{ stepBtnStyle }}" onClick="{{ kidsUp }}">+</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <button style="background:#E5483D;color:#fff;border:0;padding:17px;border-radius:14px;font-weight:800;font-size:15.5px;cursor:pointer;width:100%" style-hover="background:#C4362C" onClick="{{ bookNow }}">Book Now — send enquiry</button>
-            <a href="https://wa.me/919072769547" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:9px;margin-top:10px;padding:15px;border-radius:14px;border:1.5px solid rgba(22,33,29,.14);color:#16211D;font-weight:700;font-size:14.5px">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.05-1.32A10 10 0 1 0 12 2Z"/></svg>Chat on WhatsApp
-            </a>
-            <div style="font-size:12px;color:#6B655C;text-align:center;margin-top:14px;line-height:1.55">Free cancellation window <span style="border-bottom:1.5px dashed #B5822A;color:#8A6316">TBC</span> · confirmed on advance payment</div>
-          </div>
-
-          <div style="background:#DCEEE7;color:#16211D;border-radius:24px;padding:26px">
-            <div style="font-family:'Fraunces',serif;font-size:20px;margin-bottom:8px">Talk to a local specialist</div>
-            <p style="margin:0 0 16px;font-size:13.5px;line-height:1.6;color:#5A6E66">Our team is based in Kochi. Call between 9am and 9pm IST, or any hour once you're travelling.</p>
-            <a href="tel:+919072769547" style="color:#C4362C;font-weight:800;font-size:16px">+91 90727 69547</a>
-          </div>
-        </aside>
-      </div>
-
-      <div style="margin-top:20px">
-        <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(28px,3.2vw,40px);letter-spacing:-.02em;margin:0 0 24px">You may also like</h2>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:22px">
-          <sc-for list="{{ related }}" as="p" hint-placeholder-count="3">
-            <div style="background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 12px 30px -14px rgba(22,33,29,.18);cursor:pointer;transition:transform .3s" style-hover="transform:translateY(-6px)" onClick="{{ p.go }}">
-              <div style="position:relative;height:180px;overflow:hidden"><div style="position:absolute;inset:0;transition:transform .7s cubic-bezier(.2,.7,.3,1)" style-hover="transform:scale(1.09)"><image-slot id="{{ p.relSlot }}" src="{{ p.photo }}" shape="rect" placeholder="{{ p.hint }}"></image-slot></div><span style="{{ p.chipStyle }}">{{ p.cat }}</span></div>
-              <div style="padding:22px">
-                <div style="font-family:'Fraunces',serif;font-size:20px;line-height:1.22;min-height:48px">{{ p.title }}</div>
-                <div style="font-size:13px;color:#6B655C;margin-top:10px">{{ p.duration }} · {{ p.region }}</div>
-              </div>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-    </section>
-  </main>
-  </sc-if>
-
-  <sc-if value="{{ isAbout }}" hint-placeholder-val="{{ false }}">
-  <main>
-    <section style="max-width:1280px;margin:0 auto;padding:76px 24px 0">
-      <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:18px">ABOUT US</div>
-      <h1 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(38px,5.2vw,74px);line-height:1.02;letter-spacing:-.028em;margin:0;max-width:900px">Sahapathika Holidays — a travel agency <span style="font-style:italic;color:#E5483D">since 2015</span></h1>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:56px 24px 0">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));grid-template-rows:300px 220px;gap:18px">
-        <div style="grid-row:span 2;border-radius:26px;overflow:hidden"><image-slot id="sh-ab-1" src="https://i.pinimg.com/736x/22/93/a2/2293a2dfbe58a3b0f0ebd6de0396ea65.jpg" shape="rect" placeholder="The Sahapathika team at the Kochi office"></image-slot></div>
-        <div style="border-radius:26px;overflow:hidden"><image-slot id="sh-ab-2" src="https://i.pinimg.com/736x/b4/88/63/b48863982d7b8c63a8d633405da62b2b.jpg" shape="rect" placeholder="Backwater houseboat at golden hour"></image-slot></div>
-        <div style="border-radius:26px;overflow:hidden;background:#FDE8E4;color:#16211D;padding:30px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid rgba(229,72,61,.18)">
-          <div style="font-size:10.5px;letter-spacing:.2em;font-weight:800">GOVT. APPROVED</div>
-          <div><div style="font-family:'Fraunces',serif;font-size:44px;line-height:1">17.11.2015</div><div style="font-size:13px;font-weight:700;margin-top:6px">The day we started</div></div>
-        </div>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:76px 24px">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:64px;align-items:start">
-        <p style="font-family:'Fraunces',serif;font-weight:300;font-size:clamp(22px,2.4vw,30px);line-height:1.45;letter-spacing:-.015em;margin:0;color:#16211D;text-wrap:pretty">Since 2015, Sahapathika Holidays has been centered around bringing our clients the best in regard and quality travel arrangements.</p>
-        <div>
-          <p style="font-size:16.5px;line-height:1.8;color:#3A4A44;margin:0 0 18px">We are approved by Ministry of Tourism Govt of India, Members of IATO and ADTOI, with offices in <strong>Delhi &amp; Kochi</strong>, offering hotel bookings, MICE, events, corporate tour packages and more.</p>
-          <p style="font-size:16.5px;line-height:1.8;color:#3A4A44;margin:0">Kerala is home, so it's where we go deepest — ten curated journeys covering backwaters, hill stations, temples, coast and wellness. Beyond that we plan pan-India and international holidays, on any budget.</p>
-        </div>
-      </div>
-    </section>
-
-    <section style="background:#DCEEE7;padding:88px 0">
-      <div style="max-width:1280px;margin:0 auto;padding:0 24px">
-        <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(30px,3.6vw,46px);letter-spacing:-.02em;margin:0 0 44px">Why choose us</h2>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:20px">
-          <sc-for list="{{ whyUs }}" as="w" hint-placeholder-count="6">
-            <div style="background:#FAF6EF;border-radius:20px;padding:30px;animation:rise .6s both">
-              <div style="font-family:'Fraunces',serif;font-size:15px;color:#5FA98C;margin-bottom:16px">{{ w.n }}</div>
-              <div style="font-weight:800;font-size:17px;line-height:1.35;margin-bottom:9px">{{ w.t }}</div>
-              <p style="margin:0;font-size:14.5px;line-height:1.65;color:#6B655C">{{ w.d }}</p>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:88px 24px">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:56px;align-items:center">
-        <div style="border-radius:26px;overflow:hidden;height:400px"><image-slot id="sh-ab-3" src="https://i.pinimg.com/1200x/2e/de/6a/2ede6ae530ca4688f61e8a73046ae302.jpg" shape="rect" placeholder="Guide with travellers on a spice plantation walk"></image-slot></div>
-        <div>
-          <h2 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(30px,3.6vw,46px);line-height:1.1;letter-spacing:-.02em;margin:0 0 20px">Two offices, one <span style="font-style:italic;color:#E5483D">phone number</span></h2>
-          <p style="font-size:16.5px;line-height:1.8;color:#3A4A44;margin:0 0 30px">Delhi · Kochi. Wherever your trip starts, one team handles it end to end.</p>
-          <a href="contact.html" onClick="{{ goContact }}" style="text-decoration:none; display:contents;"><button style="background:#E5483D;color:#fff;border:0;padding:16px 30px;border-radius:999px;font-weight:700;font-size:15px;cursor:pointer" style-hover="background:#C4362C" >Get in touch</button></a>
-        </div>
-      </div>
-    </section>
-  </main>
-  </sc-if>
-
-  <sc-if value="{{ isContact }}" hint-placeholder-val="{{ false }}">
-  <main>
-    <section style="max-width:1280px;margin:0 auto;padding:76px 24px 56px">
-      <div style="font-size:11px;letter-spacing:.24em;font-weight:800;color:#C4362C;margin-bottom:18px">CONTACT US</div>
-      <h1 style="font-family:'Fraunces',serif;font-weight:400;font-size:clamp(38px,5vw,68px);line-height:1.04;letter-spacing:-.028em;margin:0;max-width:820px">Tell us where you want to go, <span style="font-style:italic;color:#E5483D">we'll do the rest</span></h1>
-    </section>
-
-    <section style="max-width:1280px;margin:0 auto;padding:0 24px 96px">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:52px;align-items:start">
-        <div style="background:#fff;border-radius:26px;padding:clamp(24px,3vw,40px);box-shadow:0 20px 50px -26px rgba(22,33,29,.28)">
-          <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
-            <div>
-              <div id="enquiry-form" style="font-family:'Fraunces',serif;font-size:27px;letter-spacing:-.01em;margin-bottom:26px;scroll-margin-top:100px;">Send an enquiry</div>
-              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:16px;margin-bottom:16px">
-                <label style="display:block"><span style="{{ labelStyle }}">Your name</span><input value="{{ form.name }}" onChange="{{ setName }}" placeholder="Full name" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
-                <label style="display:block"><span style="{{ labelStyle }}">Phone</span><input value="{{ form.phone }}" onChange="{{ setPhone }}" placeholder="+91" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
-              </div>
-              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:16px;margin-bottom:16px">
-                <label style="display:block"><span style="{{ labelStyle }}">Email</span><input type="email" value="{{ form.email }}" onChange="{{ setEmailF }}" placeholder="you@email.com" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
-                <label style="display:block"><span style="{{ labelStyle }}">Travel dates</span><input value="{{ form.dates }}" onChange="{{ setDates }}" placeholder="e.g. 12–18 Nov 2026" style="{{ inputStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)" /></label>
-              </div>
-              <label style="display:block;margin-bottom:16px"><span style="{{ labelStyle }}">Interested package</span>
-                <select value="{{ form.pkg }}" onChange="{{ setPkg }}" style="{{ inputStyle }}">
-                  <sc-for list="{{ pkgOptions }}" as="o" hint-placeholder-count="11"><option value="{{ o.v }}">{{ o.v }}</option></sc-for>
-                </select>
-              </label>
-              <label style="display:block;margin-bottom:24px"><span style="{{ labelStyle }}">Message</span><textarea value="{{ form.message }}" onChange="{{ setMessage }}" rows="4" placeholder="Group size, budget, anything you'd love to include…" style="{{ textareaStyle }}" style-focus="border-color:#E5483D;box-shadow:0 0 0 4px rgba(229,72,61,.14)"></textarea></label>
-              <button style="background:#E5483D;color:#fff;border:0;padding:17px 32px;border-radius:14px;font-weight:800;font-size:15.5px;cursor:pointer;width:100%" style-hover="background:#C4362C" onClick="{{ send }}">Send enquiry</button>
-              <div style="font-size:12.5px;color:#6B655C;text-align:center;margin-top:14px">We reply within one working day — usually much sooner.</div>
-            </div>
-          </sc-if>
-          <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
-            <div style="text-align:center;padding:44px 10px;animation:rise .5s both">
-              <svg width="72" height="72" viewBox="0 0 24 24" fill="none" style="margin-bottom:20px"><circle cx="12" cy="12" r="10.4" stroke="#5FA98C" strokeWidth="1.4"/><path d="m7.4 12.4 3.1 3.1 6.2-6.6" stroke="#5FA98C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" style="stroke-dasharray:1400;animation:draw 1.1s both"/></svg>
-              <div style="font-family:'Fraunces',serif;font-size:30px;letter-spacing:-.015em;margin-bottom:10px">Enquiry received</div>
-              <p style="margin:0 0 26px;font-size:15.5px;line-height:1.7;color:#6B655C;max-width:380px;margin-left:auto;margin-right:auto">Thank you. Our Kochi team will be in touch with a quote and available dates.</p>
-              <button style="background:none;border:1.5px solid rgba(22,33,29,.16);padding:13px 24px;border-radius:999px;font-weight:700;cursor:pointer" onClick="{{ resetForm }}">Send another</button>
-            </div>
-          </sc-if>
-        </div>
-
-        <div style="display:grid;gap:16px">
-          <div style="background:#DCEEE7;color:#16211D;border-radius:24px;padding:30px">
-            <div style="display:grid;gap:18px">
-              <a href="tel:+919072769547" style="display:flex;align-items:center;gap:14px;color:#16211D"><span style="width:42px;height:42px;border-radius:99px;background:rgba(229,72,61,.12);display:flex;align-items:center;justify-content:center;flex:0 0 auto"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z" stroke="#E5483D" strokeWidth="1.5" strokeLinejoin="round"/></svg></span><span><span style="display:block;font-size:12px;color:#5A6E66">Phone</span><span style="display:block;font-weight:800;font-size:16px">+91 90727 69547</span></span></a>
-              <a href="mailto:sahapathika@gmail.com" style="display:flex;align-items:center;gap:14px;color:#16211D"><span style="width:42px;height:42px;border-radius:99px;background:rgba(229,72,61,.12);display:flex;align-items:center;justify-content:center;flex:0 0 auto"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><rect x="3" y="5.5" width="18" height="13" rx="2.5" stroke="#E5483D" strokeWidth="1.5"/><path d="m4 7 8 6 8-6" stroke="#E5483D" strokeWidth="1.5"/></svg></span><span><span style="display:block;font-size:12px;color:#5A6E66">Email</span><span style="display:block;font-weight:800;font-size:16px">sahapathika@gmail.com</span></span></a>
-            </div>
-          </div>
-
-          <sc-for list="{{ offices }}" as="o" hint-placeholder-count="2">
-            <div style="background:#fff;border-radius:24px;overflow:hidden;border:1px solid rgba(22,33,29,.07)">
-              <div style="height:150px;background:#DCEEE7;position:relative;display:flex;align-items:center;justify-content:center">
-                <svg viewBox="0 0 400 150" fill="none" style="position:absolute;inset:0;width:100%;height:100%;opacity:.45"><path d="M0 40h400M0 96h400M120 0v150M290 0v150" stroke="#5FA98C" strokeWidth="1.2"/><path d="M0 130c60-8 100 8 160 0s100-12 240-4" stroke="#5FA98C" strokeWidth="1.2"/></svg>
-                <span style="position:relative;background:#E5483D;color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.1em;padding:8px 14px;border-radius:99px">{{ o.city }} — — MAP EMBED</span>
-              </div>
-              <div style="padding:24px">
-                <div style="font-weight:800;font-size:16.5px;margin-bottom:8px">{{ o.city }} Office</div>
-                <p style="margin:0;font-size:14px;line-height:1.65;color:#6B655C">{{ o.address }}</p>
-              </div>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-    </section>
-  </main>
-  </sc-if>
-
-  <style>
-
-    :root {
-      --ink: #175A67;
-      --ink-soft: #2A707C;
-      --cream: #EAE3DE;
-      --max: 1440px;
-      --fs-nav: clamp(.9rem, .55vw + .75rem, 1.02rem);
-    }
-
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-
-    html {
-      -webkit-text-size-adjust: 100%;
-      background: var(--cream);
-    }
-
-    body {
-      margin: 0;
-      background: var(--cream);
-      font-family: 'Poppins', "Helvetica Neue", Arial, sans-serif;
-      color: var(--ink);
-    }
-
-    .site-footer {
-      position: relative;
-      isolation: isolate;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      min-height: 100svh;
-      overflow: hidden;
-      overflow-wrap: break-word;
-      background: var(--cream);
-      padding:
-        clamp(2.25rem, 4.5vh, 4rem)
-        max(clamp(1.25rem, 4vw, 4.5rem), env(safe-area-inset-right))
-        max(clamp(1.5rem, 3vh, 2.75rem), env(safe-area-inset-bottom))
-        max(clamp(1.25rem, 4vw, 4.5rem), env(safe-area-inset-left));
-    }
-
-    .footer-media {
-      position: absolute;
-      inset: 0;
-      z-index: -2;
-      pointer-events: none;
-    } 
-    .footer-media::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(250, 246, 239, 0.75);
-      z-index: 1;
-    }
-  
-
-    .footer-bg {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center top;
-      pointer-events: none;
-      animation: fade-in 1.35s ease both;
-    }
-
-    .footer-inner {
-      position: relative;
-      width: 100%;
-      max-width: var(--max);
-      margin: 0 auto;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .footer-grid {
-      display: grid;
-      align-items: start;
-      gap: clamp(1.5rem, 3vw, 3.25rem);
-      grid-template-columns: minmax(min(100%,340px), 1.85fr) repeat(2, minmax(min(100%,130px), .85fr)) minmax(min(100%,260px), 1.25fr);
-    }
-
-    .brand-lockup {
-      display: flex;
-      align-items: center;
-      gap: clamp(.65rem, 1vw, 1rem);
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-      animation-delay: .04s;
-    }
-
-    .brand-mark {
-      width: clamp(52px, 4.4vw, 74px);
-      height: auto;
-    }
-
-    .brand-name {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-weight: 500;
-      font-size: clamp(1.85rem, 2.5vw, 2.9rem);
-      line-height: 1;
-      margin: 0;
-    }
-
-    .brand-blurb {
-      margin-top: clamp(1.15rem, 2.4vh, 1.9rem);
-      max-width: 42ch;
-      line-height: 1.62;
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-      animation-delay: .12s;
-    }
-
-    .contact-list {
-      list-style: none;
-      margin: clamp(1.15rem, 2.4vh, 1.9rem) 0 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      gap: clamp(.6rem, 1.2vh, .95rem);
-    }
-
-    .contact-list li {
-      display: flex;
-      align-items: center;
-      gap: .85rem;
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-    }
-
-    .contact-list li:nth-child(1) { animation-delay: .2s; }
-    .contact-list li:nth-child(2) { animation-delay: .28s; }
-    .contact-list li:nth-child(3) { animation-delay: .36s; }
-
-    .contact-list svg {
-      width: 19px;
-      height: 19px;
-    }
-
-    .contact-list a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .contact-list a:hover {
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-
-    .col-title {
-      margin: 0 0 clamp(1.15rem, 2.4vh, 1.85rem);
-      font-size: clamp(.95rem, .5vw + .8rem, 1.12rem);
-      font-weight: 600;
-      letter-spacing: .055em;
-      text-transform: uppercase;
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-      animation-delay: var(--col-stagger, .2s);
-    }
-
-    .footer-grid > .col:nth-child(2) { --col-stagger: .16s; }
-    .footer-grid > .col:nth-child(3) { --col-stagger: .24s; }
-    .footer-grid > .col:nth-child(4) { --col-stagger: .32s; }
-
-    .link-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: clamp(.62rem, 1.35vh, 1.05rem);
-    }
-
-    .link-list li {
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-    }
-
-    .col .link-list li:nth-child(1) { animation-delay: calc(var(--col-stagger, .2s) + .08s); }
-    .col .link-list li:nth-child(2) { animation-delay: calc(var(--col-stagger, .2s) + .16s); }
-    .col .link-list li:nth-child(3) { animation-delay: calc(var(--col-stagger, .2s) + .24s); }
-    .col .link-list li:nth-child(4) { animation-delay: calc(var(--col-stagger, .2s) + .32s); }
-    .col .link-list li:nth-child(5) { animation-delay: calc(var(--col-stagger, .2s) + .40s); }
-    .col .link-list li:nth-child(6) { animation-delay: calc(var(--col-stagger, .2s) + .48s); }
-
-    .link-list a {
-      display: inline-block;
-      text-decoration: none;
-      color: inherit;
-      transition: opacity .2s ease, transform .2s ease;
-    }
-
-    .link-list a:hover {
-      opacity: .62;
-      transform: translateX(2px);
-    }
-
-    .newsletter .col-title {
-      animation-delay: .4s;
-    }
-
-    .newsletter p {
-      margin: 0 0 clamp(1rem, 2.2vh, 1.6rem);
-      max-width: 32ch;
-      line-height: 1.62;
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-      animation-delay: .48s;
-    }
-
-    .subscribe {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      max-width: 380px;
-      border: 1px solid var(--ink);
-      background: rgba(255, 255, 255, .4);
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-      animation-delay: .56s;
-    }
-
-    .subscribe input {
-      flex: 1;
-      min-width: 0;
-      border: 0;
-      outline: 0;
-      background: transparent;
-      padding: .95rem 1.05rem;
-      font-family: inherit;
-      font-size: var(--fs-nav);
-      color: var(--ink);
-    }
-
-    .subscribe input::placeholder {
-      color: var(--ink-soft);
-      opacity: .85;
-    }
-
-    .subscribe input:focus-visible {
-      box-shadow: inset 0 0 0 2px rgba(23, 90, 103, .25);
-    }
-
-    .subscribe button {
-      width: clamp(56px, 4vw, 66px);
-      border: none;
-      background: var(--ink);
-      color: var(--cream);
-      display: grid;
-      place-items: center;
-      transition: background .2s ease;
-      cursor: pointer;
-      padding: 0;
-    }
-
-    .subscribe button:hover {
-      background: #0F454F;
-    }
-
-    .subscribe button svg {
-      width: 22px;
-      height: 22px;
-    }
-
-    .footer-bottom {
-      margin-top: clamp(3rem, 6vh, 5rem);
-      padding-top: clamp(1.5rem, 4vh, 2.5rem);
-      padding-bottom: clamp(6rem, 10vh, 10rem);
-      border-top: 1px solid rgba(22,33,29,.15);
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1.25rem 2rem;
-      flex-wrap: wrap;
-    }
-
-    .socials {
-      display: flex;
-      flex-direction: row;
-      gap: clamp(1rem, 2vw, 1.8rem);
-    }
-
-    .socials a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 42px;
-      height: 42px;
-      border-radius: 50%;
-      background: rgba(23, 90, 103, 0.12);
-      border: 1.5px solid rgba(23, 90, 103, 0.25);
-      color: var(--ink);
-      transition: background .22s ease, border-color .22s ease, transform .22s ease, box-shadow .22s ease;
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-    }
-
-    .socials a:nth-child(1) { animation-delay: .64s; }
-    .socials a:nth-child(2) { animation-delay: .7s; }
-    .socials a:nth-child(3) { animation-delay: .76s; }
-    .socials a:nth-child(4) { animation-delay: .82s; }
-
-    .socials a:hover {
-      background: var(--ink);
-      border-color: var(--ink);
-      color: var(--cream);
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px -6px rgba(23, 90, 103, .45);
-    }
-
-    .socials svg {
-      width: 18px;
-      height: 18px;
-    }
-
-    .legal {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 0;
-      flex-wrap: wrap;
-    }
-
-    .legal a {
-      text-decoration: none;
-      color: var(--ink);
-      font-size: .8rem;
-      font-weight: 600;
-      letter-spacing: .04em;
-      padding: .35rem .85rem;
-      border: 1.5px solid rgba(23, 90, 103, 0.22);
-      border-radius: 999px;
-      margin: .2rem .3rem;
-      background: rgba(23, 90, 103, 0.07);
-      transition: background .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease;
-      animation: rise-in .72s cubic-bezier(.22, 1, .36, 1) both;
-      white-space: nowrap;
-    }
-
-    .legal a:nth-child(1) { animation-delay: .7s; }
-    .legal a:nth-child(2) { animation-delay: .78s; }
-    .legal a:nth-child(3) { animation-delay: .86s; }
-
-    .legal a:hover {
-      background: var(--ink);
-      color: var(--cream);
-      border-color: var(--ink);
-      box-shadow: 0 6px 16px -6px rgba(23, 90, 103, .4);
-      text-decoration: none;
-    }
-
-
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
-    }
-
-    /*  ANIMATIONS  */
-    @keyframes rise-in {
-      from { opacity: 0; transform: translate3d(0, 14px, 0); }
-      to { opacity: 1; transform: translate3d(0, 0, 0); }
-    }
-    @keyframes fade-in {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    /*  RESPONSIVE  */
-    @media (max-width: 1100px) {
-      .footer-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: clamp(2rem, 4vh, 2.75rem);
-      }
-      .brand, .newsletter {
-        grid-column: 1 / -1;
-      }
-      .brand-blurb {
-        max-width: 42ch;
-      }
-      .footer-media::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        height: clamp(52px, 16vw, 120px);
-        pointer-events: none;
-        z-index: 1;
-        background: linear-gradient(to bottom, #EAE3DE 0%, rgba(234, 227, 222, .65) 38%, rgba(234, 227, 222, 0) 100%);
-      }
-    }
-
-    @media (max-width: 720px) {
-      .site-footer {
-        height: auto;
-        min-height: 100svh;
-        padding-right: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        overflow-x: hidden;
-        overflow-y: visible;
-      }
-      .footer-inner {
-        order: 0;
-        padding-right: max(clamp(1.25rem, 4vw, 4.5rem), env(safe-area-inset-right));
-        padding-left: max(clamp(1.25rem, 4vw, 4.5rem), env(safe-area-inset-left));
-        padding-bottom: clamp(1.25rem, 3vh, 2rem);
-      }
-      .footer-media {
-        position: relative;
-        inset: auto;
-        order: 1;
-        flex-shrink: 0;
-        width: 100%;
-        height: auto;
-        margin-top: auto;
-        z-index: 0;
-      }
-      .footer-bg {
-        position: relative;
-        inset: auto;
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-        object-fit: contain;
-        object-position: center bottom;
-        transform: none;
-        display: block;
-      }
-      .footer-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: clamp(1.75rem, 5vw, 2.25rem);
-      }
-      .brand-blurb {
-        max-width: 100%;
-      }
-      .footer-bottom {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.5rem;
-        padding-top: clamp(2rem, 7vh, 3rem);
-        padding-bottom: clamp(1.25rem, 3vh, 2rem);
-      }
-      .legal {
-        gap: 1.1rem 1.5rem;
-      }
-      .link-list {
-        gap: .2rem;
-      }
-      .link-list a {
-        padding: .55rem 0;
-      }
-      .contact-list {
-        gap: .25rem;
-      }
-      .contact-list a, .contact-list span {
-        padding: .4rem 0;
-      }
-      .legal a {
-        padding: .45rem .85rem;
-      }
-      .socials a {
-        padding: .3rem;
-        margin: -.3rem;
-      }
-      .socials svg {
-        width: 28px;
-        height: 28px;
-      }
-      .subscribe input {
-        font-size: 16px;
-        padding: 1rem 1.05rem;
-      }
-    }
-
-    @media (max-width: 440px) {
-      :root {
-        --fs-nav: .92rem;
-      }
-      .footer-grid {
-        gap: 1.35rem 1.25rem;
-      }
-      .col-title {
-        margin-bottom: .85rem;
-      }
-      .brand-blurb, .newsletter p {
-        max-width: none;
-      }
-      .subscribe {
-        max-width: none;
-      }
-    }
-
-    @media (max-width: 359px) {
-      .footer-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (min-width: 721px) and (max-width: 1100px) {
-      .site-footer {
-        height: auto;
-        min-height: 100svh;
-        padding-right: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        overflow-x: hidden;
-        overflow-y: visible;
-      }
-      .footer-inner {
-        order: 0;
-        padding-right: max(clamp(1.25rem, 4vw, 4.5rem), env(safe-area-inset-right));
-        padding-left: max(clamp(1.25rem, 4vw, 4.5rem), env(safe-area-inset-left));
-        padding-bottom: clamp(1.25rem, 3vh, 2rem);
-      }
-      .footer-media {
-        position: relative;
-        inset: auto;
-        order: 1;
-        flex-shrink: 0;
-        width: 100%;
-        height: auto;
-        margin-top: auto;
-        z-index: 0;
-      }
-      .footer-bg {
-        position: relative;
-        inset: auto;
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-        object-fit: contain;
-        object-position: center bottom;
-        transform: none;
-        display: block;
-      }
-    }
-
-    /*  REDUCED MOTION  */
-    @media (prefers-reduced-motion: reduce) {
-      .footer-bg {
-        display: none;
-        animation: none;
-      }
-      .site-footer {
-        background-color: #EAE3DE;
-        background-image: url('https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/4f690bd1-881a-4192-82f2-d714d34c8fb9.png');
-        background-position: center top;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      @media (max-width: 1100px) {
-        .site-footer {
-          background-size: 100% auto;
-        }
-      }
-      .footer-media::after {
-        content: none;
-      }
-      .brand-lockup, .brand-blurb, .contact-list li, .col .col-title, .col .link-list li,
-      .newsletter .col-title, .newsletter p, .subscribe, .socials a, .legal a {
-        animation: none;
-      }
-      .link-list a:hover, .socials a:hover {
-        transform: none;
-      }
-    }
-  
-</style>
-<footer class="site-footer">
-    <div class="footer-media" aria-hidden="true">
-      <video class="footer-bg" autoplay muted loop playsinline preload="auto" poster="https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/4f690bd1-881a-4192-82f2-d714d34c8fb9.png">
-        <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260901_122529_931c22c8-8d2d-47c0-ad51-b97f56a91e42.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="footer-inner">
-      <div class="footer-grid">
-        <div class="brand">
-          <div class="brand-lockup">
-            <img src="Site-logo1.svg" alt="Sahapathika Holidays" style="height:62px; width:auto;">
-          </div>
-          <p class="brand-blurb">Sahapathika Holidays offers unforgettable travel experiences with customized Kerala tour packages, family vacations, honeymoon trips, and luxury holiday journeys across India. From serene backwaters and misty hill stations to cultural landmarks and scenic destinations.</p>
-          <ul class="contact-list">
-            <li>
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
-              <a href="mailto:sahapathika@gmail.com">sahapathika@gmail.com</a>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.03 21c.75 0 1-.65 1-1.19v-3.44c0-.54-.45-.99-.99-.99z"/></svg>
-              <a href="tel:+919072769547">+91 90727 69547</a>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87 3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-              <span>Delhi and Kochi</span>
-            </li>
-          </ul>
-        </div>
-        
-        <nav class="col" aria-label="Popular">
-          <h2 class="col-title">Popular</h2>
-          <ul class="link-list">
-            <li><a href="package-kerala-ayurveda-wellness-retreat.html">Kerala Ayurveda Wellness</a></li>
-            <li><a href="package-kerala-short-honeymoon-tour.html">Kerala Short Honeymoon</a></li>
-            <li><a href="package-shimla-manali.html">Shimla Manali Tour</a></li>
-            <li><a href="package-kashmir-honeymoon.html">Kashmir Honeymoon</a></li>
-            <li><a href="package-kerala-temple-tour.html">Kerala Temple Tour</a></li>
-          </ul>
-        </nav>
-        
-        
-        
-        <nav class="col" aria-label="Support">
-          <h2 class="col-title">Support</h2>
-          <ul class="link-list">
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="terms.html">Terms &amp; Policies</a></li>
-            <li><a href="privacy.html">Privacy Notice</a></li>
-            <li><a href="cookies.html">Cookie Notice</a></li>
-          </ul>
-        </nav>
-        
-        <div class="newsletter">
-          <h2 class="col-title">The Letter</h2>
-          <p>Sign up for early notice on new arrivals, stories &amp; members-only offers.</p>
-          <form class="subscribe" action="https://formsubmit.co/adarsh@rytful.com" method="POST">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://sahapathika-holidays.vercel.app/">
-            <input type="hidden" name="_subject" value="New Footer Newsletter Subscription">
-            <label for="nl-email" class="sr-only">Email address</label>
-            <input id="nl-email" type="email" name="email" placeholder="Leave your email" autocomplete="email" required>
-            <button type="submit" aria-label="Subscribe">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 12h15M13 6l6 6-6 6"/>
-              </svg>
-            </button>
-          </form>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <div class="socials">
-          <a href="#" aria-label="Facebook">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V15.03H7.898V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 3.03h-2.33v6.849C18.343 21.128 22 16.991 22 12c0-5.523-4.477-10-10-10z"/></svg>
-          </a>
-          <a href="#" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </a>
-          <a href="#" aria-label="LinkedIn">
-            <svg viewBox="0 0 448 448" fill="currentColor"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
-          </a>
-        </div>
-        <div style="font-size: 13.5px; color: var(--ink-soft); opacity: 0.9;">&copy; 2026 Sahapathika. All Rights Reserved. | Govt. Approved | Designed by <a href="https://rytfulmedia.in" target="_blank" rel="noopener" style="color:#E5483D; font-weight:700; text-decoration:none;">RytfulMedia</a>.</div>
-        
-      </div>
-    </div>
-  </footer>
-
-  <a href="https://wa.me/919072769547" target="_blank" rel="noopener" style="position:fixed;right:26px;bottom:26px;z-index:70;width:60px;height:60px;border-radius:99px;background:#25D366;animation:popin .6s 1.4s both;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -10px rgba(22,33,29,.5)" aria-label="Chat on WhatsApp">
-    <span style="position:absolute;inset:0;border-radius:99px;border:2px solid #25D366;animation:pulsering 4s ease-out infinite"></span>
-    <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.05-1.32A10 10 0 1 0 12 2Zm5.2 14.1c-.22.62-1.3 1.2-1.8 1.24-.46.05-1.04.07-1.68-.1a13.9 13.9 0 0 1-5.5-4.2c-.44-.6-1.14-1.72-1.14-2.86 0-1.14.6-1.7.82-1.94.22-.24.48-.3.64-.3h.46c.15 0 .35-.06.54.42l.74 1.8c.06.13.1.28 0 .45l-.3.45-.32.35c-.1.1-.21.22-.09.44.12.22.54.9 1.16 1.45.8.72 1.47.94 1.69 1.06.22.12.35.1.48-.06l.68-.8c.15-.19.3-.15.5-.08l1.7.82c.2.1.34.15.4.23.05.09.05.5-.17 1.12Z"/></svg>
-  </a>
-
-  <sc-if value="{{ lightboxOpen }}" hint-placeholder-val="{{ false }}">
-    <div style="position:fixed;inset:0;z-index:90;background:rgba(15,22,19,.92);display:flex;align-items:center;justify-content:center;padding:48px;animation:fadein .2s both" onClick="{{ closeLightbox }}">
-      <button style="position:absolute;top:26px;right:30px;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:44px;height:44px;border-radius:99px;font-size:20px;cursor:pointer" onClick="{{ closeLightbox }}">×</button>
-      <button style="position:absolute;left:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onClick="{{ prevLight }}">‹</button>
-      <button style="position:absolute;right:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onClick="{{ nextLight }}">›</button>
-      <div style="width:min(900px,80vw);height:min(620px,74vh);border-radius:20px;overflow:hidden;background:#16211D" onClick="{{ stop }}">
-        <image-slot id="{{ lightboxSlot }}" src="{{ lightboxPhoto }}" shape="rect" placeholder="{{ lightboxHint }}"></image-slot>
-      </div>
-      <div style="position:absolute;bottom:28px;color:rgba(251,247,238,.72);font-size:13.5px">{{ lightboxCaption }}</div>
-    </div>
-  </sc-if>
-
-</div>
-</x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440},&quot;heroVideoUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Hero&quot;,&quot;label&quot;:&quot;Hero video URL (direct .mp4)&quot;},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#E5483D&quot;,&quot;options&quot;:[&quot;#E5483D&quot;,&quot;#B5822A&quot;,&quot;#2E6E6A&quot;,&quot;#5FA98C&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;},&quot;showTbcFlags&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
 class Component extends DCLogic {
   state = {
-    page: 'detail', menu: null, field: null,
+    page: 'home', menu: null, field: null,
     dest: '', exp: '', date: null, month: null,
     fRegion: 'All', fCat: 'All', fSort: 'Featured',
-    slug: 'kashmir-6-days-srinagar-sonmarg-gulmarg-pahalgam', day: 1, faq: 0, adults: 2, kids: 0, hdr: 78,
+    slug: 'kerala-ayurveda-wellness-retreat', day: 1, faq: 0, adults: 2, kids: 0, hdr: 78,
     testi: 0, light: -1, email: '', subscribed: false,
     loading: true, wiping: false, scrolled: false, sy: 0,
     counts: { travellers: 0, destinations: 0, packages: 0, years: 0 },
-    form: { name: '', email: '', phone: '', pkg: '', dates: '', message: '' }, sent: false
+    form: { name: '', email: '', phone: '', pkg: '', dates: '', message: '', whatsapp: true }, sent: false
   };
 
   catColor = {
@@ -2377,49 +186,6 @@ class Component extends DCLogic {
   }
 
   itineraries = {
-    'shimla-manali': [
-      { title: 'Day 1: Delhi to Shimla – Journey into the Himalayas', body: ['Meals: Dinner', 'Overnight: Shimla Arrive at Delhi Airport or Railway Station, where your driver will meet you and begin the road journey towards Shimla. The route gradually leaves the plains behind as the landscape transforms into the hills of Himachal Pradesh. Depending on the starting time and route conditions, sightseeing stops may include Timber Trail, Kasauli, Sunset Point, Monkey Point, Gilbert Nature Trail, Parwanoo, Sankat Mochan Hanuman Temple and Himalayan Bird Park. Take a convenient break for lunch along the way before continuing towards Shimla. Arrive in Shimla by evening, check in to your hotel and relax.'] },
-      { title: 'Day 2: Shimla & Kufri – Mountain Views, Temples & Colonial Heritage', body: ['Meals: Breakfast & Dinner', 'Overnight: Shimla After breakfast, set out for a full day of sightseeing around Shimla and Kufri. Begin with Kufri, a popular Himalayan hill destination where visitors can enjoy the mountain scenery and, depending on season and local availability, activities such as horse riding and outdoor experiences. Continue to Green Valley, followed by the attractions included in the itinerary around the Kufri area. Return towards Shimla and visit Kali Bari Temple, followed by the Indian Institute of Advanced Study. Later, visit Jakhoo Temple or Sankat Mochan Temple, according to the sightseeing plan and local accessibility. In the evening, enjoy free time around Mall Road, the Ridge, Christ Church, Gaiety Theatre and Scandal Point. This is a good opportunity to explore Shimla\'s local atmosphere and browse its shops. Return to the hotel for the night.'] },
-      { title: 'Day 3: Shimla to Manali – Scenic Himalayan Road Journey', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, check out from your Shimla hotel and begin the journey towards Manali. The road takes you through the scenic landscapes around Sundernagar, Mandi and Pandoh, with opportunities for views of the surrounding valleys and the Pandoh area. Continue through the mountain scenery towards Hanogi Devi Temple, Beas River viewpoints, the Atal Tunnel route and Kullu. Depending on time and local conditions, the itinerary also includes a visit to a traditional shawl-weaving facility in Kullu. The drive itself is an important part of today\'s experience, with changing mountain landscapes and opportunities for photographs along the route. Arrive in Manali by evening and check in to the hotel. Later, you may spend some leisure time exploring Manali\'s local market area.'] },
-      { title: 'Day 4: Manali Local Sightseeing – Temples, Springs & Local Culture', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, begin exploring the cultural and scenic attractions of Manali. Visit Hadimba Devi Temple, followed by Van Vihar, Manu Temple and Vashisht Temple. Continue to Vashisht Hot Water Springs, along with the Club House and Buddhist monasteries included in the sightseeing plan. After exploring Manali\'s attractions, return towards the town. The evening is free for you to discover Tibetan Market, Mall Road and the old village areas of Manali, with time available for shopping and leisurely exploration. Return to the hotel for your overnight stay.'] },
-      { title: 'Day 5: Solang Valley & Rohtang Pass Excursion', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, set out for one of the most exciting days of the trip, covering Rohtang Pass and Solang Valley, subject to seasonal access and applicable local regulations. The route may include scenic areas such as Kothi, Marhi, Rahala Waterfalls, Beas Kund, Rani Nallah, Bhrigu Lake viewpoints, Gulaba, Nehru Kund and Jogini Falls, depending on accessibility and the operating conditions on the day. Continue towards Solang Valley, with the route incorporating Koksar, Sissu and the Atal Tunnel where applicable to the day\'s road plan. Solang Valley offers opportunities for seasonal adventure activities such as skiing, paragliding and snow-scooter rides, which are optional and payable separately. Return to Manali in the evening.'] },
-      { title: 'Day 6: Manali to Delhi – Return Journey', body: ['Meals: Breakfast', 'Overnight: Not applicable After breakfast, check out and begin the long road journey from Manali back to Delhi. The journey takes you from the Himalayan mountains towards the plains. On reaching Delhi, you will be dropped at your preferred Airport or Railway Station for your onward journey. Your Shimla–Manali holiday comes to an end with memories of Himalayan landscapes, mountain towns and scenic road journeys.'] },
-    ],
-    'shimla-kullu-manali': [
-      { title: 'Day 1: New Delhi to Shimla – Begin Your Himalayan Journey', body: ['Meals: Dinner', 'Overnight: Shimla Arrive at New Delhi Airport or Railway Station, where you will be met and assisted for your onward road journey to Shimla. Leave the capital behind and gradually enter the Himalayan foothills. Shimla, once the summer capital of British India, offers a fascinating combination of mountain scenery, heritage architecture and lively hill-town surroundings. On reaching Shimla, check in to your hotel and relax. The remainder of the evening is free for individual activities or simply enjoying the peaceful hill-station atmosphere.'] },
-      { title: 'Day 2: Kufri & Shimla Sightseeing – Hills, Heritage & Local Life', body: ['Meals: Breakfast & Dinner', 'Overnight: Shimla After breakfast, head out for a full day of sightseeing covering Kufri and prominent attractions of Shimla. Kufri is known for its mountain scenery and seasonal outdoor activities. Spend time enjoying the surroundings before returning towards Shimla. Later, explore some of Shimla\'s well-known landmarks, including Jakhoo Temple and Hanuman Temple. In the evening, enjoy leisure time around Mall Road and the Ridge, the lively heart of Shimla. You can also see iconic landmarks such as Christ Church and the historic library building. The evening is ideal for relaxed walks, shopping and taking in the atmosphere of Shimla before returning to your hotel.'] },
-      { title: 'Day 3: Shimla to Kullu & Manali – A Picturesque Valley Drive', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, check out and begin your journey from Shimla towards Manali. The route takes you through the beautiful landscapes of Himachal Pradesh, with sightseeing stops around Sundernagar Lake, Pandoh Dam, Kullu and Vaishno Devi Temple. As the road enters the Kullu Valley, the scenery changes into a dramatic combination of mountains, rivers and forested slopes. Continue onwards to Manali and check in to your hotel on arrival. Approximate road distance: 280 km, with travel time subject to road and traffic conditions.'] },
-      { title: 'Day 4: Manali Local Sightseeing – Temples, Monasteries & Markets', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, explore the cultural and scenic attractions of Manali. Visit the renowned Hadimba Devi Temple, followed by the Club House, Tibetan Monastery, Mall Road and Van Vihar. Continue towards Vashisht Village, known for its traditional temples and hot water springs. The sightseeing programme also includes Marhi, Rahalla Falls and Nehru Kund, subject to accessibility and the day\'s route conditions. Return to Manali after sightseeing. The evening is free to explore the local market and enjoy Manali at your own pace.'] },
-      { title: 'Day 5: Rohtang Pass Excursion – Into the High Mountains', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali Today is reserved for an excursion towards Rohtang Pass, popularly associated with the high-altitude snow landscapes of the Manali region. The journey and sightseeing are subject to the pass being open, weather conditions, road accessibility and applicable local regulations. Rohtang Pass transportation charges are not included in the package. Depending on the season and conditions, visitors may enjoy snow-related experiences and activities such as snow scooter rides, skiing and other local rides, all at additional cost. If Rohtang Pass is inaccessible, the day\'s sightseeing may need to be modified according to the prevailing local arrangements. Return to Manali for your overnight stay.'] },
-      { title: 'Day 6: Manali & Kullu Valley – Temples, Monastery & Shawls', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, continue exploring Manali and the surrounding Kullu Valley. Visit Hadimba Devi Temple, Manu Temple, Vashisht Village and the Tibetan Monastery as part of the local sightseeing programme. Later, travel towards Kullu, with a visit to Vaishno Devi Temple en route. Spend some time in Kullu town and explore the local shopping scene, including the region\'s traditionally known Kullu shawls. Return to Manali for your final night in the mountains.'] },
-      { title: 'Day 7: Manali to New Delhi – Return Journey', body: ['Meals: Breakfast', 'Overnight: Not applicable After an early breakfast, check out and begin the long road journey from Manali towards New Delhi. The return drive takes you from the Himalayan region back towards the plains. Depending on traffic, weather and road conditions, the journey can take several hours. On arrival in New Delhi, proceed for your scheduled drop at the Airport or Railway Station for your onward journey. Your Himalayan holiday concludes with memories of Shimla\'s colonial charm, Kullu\'s valleys and Manali\'s mountain landscapes.'] },
-    ],
-    'himachal-devi-yatra-with-vaishno-devi-mansa-devi': [
-      { title: 'Day 1: Chandigarh – Naina Devi – Chintpurni', body: ['Meals: Breakfast & Dinner', 'Overnight: Chintpurni Begin the pilgrimage early from Chandigarh and travel towards Mata Naina Devi Temple. Spend time at the temple for darshan and prayer before continuing towards Mata Chintpurni Temple. The day\'s journey introduces you to two important Devi shrines while travelling through the scenic landscapes of Himachal Pradesh. Arrive in the Chintpurni area and check in to the hotel. If timing permits, devotees may attend the evening aarti at the temple.'] },
-      { title: 'Day 2: Chintpurni – Jwala Ji – Baglamukhi – Kangra', body: ['Meals: Breakfast & Dinner', 'Overnight: Kangra / Dharamshala After breakfast, continue the Devi pilgrimage towards Jwala Ji Temple, renowned for its sacred flame and longstanding devotional significance. Proceed onwards to Baglamukhi Mata Temple, followed by Kangra Devi Temple. Each temple offers a distinct spiritual atmosphere and provides an opportunity for devotees to continue their prayers and darshan through the Kangra region. After completing the day\'s temple visits, proceed towards the Kangra/Dharamshala area for your overnight stay.'] },
-      { title: 'Day 3: Kangra – Chamunda Devi – Dharamshala Sightseeing', body: ['Meals: Breakfast & Dinner', 'Overnight: Dharamshala After breakfast, visit Chamunda Devi Temple, continuing the pilgrimage through another revered Devi shrine. Later, explore selected attractions around Dharamshala and McLeod Ganj, including: Bhagsunath Temple Dalai Lama Monastery McLeod Ganj Market This day provides a welcome balance between spiritual experiences and an opportunity to experience the distinctive cultural atmosphere of Dharamshala and McLeod Ganj. Return to the hotel for an overnight stay in Dharamshala.'] },
-      { title: 'Day 4: Dharamshala – Katra', body: ['Meals: Breakfast & Dinner', 'Overnight: Katra After breakfast, depart Dharamshala and begin the journey towards Katra, the base town for the Mata Vaishno Devi pilgrimage. The road journey takes you from the mountain region towards Katra. On arrival, check in to the hotel and relax. Use the evening to prepare for the following day\'s Vaishno Devi pilgrimage.'] },
-      { title: 'Day 5: Mata Vaishno Devi Darshan', body: ['Meals: Breakfast & Dinner', 'Overnight: Katra After an early breakfast, proceed for the pilgrimage to Mata Vaishno Devi Bhawan. Guests can undertake the journey according to the available pilgrimage options and their personal preference. The source itinerary mentions trekking or helicopter travel; helicopter charges are not included and are payable separately. Complete the darshan at Bhawan and, where feasible within the pilgrimage schedule, visit Bhairon Temple as well. Return to Katra and spend the night at the hotel.'] },
-      { title: 'Day 6: Katra – Mansa Devi – Chandigarh', body: ['Meals: Breakfast & Dinner', 'Overnight: Chandigarh After breakfast, check out and begin the journey towards Chandigarh. En route, visit Mata Mansa Devi Temple near Panchkula, another important Devi shrine on this pilgrimage circuit. Spend time for darshan before continuing to Chandigarh. On arrival, check in to the hotel and relax after the long journey.'] },
-      { title: 'Day 7: Chandigarh Departure', body: ['Meals: Breakfast', 'Overnight: Not applicable After breakfast, check out from the hotel. Proceed for your scheduled drop at Chandigarh Airport or Railway Station, bringing the pilgrimage to a close.'] },
-    ],
-    'shimla-manali-amritsar': [
-      { title: 'Day 1: Delhi to Shimla – Journey into the Himalayas', body: ['Meals: Dinner', 'Overnight: Shimla Arrive at Delhi Airport or Railway Station, where you will meet the representative and begin your road journey towards Shimla. The drive gradually leaves the plains behind as the landscape transforms into the pine- and forest-covered hills of Himachal Pradesh. On reaching Shimla, check in to your hotel and settle in. The evening is free for relaxation or independent exploration depending on your arrival time. Later, enjoy dinner and spend the night in Shimla.'] },
-      { title: 'Day 2: Kufri & Shimla – Mountain Views and Colonial Charm', body: ['Meals: Breakfast & Dinner', 'Overnight: Shimla After breakfast, head towards Kufri, one of the popular mountain destinations around Shimla. Its elevated location and Himalayan surroundings make it a favourite for enjoying scenic views and seasonal outdoor activities. Return towards Shimla and spend time exploring the famous Mall Road and The Ridge, the lively heart of the hill station. You can enjoy the atmosphere, browse local shops and take in views of the surrounding mountains. The Christ Church and the historic library building around The Ridge add to Shimla\'s distinctive colonial character. Return to the hotel for dinner and overnight stay.'] },
-      { title: 'Day 3: Shimla to Manali via Mandi & Kullu', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After an early breakfast, check out and begin the scenic road journey from Shimla to Manali. The route takes you through the landscapes around Sundernagar, Mandi and Pandoh, with opportunities to see places such as Sundernagar Lake, Pandoh Dam and Hanogi Mata Temple along the way. Continue towards the Kullu region, where you will also visit a Kullu Shawl Factory. An optional river rafting experience on the Beas River at Kullu may be available, subject to weather conditions and payable directly by guests. Continue to Manali and check in at your hotel. Dinner and overnight stay.'] },
-      { title: 'Day 4: Solang Valley – Himalayan Scenery & Adventure', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, travel to Solang Valley, one of the most popular excursion destinations near Manali. Surrounded by dramatic mountain scenery, Solang offers beautiful Himalayan views and is known for a range of seasonal adventure activities. Guests can enjoy the landscape and, where available, participate in activities at their own expense. After exploring the valley, return to Manali for an evening at leisure. Dinner and overnight stay at the hotel.'] },
-    ],
-    'himachal-pradesh': [
-      { title: 'Day 1: Delhi to Shimla – The Himalayas Begin', body: ['Meals: Dinner', 'Overnight: Shimla Arrive at New Delhi Airport or Railway Station, where you will meet your driver and begin the road journey towards Shimla. As the route leaves the plains behind, the landscape gradually changes into the Himalayan foothills. Continue towards Shimla, the celebrated hill station known for its mountain setting and heritage character. On arrival, check in to the hotel and settle in. The rest of the evening is free for relaxation or individual activities.'] },
-      { title: 'Day 2: Kufri & Shimla – Mountain Scenery and Heritage', body: ['Meals: Breakfast & Dinner', 'Overnight: Shimla After breakfast, set out to explore Kufri and the surrounding areas of Shimla. Kufri offers beautiful mountain scenery along with seasonal outdoor activities such as horse riding and other rides, available at additional cost. Continue through the scenic surroundings, with opportunities to visit places such as Green Valley and Fagu as included in the sightseeing plan. Later, return towards Shimla and enjoy leisure time around the famous Mall Road and the Ridge. The itinerary also includes visits to Jakhoo Temple and Hanuman Temple, along with views of Shimla\'s iconic Christ Church and historic library building. Return to the hotel after sightseeing.'] },
-      { title: 'Day 3: Shimla to Manali – Through the Kullu Valley', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, check out and begin the scenic road journey from Shimla towards Manali. The route passes through the mountain landscapes around Sundernagar Lake and Pandoh Dam, offering opportunities to appreciate the changing scenery along the way. Continue towards the Kullu Valley and onwards to Manali. On arrival, check in to your hotel and relax after the day\'s journey.'] },
-      { title: 'Day 4: Solang Valley – Mountain Views & Adventure', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, travel to Solang Valley, located in the Manali region. Surrounded by mountain landscapes, Solang is known for its scenic setting and seasonal adventure activities. Depending on the time of year and local conditions, visitors can enjoy experiences such as skiing, paragliding, zorbing, horse riding and snow-bike rides, all payable separately. Spend the day enjoying the valley and its surroundings before returning to Manali. The evening is free for leisure.'] },
-      { title: 'Day 5: Manali Local Sightseeing – Temples, Monasteries & Vashisht', body: ['Meals: Breakfast & Dinner', 'Overnight: Manali After breakfast, explore Manali\'s principal local attractions. Visit Hadimba Devi Temple, followed by the Club House, Tibetan Monastery and Van Vihar. Continue to Vashisht, known for its traditional temples and hot water springs. The day combines Manali\'s spiritual heritage with its natural surroundings and local culture. Return to the hotel after sightseeing and spend the evening at leisure.'] },
-      { title: 'Day 6: Manali to Dharamshala – Into the Kangra Region', body: ['Meals: Breakfast & Dinner', 'Overnight: Dharamshala After breakfast, check out from the Manali hotel and begin the road journey towards Dharamshala / McLeod Ganj. Enjoy the changing mountain scenery as you travel towards the Kangra region. On arrival, check in to your hotel and relax. The evening can be spent at leisure, allowing you to unwind after the intercity journey.'] },
-      { title: 'Day 7: Dharamshala & McLeod Ganj – Monasteries, Temples & Mountain Life', body: ['Meals: Breakfast & Dinner', 'Overnight: Dalhousie After breakfast, explore the Dharamshala and McLeod Ganj area. The sightseeing programme includes Naddi Lake and Naddi Village, Bhagsunag Temple, St. John\'s Church, HPCA Cricket Stadium and McLeod Ganj. Take time to experience the distinctive atmosphere of McLeod Ganj before continuing your journey towards Dalhousie in the afternoon. Arrive in Dalhousie and check in to your hotel.'] },
-      { title: 'Day 8: Khajjiar Excursion – Meadows & Mountain Landscapes', body: ['Meals: Breakfast & Dinner', 'Overnight: Dalhousie After breakfast, set out for a full-day excursion towards Khajjiar. The journey includes Subash Baoli, followed by the scenic route through Bakrota Hills and Lakkarmandi. Continue to Khajjiar, a beautiful highland meadow surrounded by forests and mountain scenery. The destination is also associated with the historic Khajji Nag Temple, adding a cultural dimension to the landscape. After exploring Khajjiar, return to Dalhousie. Spend the evening around Dalhousie Mall Road before returning to the hotel.'] },
-      { title: 'Day 9: Dalhousie to Delhi – Journey Home', body: ['Meals: Breakfast', 'Overnight: Not applicable After breakfast, check out and begin the long road journey from Dalhousie to New Delhi. The drive can take approximately 15 hours depending on traffic, road conditions and other travel factors. On reaching Delhi, you will be dropped at the Airport or Railway Station for your onward journey. Your Himachal holiday concludes after an immersive journey through Shimla, Manali, Dharamshala and Dalhousie.'] },
-    ],
     'puri-jagannath-konark-chilika-bhubaneswar': [
       { title: 'Day 1: Bhubaneswar Arrival – Sakhigopal – Raghurajpur – Puri', body: ['Meals: Breakfast', 'Overnight: Puri Arrive at Bhubaneswar Airport, Bhubaneswar Railway Station or Puri Railway Station in the morning. Meet the Sahapathika Holidays representative and begin your road journey towards Puri. En route, visit Sakhigopal Temple, an important pilgrimage stop, followed by Raghurajpur Craft Village, renowned for its traditional artistic heritage and handicraft traditions. Continue to Puri and check in at your hotel. After some time to refresh, proceed for a visit to the revered Shri Jagannath Temple, one of Odisha\'s most important pilgrimage centres. Return to the hotel after your temple visit. Overnight stay in Puri.'] },
       { title: 'Day 2: Chilika Lake at Satapada – Dolphins, Birds & Coastal Experiences', body: ['Meals: Breakfast', 'Overnight: Puri After breakfast, set out for Satapada, located on the Chilika Lake. Chilika is renowned for its extensive lagoon ecosystem, seasonal migratory birds and the presence of the endangered Irrawaddy dolphin. Enjoy a motorboat excursion across the lake, offering opportunities to experience its natural surroundings, observe local birdlife and see the traditional fishing environment of the region. Return to Puri after the excursion. Later, visit Puri\'s Blue Flag Beach and spend some time exploring the nearby beach market and local shopping opportunities. Return to the hotel for the night. Overnight stay in Puri.'] },
@@ -2512,9 +278,11 @@ class Component extends DCLogic {
   };
 
   faqData = [
-      { q: 'How do I book a package?', a: 'Send an enquiry through the form or WhatsApp with your dates and group size. We reply with a firm quote and hold your dates; the booking is confirmed on advance payment.' },
-      { q: 'Can the itinerary be customised?', a: 'Yes - every package here is a starting point. Swap stays, add nights, change the pace. Tell us what matters and we rebuild around it.' }
-    ];
+    { q: 'How do I book a package?', a: 'Send an enquiry through the form or WhatsApp with your dates and group size. We reply with a firm quote and hold your dates; the booking is confirmed on advance payment.' },
+    { q: 'Can the itinerary be customised?', a: 'Yes — every package here is a starting point. Swap stays, add nights, change the pace. Tell us what matters and we rebuild around it.' },
+    { q: 'What payment methods do you accept?', a: 'Bank transfer and UPI today. An online card gateway is planned — flagged as a v2 enhancement.' },
+    { q: 'What is the cancellation policy?', a: 'The exact free-cancellation window is being confirmed with the agency. Refunds are processed within 5–10 business days, and medical emergencies are refunded against a certificate.' }
+  ];
 
   detailFor(slug) {
     const p = this.packages.find(x => x.slug === slug) || this.packages[0];
@@ -2637,8 +405,8 @@ class Component extends DCLogic {
         { q: 'Which places are covered in the package?', a: 'The itinerary covers Delhi, Shimla, Kufri, Manali, Solang Valley, Kullu, Amritsar, Golden Temple, Jallianwala Bagh and the Attari-Wagah Border.' },
         { q: 'Is Rohtang Pass included?', a: 'No. Rohtang Pass sightseeing is specifically excluded from the supplied package and requires separate local transportation arrangements and applicable charges.' },
         { q: 'Is river rafting included at Kullu?', a: 'No. River rafting is an optional activity and is payable directly by the guest, subject to weather conditions.' },
-        { q: 'Is this package suitable for families?', a: 'Yes. The itinerary can work well for families who want to combine Himalayan sightseeing with Amritsar\'s cultural and spiritual attractions.' },
-        { q: 'Can senior citizens travel on this itinerary?', a: 'Senior citizens can consider the package, but they should be comfortable with several long road journeys and Himalayan terrain. The itinerary can be discussed and customized according to the group\'s requirements.' },
+        { q: 'Is this package suitable for families?', a: 'Yes. The itinerary can work well for families who want to combine Himalayan sightseeing with Amritsar\\'s cultural and spiritual attractions.' },
+        { q: 'Can senior citizens travel on this itinerary?', a: 'Senior citizens can consider the package, but they should be comfortable with several long road journeys and Himalayan terrain. The itinerary can be discussed and customized according to the group\\'s requirements.' },
         { q: 'Can the accommodation or itinerary be customized?', a: 'Yes. Hotel preferences, travel dates and certain arrangements can be discussed with Sahapathika Holidays while planning the trip.' },
         { q: 'Can I end the trip at Amritsar instead of Delhi?', a: 'The supplied itinerary allows the final drop at Amritsar Airport/Railway Station or Delhi, depending on the travel requirement.' }
       ];
@@ -2697,7 +465,7 @@ class Component extends DCLogic {
         { q: 'How do I book this pilgrimage package?', a: 'Share your preferred travel dates, number of travellers and accommodation preference with Sahapathika Holidays. The team can check availability and prepare the applicable quotation.' }
       ];
     } else if (p.slug === 'kashi-prayag-chitrakoot-ayodhya-divya-yatra') {
-      data.overview = 'Embark on a spiritually enriching North India pilgrimage tour from Kerala covering four of India\'s most revered sacred destinations — Varanasi, Prayagraj, Chitrakoot and Ayodhya.\\n\\nBegin your journey in the ancient city of Kashi, seek the blessings of Lord Shiva at Kashi Vishwanath and experience the divine Ganga Aarti. Continue to the sacred Triveni Sangam at Prayagraj, explore the Ramayana-linked spiritual heritage of Chitrakoot, and conclude your pilgrimage in Ayodhya, the sacred city of Shri Ram.\\n\\nThis carefully planned Varanasi–Prayagraj–Chitrakoot–Ayodhya tour package from Kerala is ideal for families, devotees, senior travellers and pilgrimage groups looking for a meaningful spiritual journey through North India.';
+      data.overview = 'Embark on a spiritually enriching North India pilgrimage tour from Kerala covering four of India\\'s most revered sacred destinations — Varanasi, Prayagraj, Chitrakoot and Ayodhya.\\n\\nBegin your journey in the ancient city of Kashi, seek the blessings of Lord Shiva at Kashi Vishwanath and experience the divine Ganga Aarti. Continue to the sacred Triveni Sangam at Prayagraj, explore the Ramayana-linked spiritual heritage of Chitrakoot, and conclude your pilgrimage in Ayodhya, the sacred city of Shri Ram.\\n\\nThis carefully planned Varanasi–Prayagraj–Chitrakoot–Ayodhya tour package from Kerala is ideal for families, devotees, senior travellers and pilgrimage groups looking for a meaningful spiritual journey through North India.';
       data.highlights = [
         'Kashi – The City of Mahadev: Experience Kashi Vishwanath Darshan, Kaal Bhairav Temple, Ganga Aarti and the spiritual atmosphere of the holy Ganga.',
         'Prayagraj – The Sacred Triveni Sangam: Visit the confluence of the Ganga, Yamuna and the mystical Saraswati and explore important pilgrimage sites.',
@@ -2751,7 +519,7 @@ class Component extends DCLogic {
         { q: 'How can I enquire about this package?', a: 'You can contact Sahapathika Holidays for availability, travel dates, hotel options and a customized quotation.' }
       ];
     } else if (p.slug === 'himachal-pradesh') {
-      data.overview = 'Discover the diverse beauty of Himachal Pradesh with this thoughtfully planned Himachal tour package from Kerala, taking you across four of the state\'s most popular mountain destinations — Shimla, Manali, Dharamshala and Dalhousie. Beginning in Delhi, the journey gradually moves through pine-covered hills, scenic valleys, mountain towns and peaceful landscapes.\\n\\nExplore the colonial charm of Shimla and the scenic surroundings of Kufri, travel through the beautiful Kullu Valley to Manali, and experience the mountain atmosphere of Solang Valley. The journey then continues towards Dharamshala and McLeod Ganj before reaching the picturesque hill station of Dalhousie and the meadow landscapes of Khajjiar.\\n\\nThis Himachal Pradesh holiday package from Kerala is ideal for families, couples, honeymooners, friends and groups who want to experience several iconic destinations in one Himalayan journey. Sahapathika Holidays can also assist travellers from Kochi, Ernakulam, Thrissur, Kottayam, Kozhikode, Kannur, Malappuram, Alappuzha, Kollam and Thiruvananthapuram with suitable travel arrangements to Delhi.';
+      data.overview = 'Discover the diverse beauty of Himachal Pradesh with this thoughtfully planned Himachal tour package from Kerala, taking you across four of the state\\'s most popular mountain destinations — Shimla, Manali, Dharamshala and Dalhousie. Beginning in Delhi, the journey gradually moves through pine-covered hills, scenic valleys, mountain towns and peaceful landscapes.\\n\\nExplore the colonial charm of Shimla and the scenic surroundings of Kufri, travel through the beautiful Kullu Valley to Manali, and experience the mountain atmosphere of Solang Valley. The journey then continues towards Dharamshala and McLeod Ganj before reaching the picturesque hill station of Dalhousie and the meadow landscapes of Khajjiar.\\n\\nThis Himachal Pradesh holiday package from Kerala is ideal for families, couples, honeymooners, friends and groups who want to experience several iconic destinations in one Himalayan journey. Sahapathika Holidays can also assist travellers from Kochi, Ernakulam, Thrissur, Kottayam, Kozhikode, Kannur, Malappuram, Alappuzha, Kollam and Thiruvananthapuram with suitable travel arrangements to Delhi.';
       data.highlights = [
         'Experience four major Himachal destinations in one extended holiday.',
         'Explore the contrasting landscapes of Shimla, Manali, Dharamshala and Dalhousie.',
@@ -2793,7 +561,7 @@ class Component extends DCLogic {
         'Weather & Road Conditions: Mountain weather can change quickly. Rain, snowfall, traffic, road maintenance or unforeseen disruptions may affect journey times or sightseeing.',
         'Adventure Activities: Activities at Solang Valley, including skiing, paragliding, snow-bike rides, zorbing and horse riding, are optional and payable separately.',
         'Sightseeing Flexibility: The actual order of sightseeing may be adjusted depending on road conditions, local accessibility, weather and the available time on a particular day.',
-        'Vehicle Usage: The vehicle is provided for the transfers and sightseeing specified in the itinerary. It is not intended to remain at the guests\' disposal throughout leisure periods unless separately arranged.',
+        'Vehicle Usage: The vehicle is provided for the transfers and sightseeing specified in the itinerary. It is not intended to remain at the guests\\' disposal throughout leisure periods unless separately arranged.',
         'Hotel Check-in / Check-out: The supplied package specifies standard hotel check-in and check-out at 12:00 noon. Early check-in or late check-out is subject to hotel availability and additional charges.'
       ];
       data.faqs = [
@@ -2809,10 +577,10 @@ class Component extends DCLogic {
         { q: 'Can Sahapathika Holidays customize this itinerary?', a: 'Yes. You can discuss travel dates, hotel category, group size, transportation preferences and other requirements while requesting your quotation.' }
       ];
     } else if (p.slug === 'kashi-gaya-prayag-ayodhya-pitru-moksha-yatra') {
-      data.overview = 'Undertake a deeply spiritual journey through four of North India\'s most revered pilgrimage destinations with our Kashi–Gaya–Prayag–Ayodhya Pitru Moksha Yatra.\\n\\nThis specially planned pilgrimage combines the sacred traditions of Kashi, ancestral rituals at Gaya, prayers at the holy Triveni Sangam in Prayagraj, and darshan at the revered temples of Ayodhya.\\n\\nFrom the banks of the sacred Ganga and the divine presence of Kashi Vishwanath to the ancestral rites of Gaya and the holy land of Shri Ram, this journey offers devotees an opportunity to connect with some of India\'s most important spiritual traditions.';
+      data.overview = 'Undertake a deeply spiritual journey through four of North India\\'s most revered pilgrimage destinations with our Kashi–Gaya–Prayag–Ayodhya Pitru Moksha Yatra.\\n\\nThis specially planned pilgrimage combines the sacred traditions of Kashi, ancestral rituals at Gaya, prayers at the holy Triveni Sangam in Prayagraj, and darshan at the revered temples of Ayodhya.\\n\\nFrom the banks of the sacred Ganga and the divine presence of Kashi Vishwanath to the ancestral rites of Gaya and the holy land of Shri Ram, this journey offers devotees an opportunity to connect with some of India\\'s most important spiritual traditions.';
       data.highlights = [
         'Kashi: Seek the blessings of Kashi Vishwanath Mahadev and experience the sacred Ganga and Ganga Aarti.',
-        'Gaya: Undertake traditional Pitru Shradh and ancestral offerings at one of India\'s most important destinations for Pitru-related rituals.',
+        'Gaya: Undertake traditional Pitru Shradh and ancestral offerings at one of India\\'s most important destinations for Pitru-related rituals.',
         'Prayagraj: Visit the sacred Triveni Sangam, where the Ganga, Yamuna and traditionally believed invisible Saraswati meet.',
         'Ayodhya: Complete the journey in the sacred city of Shri Ram, with darshan at Ram Janmabhoomi, Hanuman Garhi, Kanak Bhawan and other important temples.',
         'Professionally planned multi-city journey covering Varanasi, Gaya, Prayagraj and Ayodhya.'
@@ -2842,7 +610,7 @@ class Component extends DCLogic {
         'Any service not specifically mentioned under Package Inclusions'
       ];
       data.notes = [
-        'Pitru Rituals: Pitru Shradh, Pind Daan and other ancestral ceremonies should be performed according to the devotee\'s family tradition and religious requirements. Guests should communicate their specific ritual requirements while booking so suitable arrangements can be discussed.',
+        'Pitru Rituals: Pitru Shradh, Pind Daan and other ancestral ceremonies should be performed according to the devotee\\'s family tradition and religious requirements. Guests should communicate their specific ritual requirements while booking so suitable arrangements can be discussed.',
         'Temple Darshan: Temple entry, darshan timings, security procedures and special darshan facilities are subject to the respective temple authorities.',
         'Varanasi Local Transportation: Due to narrow lanes and restricted vehicle access in several parts of old Varanasi, the main vehicle may not be able to reach some temples directly. Guests may need to use an e-rickshaw, auto-rickshaw or walk a short distance to reach certain temples. Applicable local transportation charges, if any, will be payable directly by the guests unless specifically included in the quotation.',
         'Triveni Sangam Boat Ride: Boat rides at Prayagraj are dependent on weather, river conditions, local regulations and availability.',
@@ -2850,7 +618,7 @@ class Component extends DCLogic {
       ];
       data.faqs = [
         { q: 'Can I book a Kashi–Gaya Pitru Moksha Yatra from Kerala?', a: 'Yes. Sahapathika Holidays can arrange Kashi–Gaya pilgrimage packages from Kerala for individuals, families and groups, with the itinerary extended to Prayagraj and Ayodhya as included in this package.' },
-        { q: 'Does this package include Pitru Shradh or Pind Daan?', a: 'The itinerary is designed to accommodate Pitru-related rituals at Varanasi and Gaya. Specific priest, puja, Shradh or Pind Daan arrangements and charges should be confirmed at the time of booking according to your family\'s requirements.' },
+        { q: 'Does this package include Pitru Shradh or Pind Daan?', a: 'The itinerary is designed to accommodate Pitru-related rituals at Varanasi and Gaya. Specific priest, puja, Shradh or Pind Daan arrangements and charges should be confirmed at the time of booking according to your family\\'s requirements.' },
         { q: 'Can the rituals be performed according to our family tradition?', a: 'Yes. Pilgrims should provide their specific requirements while planning the trip. The appropriate local arrangements can then be discussed and coordinated.' },
         { q: 'Is Kashi Vishwanath Darshan included?', a: 'The itinerary includes a visit to Kashi Vishwanath Temple. Actual temple entry and darshan are subject to the prevailing rules, timings and procedures of the temple authorities.' },
         { q: 'Can I travel from Kochi to Varanasi for this pilgrimage?', a: 'Yes. Travellers from Kochi and other parts of Kerala can plan the journey to Varanasi by air or rail, depending on their preferred travel dates and available schedules. Sahapathika Holidays can assist with the overall travel plan.' },
@@ -2865,7 +633,7 @@ class Component extends DCLogic {
       data.highlights = [
         'Kashi – the eternal city of Lord Shiva',
         'Prayagraj – the sacred Triveni Sangam',
-        'Chitrakoot – the land associated with Shri Ram\'s exile',
+        'Chitrakoot – the land associated with Shri Ram\\'s exile',
         'Ayodhya – the sacred city of Lord Rama',
         'Experience important temples, sacred rivers, spiritual ceremonies and Ramayana-linked destinations',
         'Professionally coordinated holiday with Kerala-based travel assistance'
@@ -2914,7 +682,7 @@ class Component extends DCLogic {
         { q: 'Is this a good pilgrimage package for a family?', a: 'Yes. The combination of Kashi, Prayagraj, Chitrakoot and Ayodhya makes this an excellent North India spiritual tour for families interested in temples, Hindu heritage and sacred places.' }
       ];
     } else if (p.slug === 'kashmir-5-days-srinagar-sonmarg-gulmarg-pahalgam-j') {
-      data.overview = 'Experience the breathtaking landscapes of the Kashmir Valley with a specially planned Kashmir tour package from Kerala covering Srinagar, Sonmarg, Gulmarg and Pahalgam. From snow-covered mountain scenery and peaceful valleys to the famous meadows of Gulmarg and the picturesque landscapes of Pahalgam, this short Kashmir holiday brings together some of the region\'s most sought-after experiences.\\n\\nThe journey begins with a scenic drive from Jammu to Srinagar before exploring the natural beauty around Srinagar, Sonmarg, Gulmarg and Pahalgam. A stay on a traditional Kashmir houseboat adds a distinctive element to the holiday, making this itinerary suitable for families, couples, friends and travellers looking for a memorable North India escape from Kerala.';
+      data.overview = 'Experience the breathtaking landscapes of the Kashmir Valley with a specially planned Kashmir tour package from Kerala covering Srinagar, Sonmarg, Gulmarg and Pahalgam. From snow-covered mountain scenery and peaceful valleys to the famous meadows of Gulmarg and the picturesque landscapes of Pahalgam, this short Kashmir holiday brings together some of the region\\'s most sought-after experiences.\\n\\nThe journey begins with a scenic drive from Jammu to Srinagar before exploring the natural beauty around Srinagar, Sonmarg, Gulmarg and Pahalgam. A stay on a traditional Kashmir houseboat adds a distinctive element to the holiday, making this itinerary suitable for families, couples, friends and travellers looking for a memorable North India escape from Kerala.';
       data.highlights = [
         'Scenic Jammu–Srinagar road journey',
         'Srinagar local sightseeing',
@@ -2951,7 +719,7 @@ class Component extends DCLogic {
         'Any sightseeing, activity, or service not included in the itinerary'
       ];
       data.notes = [
-        'Kashmir\'s mountain roads are subject to weather, traffic and local conditions, so actual travel times may vary.',
+        'Kashmir\\'s mountain roads are subject to weather, traffic and local conditions, so actual travel times may vary.',
         'Gulmarg Gondola tickets are not included and should be pre-booked where applicable.',
         'Pony rides, including excursions towards areas such as Thajiwas Glacier, are optional and payable separately.',
         'Snow availability is seasonal and cannot be guaranteed on a particular travel date.',
@@ -2963,9 +731,9 @@ class Component extends DCLogic {
       data.faqs = [
         { q: 'Can I book a Kashmir tour package from Kerala?', a: 'Yes. Sahapathika Holidays can arrange this 5-day Kashmir tour package from Kerala, with travel arrangements planned according to your preferred dates and departure location.' },
         { q: 'What places are covered in this Kashmir package?', a: 'The itinerary covers Srinagar, Sonmarg, Gulmarg and Pahalgam, beginning with arrival at Jammu and a road journey to Srinagar.' },
-        { q: 'Is this a good Kashmir package for a first-time visitor?', a: 'Yes. The itinerary covers several of Kashmir\'s most popular destinations and combines mountain scenery, valleys, sightseeing and a houseboat stay within five days.' },
+        { q: 'Is this a good Kashmir package for a first-time visitor?', a: 'Yes. The itinerary covers several of Kashmir\\'s most popular destinations and combines mountain scenery, valleys, sightseeing and a houseboat stay within five days.' },
         { q: 'Is the Gulmarg Gondola ride included?', a: 'No. The Gondola ride is specifically listed as an exclusion. It can be added separately subject to availability and applicable charges.' },
-        { q: 'Is the pony ride at Sonmarg included?', a: 'No. The source itinerary specifies the pony excursion towards Thajiwas Glacier as an optional activity at the traveller\'s own cost.' },
+        { q: 'Is the pony ride at Sonmarg included?', a: 'No. The source itinerary specifies the pony excursion towards Thajiwas Glacier as an optional activity at the traveller\\'s own cost.' },
         { q: 'Does the package include a houseboat stay?', a: 'Yes. The itinerary includes a houseboat stay in Srinagar on Day 3.' },
         { q: 'Is this Kashmir package suitable for senior citizens?', a: 'It can be suitable for senior travellers, but Kashmir involves mountain roads, walking and changes in altitude. Guests should share any mobility requirements with Sahapathika Holidays before booking so the itinerary can be planned appropriately.' },
         { q: 'Can couples or honeymooners book this Kashmir package?', a: 'Yes. The combination of Srinagar, Gulmarg, Pahalgam and a houseboat stay makes this itinerary suitable for couples and honeymoon travellers as well.' },
@@ -2973,20 +741,20 @@ class Component extends DCLogic {
         { q: 'Can this Kashmir itinerary be customised?', a: 'Yes. The itinerary can be customised depending on your travel dates, group size, hotel category, preferred arrival/departure point and optional activities.' }
       ];
     } else if (p.slug === 'kashmir-6-days-srinagar-sonmarg-gulmarg-pahalgam') {
-      data.overview = 'Experience the breathtaking beauty of the Kashmir Valley with this thoughtfully planned Kashmir tour package from Kerala. Covering Srinagar, Sonmarg, Gulmarg and Pahalgam, this six-day journey combines scenic mountain landscapes, historic gardens, traditional Kashmiri culture and the unforgettable experience of a Shikara ride on Dal Lake.\\n\\nYour journey begins in Jammu before continuing to Srinagar, the gateway to some of Kashmir\'s most celebrated destinations. Explore the Mughal gardens and Shankaracharya Temple, experience the mountain scenery of Sonmarg, discover the meadows of Gulmarg and spend a memorable day amid the valleys of Pahalgam.\\n\\nIdeal for families, couples, honeymooners, senior travellers and groups from Kerala, this itinerary offers a balanced introduction to Kashmir without rushing through its major destinations.';
+      data.overview = 'Experience the breathtaking beauty of the Kashmir Valley with this thoughtfully planned Kashmir tour package from Kerala. Covering Srinagar, Sonmarg, Gulmarg and Pahalgam, this six-day journey combines scenic mountain landscapes, historic gardens, traditional Kashmiri culture and the unforgettable experience of a Shikara ride on Dal Lake.\\n\\nYour journey begins in Jammu before continuing to Srinagar, the gateway to some of Kashmir\\'s most celebrated destinations. Explore the Mughal gardens and Shankaracharya Temple, experience the mountain scenery of Sonmarg, discover the meadows of Gulmarg and spend a memorable day amid the valleys of Pahalgam.\\n\\nIdeal for families, couples, honeymooners, senior travellers and groups from Kerala, this itinerary offers a balanced introduction to Kashmir without rushing through its major destinations.';
       data.highlights = [
         'Srinagar city sightseeing including Shankaracharya Temple and Mughal Gardens (Chashme Shahi, Nishat, Shalimar)',
         'Traditional Kashmiri handicraft shopping',
         '60-minute Shikara ride on Dal Lake',
         'Sonmarg mountain excursion',
-        'Gulmarg\'s famous meadows and optional Gondola experience',
+        'Gulmarg\\'s famous meadows and optional Gondola experience',
         'Historic Awantipura ruins',
         'Pahalgam sightseeing including Aru Valley, Betaab Valley, and Chandanwari'
       ];
       data.lodging = '4 Nights Srinagar | 1 Night Pahalgam';
       data.tourType = 'Family, Couples, Honeymoon, Group';
       data.includes = [
-        '5 nights\' accommodation in selected hotels as per itinerary',
+        '5 nights\\' accommodation in selected hotels as per itinerary',
         'Daily breakfast and dinner',
         'Transportation for the complete tour as per itinerary',
         'Sightseeing as specified',
@@ -3035,7 +803,7 @@ class Component extends DCLogic {
         { q: 'What is the best time to book this Kashmir package?', a: 'Kashmir can be visited throughout the year. Travellers seeking greenery and comfortable sightseeing generally prefer the warmer months, while those specifically looking for snow often choose the winter season.' }
       ];
     } else if (p.slug === 'kashmir-honeymoon') {
-      data.overview = 'Begin your married life with an unforgettable journey through the breathtaking landscapes of Kashmir. This Kashmir honeymoon package from Kerala is designed for couples who want to combine beautiful mountain scenery, peaceful lakes, romantic valleys and leisurely sightseeing in one memorable holiday.\\n\\nFrom the tranquil surroundings of Srinagar and Dal Lake to the snow-covered landscapes of Sonmarg and Gulmarg, followed by the scenic beauty of Pahalgam, the itinerary introduces you to some of Kashmir\'s most celebrated destinations. The experience also includes a 60-minute Shikara ride on Dal Lake, creating a special moment for couples amidst the beautiful surroundings of Srinagar.';
+      data.overview = 'Begin your married life with an unforgettable journey through the breathtaking landscapes of Kashmir. This Kashmir honeymoon package from Kerala is designed for couples who want to combine beautiful mountain scenery, peaceful lakes, romantic valleys and leisurely sightseeing in one memorable holiday.\\n\\nFrom the tranquil surroundings of Srinagar and Dal Lake to the snow-covered landscapes of Sonmarg and Gulmarg, followed by the scenic beauty of Pahalgam, the itinerary introduces you to some of Kashmir\\'s most celebrated destinations. The experience also includes a 60-minute Shikara ride on Dal Lake, creating a special moment for couples amidst the beautiful surroundings of Srinagar.';
       data.highlights = [
         'Beautiful Srinagar and Dal Lake',
         '60-minute Shikara ride',
@@ -3049,7 +817,7 @@ class Component extends DCLogic {
       data.lodging = '3 Nights Srinagar | 1 Night Gulmarg | 2 Nights Pahalgam';
       data.tourType = 'Honeymoon, Couples';
       data.includes = [
-        '6 nights\' accommodation in selected hotels as per itinerary',
+        '6 nights\\' accommodation in selected hotels as per itinerary',
         'Daily breakfast and dinner',
         'Transportation for the complete tour as per itinerary',
         'Srinagar, Sonmarg, Gulmarg and Pahalgam sightseeing',
@@ -3075,7 +843,7 @@ class Component extends DCLogic {
         'Any personal expenses or anything not specifically mentioned under Package Inclusions'
       ];
       data.notes = [
-        'Kashmir\'s mountain roads can be affected by weather, traffic and local conditions, so actual travel times may vary.',
+        'Kashmir\\'s mountain roads can be affected by weather, traffic and local conditions, so actual travel times may vary.',
         'Some sightseeing around Pahalgam may require transportation operated by the local vehicle union. Applicable charges are separate unless specifically included.',
         'The 60-minute Shikara ride on Dal Lake is included in the package.',
         'Gondola/cable car rides at Gulmarg are excluded and require separate tickets. Pony and horse rides are optional and payable separately.',
@@ -3096,12 +864,12 @@ class Component extends DCLogic {
         { q: 'How can we book this Kashmir honeymoon package?', a: 'Contact Sahapathika Holidays with your travel dates, departure city, number of travellers and preferred hotel category. Our team can prepare a suitable honeymoon quotation.' }
       ];
     } else if (p.slug === 'kashmir-with-vaishno-devi') {
-      data.overview = 'Combine the blessings of Mata Vaishno Devi with the breathtaking landscapes of Kashmir on this specially planned Kashmir with Vaishno Devi tour package from Kerala. The journey begins at Katra with the pilgrimage to the revered Vaishno Devi Shrine before taking you towards the serene lakes, gardens, snow-covered mountains and picturesque valleys of Kashmir.\\n\\nFrom the spiritual atmosphere of Katra and the Vaishno Devi pilgrimage to the beauty of Srinagar, Gulmarg and Pahalgam, this itinerary brings together devotion, nature and memorable holiday experiences in one journey. Enjoy Srinagar\'s famous Mughal Gardens, spend time beside Dal Lake, experience a traditional Shikara ride and explore the scenic surroundings of Gulmarg and Pahalgam.';
+      data.overview = 'Combine the blessings of Mata Vaishno Devi with the breathtaking landscapes of Kashmir on this specially planned Kashmir with Vaishno Devi tour package from Kerala. The journey begins at Katra with the pilgrimage to the revered Vaishno Devi Shrine before taking you towards the serene lakes, gardens, snow-covered mountains and picturesque valleys of Kashmir.\\n\\nFrom the spiritual atmosphere of Katra and the Vaishno Devi pilgrimage to the beauty of Srinagar, Gulmarg and Pahalgam, this itinerary brings together devotion, nature and memorable holiday experiences in one journey. Enjoy Srinagar\\'s famous Mughal Gardens, spend time beside Dal Lake, experience a traditional Shikara ride and explore the scenic surroundings of Gulmarg and Pahalgam.';
       data.highlights = [
         'Combines Vaishno Devi pilgrimage and Kashmir sightseeing in one holiday.',
         'Covers Katra, Srinagar, Gulmarg and Pahalgam.',
         'Includes time for both spiritual experiences and leisure travel.',
-        'Experience Srinagar\'s famous gardens and Dal Lake.',
+        'Experience Srinagar\\'s famous gardens and Dal Lake.',
         'Includes a 60-minute Shikara ride as specified in the package.',
         'Offers optional experiences such as pony rides and Gondola rides for guests who wish to add them.',
         'Suitable for families, couples and groups looking for a combination of pilgrimage and Himalayan sightseeing.'
@@ -3137,7 +905,7 @@ class Component extends DCLogic {
       data.notes = [
         'Vaishno Devi Yatra: The pilgrimage involves approximately 13 km each way. Guests should consider their physical fitness before undertaking the trek.',
         'Yatra Slip: A Yatra Slip is required before beginning the pilgrimage.',
-        'Pony, Pithoo & Palki: These services are not included in the package cost and can be arranged at the guest\'s own expense.',
+        'Pony, Pithoo & Palki: These services are not included in the package cost and can be arranged at the guest\\'s own expense.',
         'Gulmarg Gondola: The Gondola ride is an optional activity and is not included.',
         'Pahalgam Local Sightseeing: Sightseeing to places such as Aru Valley, Betaab Valley and Chandanwari may require local vehicles. Any applicable local transportation cost is payable separately.',
         'Seasonal Conditions: Mountain weather can change quickly. Snowfall, rain, road conditions and local operating restrictions may affect sightseeing or optional activities.',
@@ -3160,7 +928,7 @@ class Component extends DCLogic {
       data.highlights = [
         'Explore one of the ancient pilgrimage centres of Uttar Pradesh and its important sacred sites at Naimisharanya.',
         'Experience the spiritual atmosphere of Shri Ram Janmabhoomi, Hanuman Garhi and Kanak Bhawan in Ayodhya.',
-        'Visit the sacred Triveni Sangam, one of India\'s most important pilgrimage destinations in Prayagraj.',
+        'Visit the sacred Triveni Sangam, one of India\\'s most important pilgrimage destinations in Prayagraj.',
         'Complete your journey in Kashi with Kashi Vishwanath Darshan, temple visits and the divine Ganga Aarti.',
         'Add a cultural dimension to the pilgrimage with the magnificent Nawabi architecture and historic landmarks of Lucknow.',
         'One coordinated pilgrimage connecting five major destinations into a planned route.'
@@ -3192,8 +960,8 @@ class Component extends DCLogic {
       data.notes = [
         'Temple Darshan: Entry, darshan timings, security procedures and special darshan arrangements are subject to the rules and regulations of the respective temple authorities.',
         'Varanasi Local Transportation: Parts of old Varanasi have narrow lanes and restricted vehicle access. Guests may need to use an e-rickshaw, auto-rickshaw or walk a short distance to reach some pilgrimage sites. Applicable local transportation charges are payable directly by guests.',
-        'Ganga Boat Ride: The boat ride mentioned in the itinerary is at the guest\'s own expense unless specifically included in the selected package.',
-        'Holy Dips & Rituals: Any religious rituals, holy dips or offerings are undertaken according to the guest\'s personal beliefs and prevailing local conditions.',
+        'Ganga Boat Ride: The boat ride mentioned in the itinerary is at the guest\\'s own expense unless specifically included in the selected package.',
+        'Holy Dips & Rituals: Any religious rituals, holy dips or offerings are undertaken according to the guest\\'s personal beliefs and prevailing local conditions.',
         'Itinerary Flexibility: The sightseeing sequence may be adjusted according to temple timings, traffic, local conditions and operational requirements.'
       ];
       data.faqs = [
@@ -3202,18 +970,18 @@ class Component extends DCLogic {
         { q: 'Can I travel from Kochi to Lucknow and return from Varanasi?', a: 'Yes. This is a convenient way to approach the itinerary because the journey begins in Lucknow and concludes in Varanasi. Flight or train arrangements can be planned separately according to your travel requirements.' },
         { q: 'Can travellers from Kozhikode, Kannur or Thiruvananthapuram book this package?', a: 'Yes. Travellers from anywhere in Kerala can enquire about the package. The journey can be planned around the most convenient airport or railway station for your location.' },
         { q: 'Is Shri Ram Janmabhoomi included?', a: 'Yes. Shri Ram Janmabhoomi in Ayodhya is included in the Day 3 sightseeing itinerary, subject to prevailing temple entry and darshan procedures.' },
-        { q: 'Is Kashi Vishwanath Temple Darshan included?', a: 'The itinerary includes a visit to Kashi Vishwanath Temple. Actual temple entry and darshan are subject to the temple authorities\' prevailing rules, timings and procedures.' },
-        { q: 'Is the Ganga boat ride included in the package?', a: 'The itinerary mentions a Ganga boat ride, but it is at the guest\'s own expense unless specifically included in the final quotation.' },
+        { q: 'Is Kashi Vishwanath Temple Darshan included?', a: 'The itinerary includes a visit to Kashi Vishwanath Temple. Actual temple entry and darshan are subject to the temple authorities\\' prevailing rules, timings and procedures.' },
+        { q: 'Is the Ganga boat ride included in the package?', a: 'The itinerary mentions a Ganga boat ride, but it is at the guest\\'s own expense unless specifically included in the final quotation.' },
         { q: 'Is this package suitable for senior citizens?', a: 'Yes. The itinerary can be customized for senior travellers with appropriate hotel selection, private transportation and a more comfortable sightseeing pace.' },
-        { q: 'Can this itinerary be customized?', a: 'Yes. Additional nights, different hotel categories, transportation arrangements and other requirements can be incorporated according to your group\'s needs.' },
+        { q: 'Can this itinerary be customized?', a: 'Yes. Additional nights, different hotel categories, transportation arrangements and other requirements can be incorporated according to your group\\'s needs.' },
         { q: 'Can I add other pilgrimage destinations to this tour?', a: 'Yes. Depending on the number of additional days available, the itinerary can potentially be extended to include other North India destinations. The exact route should be discussed while planning your package.' }
       ];
     } else if (p.slug === 'mathura-vrindavan-braj-agra-yatra') {
-      data.overview = 'Experience the spiritual heart of Braj Bhoomi with a thoughtfully planned Mathura–Vrindavan tour package from Kerala, covering the sacred places associated with Lord Krishna\'s life along with the magnificent heritage of Agra. From the birthplace of Lord Krishna in Mathura to the devotional atmosphere of Vrindavan, this journey brings together temples, ghats, sacred kunds and historic landmarks.\\n\\nThe journey also explores Gokul, Govardhan, Nandgaon and Barsana, allowing travellers to experience different facets of the Braj region before concluding with the architectural grandeur of Agra, including the Taj Mahal and Agra Fort. It is an ideal pilgrimage and cultural holiday for families, couples, senior travellers and groups travelling from Kochi, Ernakulam and other parts of Kerala.';
+      data.overview = 'Experience the spiritual heart of Braj Bhoomi with a thoughtfully planned Mathura–Vrindavan tour package from Kerala, covering the sacred places associated with Lord Krishna\\'s life along with the magnificent heritage of Agra. From the birthplace of Lord Krishna in Mathura to the devotional atmosphere of Vrindavan, this journey brings together temples, ghats, sacred kunds and historic landmarks.\\n\\nThe journey also explores Gokul, Govardhan, Nandgaon and Barsana, allowing travellers to experience different facets of the Braj region before concluding with the architectural grandeur of Agra, including the Taj Mahal and Agra Fort. It is an ideal pilgrimage and cultural holiday for families, couples, senior travellers and groups travelling from Kochi, Ernakulam and other parts of Kerala.';
       data.highlights = [
         'Mathura, the sacred heart of Braj',
         'Gokul and its Krishna-associated spiritual landmarks',
-        'Vrindavan\'s famous temples',
+        'Vrindavan\\'s famous temples',
         'Govardhan and Radha Kund',
         'Nandgaon and Barsana',
         'Radha Rani Temple',
@@ -3272,12 +1040,12 @@ class Component extends DCLogic {
         'Sakhigopal Temple and Raghurajpur Craft Village',
         'Chilika Lake and Satapada',
         'Opportunity for an Irrawaddy dolphin viewing boat excursion',
-        'Puri\'s Blue Flag Beach',
+        'Puri\\'s Blue Flag Beach',
         'Konark Sun Temple and light & sound experience',
         'Chandrabhaga Beach and Ramchandi Temple',
         'Traditional handicrafts at Pipli',
         'Dhauli Shanti Stupa',
-        'Bhubaneswar\'s historic temples',
+        'Bhubaneswar\\'s historic temples',
         'Khandagiri and Udayagiri Caves',
         'Nandankanan and Kala Bhoomi Museum'
       ];
@@ -4049,7 +1817,19 @@ class Component extends DCLogic {
       stop: e => e.stopPropagation(),
 
       email: s.email, setEmail: e => this.setState({ email: e.target.value }),
-      subscribe: () => this.setState({ subscribed: true }),
+      subscribe: () => {
+        if (this.state.email) {
+          fetch('https://formsubmit.co/ajax/adarsh@rytful.com', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({
+              email: this.state.email,
+              _subject: '10% Off Newsletter Subscription'
+            })
+          });
+        }
+        this.setState({ subscribed: true });
+      },
       subscribed: s.subscribed, notSubscribed: !s.subscribed,
 
       /*  === Packages listing ===  */
@@ -4179,6 +1959,7 @@ class Component extends DCLogic {
       setEmailF: e => this.setState({ form: Object.assign({}, s.form, { email: e.target.value }) }),
       setDates: e => this.setState({ form: Object.assign({}, s.form, { dates: e.target.value }) }),
       setPkg: e => this.setState({ form: Object.assign({}, s.form, { pkg: e.target.value }) }),
+      setWhatsapp: e => this.setState({ form: Object.assign({}, s.form, { whatsapp: e.target.checked }) }),
       setMessage: e => this.setState({ form: Object.assign({}, s.form, { message: e.target.value }) }),
       pkgOptions: [{ v: 'Not sure yet — help me choose' }].concat(this.packages.map(p => ({ v: p.title }))),
             send: () => {
@@ -4208,13 +1989,14 @@ class Component extends DCLogic {
             dates: this.state.form.dates,
             package: this.state.form.pkg,
             message: this.state.form.message,
+            whatsapp_opt_in: this.state.form.whatsapp ? 'Yes' : 'No',
             _subject: 'New Enquiry from Sahapathika Holidays'
           })
         });
 
         this.setState({ sent: true });
       },
-      resetForm: () => this.setState({ sent: false, form: { name: '', email: '', phone: '', pkg: '', dates: '', message: '' } }),
+      resetForm: () => this.setState({ sent: false, form: { name: '', email: '', phone: '', pkg: '', dates: '', message: '', whatsapp: true } }),
       offices: [
         { city: 'Kochi', address: '14/5H, 2nd Floor, Thomson and Mathews Building, NH 544, Opposite Navya Bakery, Athani, Airport Junction, Kochi, Kerala 683585' },
         { city: 'New Delhi', address: 'House Plot no 476, Bharthal Dwarka Expressway, Opp: IICC Yashobhoomi, Sec 26 Dwarka, New Delhi 110077' }
@@ -4222,111 +2004,3 @@ class Component extends DCLogic {
     };
   }
 }
-</script>
-<script>
-  // Force muted + loop on all videos — React/template engines sometimes
-  // don't forward boolean DOM properties like muted to the real DOM node.
-  function fixVideos() {
-    document.querySelectorAll('video').forEach(function(v) {
-      v.muted = true;
-      v.loop = true;
-      v.playsInline = true;
-      if (v.paused) if(v.play) { var p = v.play(); if (p && p.catch) p.catch(function(){}); }
-    });
-  }
-  // Run immediately for videos already in the DOM
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', fixVideos);
-  } else {
-    fixVideos();
-  }
-  // Also observe for dynamically injected videos (React renders async)
-  var _mo = new MutationObserver(function(mutations) {
-    mutations.forEach(function(m) {
-      m.addedNodes.forEach(function(n) {
-        if (n.nodeType === 1) {
-          if (n.tagName === 'VIDEO') {
-            n.muted = true; n.loop = true; n.playsInline = true;
-            if (n.paused) if(n.play) { var p = n.play(); if (p && p.catch) p.catch(function(){}); }
-          }
-          n.querySelectorAll && n.querySelectorAll('video').forEach(function(v) {
-            v.muted = true; v.loop = true; v.playsInline = true;
-            if (v.paused) if(v.play) { var p = v.play(); if (p && p.catch) p.catch(function(){}); }
-          });
-        }
-      });
-    });
-  });
-  _mo.observe(document.body, { childList: true, subtree: true });
-</script>
-<script src="./motion.js" defer></script>
-
-
-<script>
-  document.body.addEventListener('submit', function(e) {
-    var form = e.target;
-    if (form && form.matches && form.matches('form.subscribe')) {
-      e.preventDefault();
-      var emailInput = form.querySelector('input[type="email"]');
-      var email = emailInput ? emailInput.value : '';
-      
-      var existingErr = form.querySelector('.nl-error');
-      if (existingErr) existingErr.remove();
-
-      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        var err = document.createElement('div');
-        err.className = 'nl-error';
-        err.style.color = '#C4362C';
-        err.style.fontSize = '12.5px';
-        err.style.marginTop = '10px';
-        err.style.fontWeight = '600';
-        err.textContent = 'Please enter a valid email address.';
-        form.appendChild(err);
-        return;
-      }
-
-      var btn = form.querySelector('button');
-      if (btn) {
-        btn.disabled = true;
-        btn.style.opacity = '0.5';
-      }
-
-      fetch('https://formsubmit.co/ajax/adarsh@rytful.com', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify({
-          email: email,
-          _subject: 'New Footer Newsletter Subscription'
-        })
-      }).then(function() {
-        form.innerHTML = '<div style="color:#2F7A63;font-weight:700;font-size:14.5px;padding:12px 0;">Thank you for subscribing!</div>';
-      }).catch(function() {
-        var err = document.createElement('div');
-        err.className = 'nl-error';
-        err.style.color = '#C4362C';
-        err.style.fontSize = '12.5px';
-        err.style.marginTop = '10px';
-        err.textContent = 'Something went wrong. Please try again.';
-        form.appendChild(err);
-        if (btn) {
-          btn.disabled = false;
-          btn.style.opacity = '1';
-        }
-      });
-    }
-  });
-</script>
-
-  <script>
-    window.addEventListener('pageshow', function(e) {
-      if (e.persisted) {
-        window.location.reload();
-      }
-    });
-  </script>
-</body>
-
-</html>
-
-
-
