@@ -4159,7 +4159,7 @@ class Component extends DCLogic {
       catBackwater: () => this.filterTo('Hill & Backwater'), catHill: () => this.filterTo('Hill & Backwater'),
       catBeach: () => this.filterTo('Beach & Coastal'), catIndia: () => this.filterTo('Signature'),
 
-      featured: this.packages.map(p => Object.assign({}, p, {
+      featured: (this._randFeatured || (this._randFeatured = this.packages.slice().sort(() => 0.5 - Math.random()).slice(0, 10))).map(p => Object.assign({}, p, {
         slotId: 'sh-pkg-' + p.slug, photoHint: p.hint, price: 'On enquiry',
         chipStyle: this.chip(p.cat), go: () => this.go('detail', { slug: p.slug, day: 1 })
       })),
