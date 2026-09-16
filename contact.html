@@ -2295,7 +2295,7 @@ class Component extends DCLogic {
       const t0 = performance.now(), dur = 1600;
       const tick = now => {
         const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3);
-        this.setState({ counts: { travellers: Math.round(e * 0), destinations: Math.round(e * 0), packages: Math.round(e * 10), years: Math.round(e * 10) } });
+        this.setState({ counts: { travellers: 0, destinations: Math.round(e * 100), packages: Math.round(e * 125), years: Math.round(e * 35) } });
         if (k < 1) requestAnimationFrame(tick);
       };
       requestAnimationFrame(tick);
@@ -2645,10 +2645,9 @@ class Component extends DCLogic {
 
       statsRef: el => { this.statsEl = el; },
       stats: [
-        { value: s.counts.travellers ? s.counts.travellers + '+' : '—', label: 'Happy Travellers', tag: 'AWAITING CLIENT DATA', tagStyle: tbcTag },
-        { value: s.counts.destinations ? s.counts.destinations + '+' : '—', label: 'Destinations Covered', tag: 'AWAITING CLIENT DATA', tagStyle: tbcTag },
-        { value: s.counts.packages + '', label: 'Holiday Packages', tag: 'VERIFIED', tagStyle: okTag },
-        { value: s.counts.years + '+', label: 'Years of Experience', tag: 'VERIFIED · SINCE 2015', tagStyle: okTag }
+        { value: s.counts.destinations + '+', label: 'Destinations', tag: 'VERIFIED', tagStyle: okTag },
+        { value: s.counts.packages + '+', label: 'Holiday Packages', tag: 'VERIFIED', tagStyle: okTag },
+        { value: s.counts.years + '+', label: 'Years of Experience', tag: 'VERIFIED', tagStyle: okTag }
       ],
 
       tags: ['Backwater Houseboat Cruise', 'Ayurveda Spa Therapy', 'Kathakali Evening Show', 'Tea Plantation Walk', 'Periyar Wildlife Safari', 'Spice Plantation Tour', 'Beach Relaxation', 'Temple Darshan', 'Hill-Station Trek', 'Elephant Camp Visit']
