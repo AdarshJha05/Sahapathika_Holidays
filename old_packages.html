@@ -1195,9 +1195,9 @@
         <div style="grid-row:span 2;border-radius:24px;overflow:hidden;position:relative">
           <image-slot id="sh-d1" src="{{ detail.photo }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot>
         </div>
-        <div style="border-radius:24px;overflow:hidden"><image-slot id="sh-d2" src="https://i.pinimg.com/1200x/1f/cc/f1/1fccf111a972587d9c072f8381018c70.jpg" shape="rect" placeholder="Resort pool / therapy room"></image-slot></div>
+        <div style="border-radius:24px;overflow:hidden"><image-slot id="sh-d2" src="{{ detail.photo2 }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot></div>
         <div style="border-radius:24px;overflow:hidden;position:relative">
-          <image-slot id="sh-d3" src="https://i.pinimg.com/736x/75/1e/96/751e9636e5a9f3b2ef002932b1817d3d.jpg" shape="rect" placeholder="Poovar backwater estuary"></image-slot>
+          <image-slot id="sh-d3" src="{{ detail.photo3 }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot>
           <button style="position:absolute;right:16px;bottom:16px;background:rgba(22,33,29,.82);color:#FAF6EF;border:0;padding:11px 18px;border-radius:999px;font-size:12.5px;font-weight:700;cursor:pointer;backdrop-filter:blur(6px)" onClick="{{ openGallery }}">25+ Photos</button>
         </div>
       </div>
@@ -2495,6 +2495,30 @@ class Component extends DCLogic {
     };
   }
 
+
+  getGallery(slug) {
+    const p = this.packages.find(x => x.slug === slug);
+    const def = this.galleryItems;
+    if (!p) return def;
+    
+    let set = [];
+    if (p.region === 'North India') set = ['shimla.jpg', 'manali.jpg', 'kullu.jpg', 'haridwar(aarti).jpg', 'rishikesh.jpg', 'mathura.jpg'];
+    else if (p.region === 'Kashmir Valley') set = ['srinagar.jpg', 'gulmarg.jpg', 'pahalgam.jpg', 'sonamarg.jpg', 'kashmir(lake).jpg', 'kashmir(bridge).jpg'];
+    else if (p.region === 'East India') set = ['jaganathpuri.jpg', 'jaganathpuri(1).jpg', 'boat_ghat.jpg', 'varanasi.jpg', 'kashi.jpg', 'prayagraj.jpg'];
+    else return def;
+    
+    return set.map((img, i) => {
+      let photo = i === 0 ? p.photo : 'packages_cards/' + img;
+      return {
+        id: 'sh-g' + (i+1),
+        photo: photo,
+        hint: p.title + ' view ' + (i+1),
+        span: i === 0 ? 'grid-column:span 2;grid-row:span 2' : (i===5 ? 'grid-column:span 2;grid-row:span 1' : 'grid-column:span 1;grid-row:span 1'),
+        cap: p.title
+      };
+    });
+  }
+
   renderVals() {
     const s = this.state, self = this;
     const navBtn = on => 'background:' + (on ? 'rgba(22,33,29,.06)' : 'transparent') + ';border:0;color:#16211D;padding:10px 15px;border-radius:99px;font-size:14.5px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px';
@@ -2633,16 +2657,16 @@ class Component extends DCLogic {
         { slotId: 'sh-j3', photo: 'https://i.pinimg.com/originals/87/8b/84/878b841ad38d1d59cbefa547e995f363.png', photoHint: 'Thrissur Pooram crowd', kicker: 'FESTIVALS', title: 'Kerala festival calendar, month by month', meta: 'Guide · 5 min read' }
       ],
 
-      gallery: this.galleryItems.map((g, i) => ({
+      gallery: this.getGallery(s.page === 'detail' ? s.slug : null).map((g, i) => ({
         slotId: g.id, hint: g.hint, photo: g.photo,
         wrapStyle: g.span + ';border-radius:18px;overflow:hidden;cursor:zoom-in;position:relative',
         open: () => this.setState({ light: i })
       })),
       lightboxOpen: s.light >= 0,
-      lightboxSlot: s.light >= 0 ? this.galleryItems[s.light].id : 'sh-g1',
-      lightboxHint: s.light >= 0 ? this.galleryItems[s.light].hint : '',
-      lightboxPhoto: s.light >= 0 ? this.galleryItems[s.light].photo : '',
-      lightboxCaption: s.light >= 0 ? this.galleryItems[s.light].cap : '',
+      lightboxSlot: s.light >= 0 ? this.getGallery(s.page === 'detail' ? s.slug : null)[s.light].id : 'sh-g1',
+      lightboxHint: s.light >= 0 ? this.getGallery(s.page === 'detail' ? s.slug : null)[s.light].hint : '',
+      lightboxPhoto: s.light >= 0 ? this.getGallery(s.page === 'detail' ? s.slug : null)[s.light].photo : '',
+      lightboxCaption: s.light >= 0 ? this.getGallery(s.page === 'detail' ? s.slug : null)[s.light].cap : '',
       closeLightbox: () => this.setState({ light: -1 }),
       prevLight: e => { e.stopPropagation(); this.setState({ light: (s.light + 5) % 6 }); },
       nextLight: e => { e.stopPropagation(); this.setState({ light: (s.light + 1) % 6 }); },
@@ -2693,7 +2717,7 @@ class Component extends DCLogic {
       detail: (() => {
         const d = this.detailFor(s.slug), p = d.p, it = this.itineraries[p.slug];
         return {
-          title: p.title, cat: p.cat, region: p.region, regions: p.regions, duration: p.duration, hint: p.hint, photo: p.photo,
+          title: p.title, cat: p.cat, region: p.region, regions: p.regions, duration: p.duration, hint: p.hint, photo: p.photo, photo2: this.getGallery(s.slug)[1].photo, photo3: this.getGallery(s.slug)[2].photo,
           flatChip: 'background:' + (this.catColor[p.cat] || '#E5483D') + ';color:#fff;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:7px 13px;border-radius:99px;text-transform:uppercase',
           overview: d.overview,
           facts: [
