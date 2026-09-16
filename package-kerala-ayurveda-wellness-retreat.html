@@ -2557,19 +2557,26 @@ class Component extends DCLogic {
       destinations: this.destinations.map(d => Object.assign({}, d, { go: () => this.filterTo('All', 'All') })),
       destGroups: [
         {
-          title: 'KERALA', badge: 'BOOKABLE NOW', badgeStyle: 'font-size:9px;font-weight:800;letter-spacing:.1em;background:#DCEEE7;color:#2F7A63;padding:4px 9px;border-radius:99px',
+          title: 'NORTH INDIA', badge: 'POPULAR', badgeStyle: 'font-size:9px;font-weight:800;letter-spacing:.1em;background:#DCEEE7;color:#2F7A63;padding:4px 9px;border-radius:99px',
+          items: [
+            { name: 'Shimla & Manali', initial: 'S', photo: 'packages_cards/shimla.jpg', region: 'North India' },
+            { name: 'Kashmir', initial: 'K', photo: 'packages_cards/srinagar.jpg', region: 'North India' },
+            { name: 'Varanasi', initial: 'V', photo: 'packages_cards/varanasi.jpg', region: 'North India' },
+            { name: 'Ayodhya', initial: 'A', photo: 'packages_cards/ayodhya.jpg', region: 'North India' },
+            { name: 'Mathura', initial: 'M', photo: 'packages_cards/mathura.jpg', region: 'North India' },
+            { name: 'Haridwar', initial: 'H', photo: 'packages_cards/haridwar(aarti).jpg', region: 'North India' }
+          ]
+        },
+        {
+          title: 'SOUTH & EAST INDIA', badge: 'BOOKABLE NOW', badgeStyle: 'font-size:9px;font-weight:800;letter-spacing:.1em;background:#DCEEE7;color:#2F7A63;padding:4px 9px;border-radius:99px',
           items: [
             { name: 'Kovalam', initial: 'K', photo: 'https://i.pinimg.com/1200x/1f/cc/f1/1fccf111a972587d9c072f8381018c70.jpg', region: 'South India' },
             { name: 'Alleppey', initial: 'A', photo: 'https://i.pinimg.com/736x/b4/88/63/b48863982d7b8c63a8d633405da62b2b.jpg', region: 'South India' },
             { name: 'Munnar', initial: 'M', photo: 'https://i.pinimg.com/736x/75/1e/96/751e9636e5a9f3b2ef002932b1817d3d.jpg', region: 'South India' },
-            { name: 'Varkala', initial: 'V', photo: 'https://i.pinimg.com/1200x/9c/4d/7b/9c4d7b7354f5deff64a143cd3ee10583.jpg', region: 'South India' },
-            { name: 'Wayanad', initial: 'W', photo: 'https://i.pinimg.com/1200x/1e/00/bb/1e00bb9fa2160c94d8b9fd5aa079874b.jpg', region: 'South India' },
-            { name: 'Kochi', initial: 'C', photo: 'https://i.pinimg.com/1200x/2e/de/6a/2ede6ae530ca4688f61e8a73046ae302.jpg', region: 'South India' }
+            { name: 'Kochi', initial: 'C', photo: 'https://i.pinimg.com/1200x/2e/de/6a/2ede6ae530ca4688f61e8a73046ae302.jpg', region: 'South India' },
+            { name: 'Puri', initial: 'P', photo: 'packages_cards/jaganathpuri.jpg', region: 'East India' },
+            { name: 'Chilika', initial: 'C', photo: 'packages_cards/boat_ghat.jpg', region: 'East India' }
           ]
-        },
-        {
-          title: 'REST OF INDIA — ON ENQUIRY', badgeStyle: 'font-size:9px;font-weight:800;letter-spacing:.1em;background:#FDE8E4;color:#C4362C;padding:4px 9px;border-radius:99px',
-          items: ['Rajasthan', 'Golden Triangle', 'Goa', 'Himachal', 'Northeast', 'Ladakh'].map(n => ({ name: n, initial: n[0], photo: '' }))
         },
         {
           title: 'INTERNATIONAL — ON ENQUIRY', badgeStyle: 'font-size:9px;font-weight:800;letter-spacing:.1em;background:#FDE8E4;color:#C4362C;padding:4px 9px;border-radius:99px',
