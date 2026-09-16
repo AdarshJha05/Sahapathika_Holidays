@@ -4784,7 +4784,7 @@ class Component extends DCLogic {
         const d = this.detailFor(s.slug), p = d.p, it = this.itineraries[p.slug];
         return {
           title: p.title, cat: p.cat, region: p.region, regions: p.regions, duration: p.duration, hint: p.hint, photo: p.photo, photo2: this.getGallery(s.slug)[1].photo, photo3: this.getGallery(s.slug)[2].photo,
-          mapUrl: 'https://maps.google.com/maps?q=' + encodeURIComponent(p.regions || p.title) + '&t=&z=6&ie=UTF8&iwloc=&output=embed',
+          mapUrl: d.mapUrl || ('https://maps.google.com/maps?q=' + encodeURIComponent(p.regions || p.title) + '&t=&z=6&ie=UTF8&iwloc=&output=embed'),
           flatChip: 'background:' + (this.catColor[p.cat] || '#E5483D') + ';color:#fff;font-size:10.5px;font-weight:800;letter-spacing:.1em;padding:7px 13px;border-radius:99px;text-transform:uppercase',
           overview: d.overview,
           facts: [
