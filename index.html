@@ -2635,16 +2635,12 @@ class Component extends DCLogic {
             { name: 'Puri', initial: 'P', photo: 'packages_cards/jaganathpuri.jpg', region: 'East India' },
             { name: 'Chilika', initial: 'C', photo: 'packages_cards/boat_ghat.jpg', region: 'East India' }
           ]
-        },
-        {
-          title: 'INTERNATIONAL — ON ENQUIRY', badgeStyle: 'font-size:9px;font-weight:800;letter-spacing:.1em;background:#FDE8E4;color:#C4362C;padding:4px 9px;border-radius:99px',
-          items: ['Middle East', 'South-East Asia', 'Europe', 'Sri Lanka', 'Maldives', 'Far East'].map(n => ({ name: n, initial: n[0], photo: '' }))
         }
       ].map(g => Object.assign({}, g, {
         items: g.items.map(d => Object.assign({}, d, {
           thumbStyle: 'width:80px;height:80px;border-radius:999px;display:flex;align-items:center;justify-content:center;font-family:Fraunces,serif;font-size:26px;transition:transform .3s;' +
             (d.photo
-              ? 'background-image:url(' + d.photo + ');background-size:cover;background-position:center;color:transparent;border:2px solid #fff;box-shadow:0 8px 20px -10px rgba(22,33,29,.5)'
+              ? 'background-image:url(\'' + d.photo + '\');background-size:cover;background-position:center;color:transparent;border:2px solid #fff;box-shadow:0 8px 20px -10px rgba(22,33,29,.5)'
               : 'background:#DCEEE7;color:#5FA98C;border:1px solid rgba(95,169,140,.4)'),
           go: d.photo ? () => this.filterTo('All', d.region) : () => this.go('contact')
         }))
