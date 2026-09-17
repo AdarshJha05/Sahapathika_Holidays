@@ -559,6 +559,7 @@
   .sc-accordion-scroll::-webkit-scrollbar-track { background: transparent; }
   .sc-accordion-scroll::-webkit-scrollbar-thumb { background: rgba(58, 74, 68, 0.25); border-radius: 4px; }
   .sc-accordion-scroll::-webkit-scrollbar-thumb:hover { background: rgba(58, 74, 68, 0.45); }
+  @media(max-width: 495px) { .sh-mobile-gallery-btn { display: block !important; } }
 </style>
 <script src="./image-slot.js"></script>
 </helmet>
@@ -1203,6 +1204,7 @@
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));grid-template-rows:150px 150px;gap:12px;height:312px">
         <div style="grid-row:span 2;border-radius:24px;overflow:hidden;position:relative">
           <sc-if value="{{ detail.slug === 'puri-jagannath-konark-chilika-bhubaneswar' || detail.title.includes('Puri Jagannath') }}"><img src="{{ detail.photo }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;" /></sc-if><sc-if value="{{ detail.slug !== 'puri-jagannath-konark-chilika-bhubaneswar' && !detail.title.includes('Puri Jagannath') }}"><image-slot id="sh-d1" src="{{ detail.photo }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot></sc-if>
+          <button class="sh-mobile-gallery-btn" style="display:none;position:absolute;right:16px;bottom:16px;background:rgba(22,33,29,.82);color:#FAF6EF;border:0;padding:11px 18px;border-radius:999px;font-size:12.5px;font-weight:700;cursor:pointer;backdrop-filter:blur(6px);z-index:2" onClick="{{ openGallery }}">More photos</button>
         </div>
         <div style="border-radius:24px;overflow:hidden"><image-slot id="sh-d2" src="{{ detail.photo2 }}" shape="rect" placeholder="{{ detail.hint }}"></image-slot></div>
         <div style="border-radius:24px;overflow:hidden;position:relative">
