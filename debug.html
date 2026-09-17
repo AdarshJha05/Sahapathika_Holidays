@@ -5615,7 +5615,7 @@ class Component extends DCLogic {
           days: (it || []).map((x, i) => {
             const n = i + 1, open = s.day === n;
             return {
-              n: 'DAY ' + (n < 10 ? '0' + n : n), title: x.title, body: x.body.map(para => {
+              n: 'DAY ' + (n < 10 ? '0' + n : n), title: x.title, body: (x.body || []).map(para => {
               const isMeal = para.startsWith('Meals:');
               const isOvernight = para.startsWith('Overnight:');
               return {
