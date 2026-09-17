@@ -2239,7 +2239,7 @@
       <button style="position:absolute;left:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onclick="{{ prevLight }}">‹</button>
       <button style="position:absolute;right:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onclick="{{ nextLight }}">›</button>
       <div style="width:min(900px,80vw);height:min(620px,74vh);border-radius:20px;overflow:hidden;background:#16211D" onclick="{{ stop }}">
-        <image-slot id="{{ lightboxSlot }}" src="{{ lightboxPhoto }}" shape="rect" placeholder="{{ lightboxHint }}"></image-slot>
+        <image-slot id="{{ lightboxSlot }}" src="{{ lightboxPhoto }}" shape="rect" placeholder="{{ lightboxHint }}" fit="contain"></image-slot>
       </div>
       <div style="position:absolute;bottom:28px;color:rgba(251,247,238,.72);font-size:13.5px">{{ lightboxCaption }}</div>
     </div>
