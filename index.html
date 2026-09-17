@@ -821,6 +821,18 @@
       </div>
     </section>
 
+    <section ref="{{ statsRef }}" style="background:#FAF6EF;border-top:1px solid rgba(22,33,29,.09);border-bottom:1px solid rgba(22,33,29,.09)">
+      <div style="max-width:1280px;margin:0 auto;padding:clamp(40px, 6vw, 64px) 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:24px">
+        <sc-for list="{{ stats }}" as="s" hint-placeholder-count="4">
+          <div style="text-align:center">
+            <div style="font-family:'Fraunces',serif;font-size:clamp(38px,4.4vw,58px);line-height:1;letter-spacing:-.03em;color:#16211D;font-variant-numeric:tabular-nums">{{ s.value }}</div>
+            <div style="font-size:13.5px;font-weight:700;color:#3A4A44;margin-top:12px">{{ s.label }}</div>
+            <div style="{{ s.tagStyle }}">{{ s.tag }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
     <section style="max-width:1280px;margin:0 auto;padding:clamp(56px, 8vw, 96px) 24px 24px">
       <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;margin-bottom:44px">
         <div style="max-width:600px">
@@ -1003,18 +1015,6 @@
             </div>
           </sc-for>
         </div>
-      </div>
-    </section>
-
-    <section ref="{{ statsRef }}" style="background:#FAF6EF;border-top:1px solid rgba(22,33,29,.09);border-bottom:1px solid rgba(22,33,29,.09)">
-      <div style="max-width:1280px;margin:0 auto;padding:clamp(40px, 6vw, 64px) 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:24px">
-        <sc-for list="{{ stats }}" as="s" hint-placeholder-count="4">
-          <div style="text-align:center">
-            <div style="font-family:'Fraunces',serif;font-size:clamp(38px,4.4vw,58px);line-height:1;letter-spacing:-.03em;color:#16211D;font-variant-numeric:tabular-nums">{{ s.value }}</div>
-            <div style="font-size:13.5px;font-weight:700;color:#3A4A44;margin-top:12px">{{ s.label }}</div>
-            <div style="{{ s.tagStyle }}">{{ s.tag }}</div>
-          </div>
-        </sc-for>
       </div>
     </section>
 
