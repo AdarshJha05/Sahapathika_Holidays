@@ -3875,7 +3875,8 @@ class Component extends DCLogic {
     if (!p) return def;
     
     let set = [];
-    if (p.slug.includes('kashmir')) set = ['srinagar.jpg', 'gulmarg.jpg', 'pahalgam.jpg', 'sonamarg.jpg', 'kashmir(lake).jpg', 'kashmir(bridge).jpg'];
+    if (p.slug === 'puri-jagannath-konark-chilika-bhubaneswar') set = ['puri_new.jpg', 'jaganathpuri.jpg', 'jaganathpuri(1).jpg', 'boat_ghat.jpg', 'varanasi.jpg', 'kashi.jpg'];
+    else if (p.slug.includes('kashmir')) set = ['srinagar.jpg', 'gulmarg.jpg', 'pahalgam.jpg', 'sonamarg.jpg', 'kashmir(lake).jpg', 'kashmir(bridge).jpg'];
     else if (p.region === 'North India') set = ['shimla.jpg', 'manali.jpg', 'kullu.jpg', 'haridwar(aarti).jpg', 'rishikesh.jpg', 'mathura.jpg'];
     else if (p.region === 'East India') set = ['jaganathpuri.jpg', 'jaganathpuri(1).jpg', 'boat_ghat.jpg', 'varanasi.jpg', 'kashi.jpg', 'prayagraj.jpg'];
     else return def;
