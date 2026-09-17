@@ -2740,7 +2740,7 @@
                       <span style="font-family:'Fraunces',serif;font-size:20px;letter-spacing:-.01em">{{ d.title }}</span>
                       <span style="{{ d.iconStyle }}">›</span>
                     </button>
-                    <div style="{{ d.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch;"><div style="padding:0 24px 22px;display:flex;flex-direction:column;gap:12px;"><sc-for list="{{ d.body }}" as="para"><p style="margin:0;font-size:15px;line-height:1.75;color:#3A4A44">{{ para }}</p></sc-for></div></div></div>
+                    <div style="{{ d.bodyStyle }}"><div class="sc-accordion-scroll" style="max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch;"><div style="padding:0 24px 22px;display:flex;flex-direction:column;gap:12px;"><sc-for list="{{ d.body }}" as="para"><p style="margin:0;font-size:15px;line-height:1.75;color:#3A4A44"><sc-if value="{{ para.isMeal }}"><span style="font-weight:800;display:inline-flex;align-items:center;gap:6px;transform:translateY(3px)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg> Meals:</span> </sc-if><sc-if value="{{ para.isOvernight }}"><span style="font-weight:800">Details:</span> </sc-if>{{ para.text }}</p></sc-for></div></div></div>
                   </div>
                 </sc-for>
               </div>
@@ -5615,7 +5615,14 @@ class Component extends DCLogic {
           days: (it || []).map((x, i) => {
             const n = i + 1, open = s.day === n;
             return {
-              n: 'DAY ' + (n < 10 ? '0' + n : n), title: x.title, body: x.body,
+              n: 'DAY ' + (n < 10 ? '0' + n : n), title: x.title, body: x.body.map(para => {
+              const isMeal = para.startsWith('Meals:');
+              const isOvernight = para.startsWith('Overnight:');
+              return {
+                isMeal, isOvernight,
+                text: isMeal ? para.replace('Meals:', '').trim() : (isOvernight ? para.replace('Overnight:', '').trim() : para)
+              };
+            }),
               nodeStyle: 'position:absolute;left:-29px;top:22px;width:13px;height:13px;border-radius:99px;background:' + (open ? '#E5483D' : '#FAF6EF') + ';border:2px solid ' + (open ? '#E5483D' : '#5FA98C'),
               headStyle: 'width:100%;text-align:left;background:' + (open ? '#fff' : 'transparent') + ';border:1px solid ' + (open ? 'transparent' : 'rgba(22,33,29,.1)') +
                 ';border-radius:16px 16px ' + (open ? '0 0' : '16px 16px') + ';padding:18px 24px;cursor:pointer;position:relative;box-shadow:' + (open ? '0 10px 26px -16px rgba(22,33,29,.3)' : 'none'),

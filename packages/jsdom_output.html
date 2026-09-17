@@ -4134,7 +4134,14 @@ class Component extends DCLogic {
           days: (it || []).map((x, i) => {
             const n = i + 1, open = s.day === n;
             return {
-              n: 'DAY ' + (n < 10 ? '0' + n : n), title: x.title, body: x.body,
+              n: 'DAY ' + (n < 10 ? '0' + n : n), title: x.title, body: x.body.map(para => {
+              const isMeal = para.startsWith('Meals:');
+              const isOvernight = para.startsWith('Overnight:');
+              return {
+                isMeal, isOvernight,
+                text: isMeal ? para.replace('Meals:', '').trim() : (isOvernight ? para.replace('Overnight:', '').trim() : para)
+              };
+            }),
               nodeStyle: 'position:absolute;left:-29px;top:22px;width:13px;height:13px;border-radius:99px;background:' + (open ? '#E5483D' : '#FAF6EF') + ';border:2px solid ' + (open ? '#E5483D' : '#5FA98C'),
               headStyle: 'width:100%;text-align:left;background:' + (open ? '#fff' : 'transparent') + ';border:1px solid ' + (open ? 'transparent' : 'rgba(22,33,29,.1)') +
                 ';border-radius:16px 16px ' + (open ? '0 0' : '16px 16px') + ';padding:18px 24px;cursor:pointer;position:relative;box-shadow:' + (open ? '0 10px 26px -16px rgba(22,33,29,.3)' : 'none'),
