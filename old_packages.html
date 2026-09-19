@@ -2178,9 +2178,9 @@
 
   <sc-if value="{{ lightboxOpen }}" hint-placeholder-val="{{ false }}">
     <div style="position:fixed;inset:0;z-index:90;background:rgba(15,22,19,.92);display:flex;align-items:center;justify-content:center;padding:48px;animation:fadein .2s both" onClick="{{ closeLightbox }}">
-      <button style="position:absolute;top:26px;right:30px;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:44px;height:44px;border-radius:99px;font-size:20px;cursor:pointer" onClick="{{ closeLightbox }}">×</button>
-      <button style="position:absolute;left:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onClick="{{ prevLight }}">‹</button>
-      <button style="position:absolute;right:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onClick="{{ nextLight }}">›</button>
+      <button style="position:absolute;z-index:2;top:26px;right:30px;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:44px;height:44px;border-radius:99px;font-size:20px;cursor:pointer" onClick="{{ closeLightbox }}">×</button>
+      <button style="position:absolute;z-index:2;left:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onClick="{{ prevLight }}">‹</button>
+      <button style="position:absolute;z-index:2;right:26px;top:50%;background:none;border:1px solid rgba(251,247,238,.35);color:#FAF6EF;width:48px;height:48px;border-radius:99px;font-size:22px;cursor:pointer" onClick="{{ nextLight }}">›</button>
       <div style="width:min(900px,80vw);height:min(620px,74vh);border-radius:20px;overflow:hidden;background:#16211D" onClick="{{ stop }}">
         <image-slot id="{{ lightboxSlot }}" src="{{ lightboxPhoto }}" shape="rect" placeholder="{{ lightboxHint }}" fit="contain"></image-slot>
       </div>
